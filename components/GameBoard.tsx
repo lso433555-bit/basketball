@@ -10,11 +10,28 @@ import type { HintData } from "@/lib/hints";
 import type { Attempt, Player } from "@/lib/types";
 
 const TOTAL_ATTEMPTS = 8;
+const STORAGE_KEY_PREFIX = "nongquiz-game-";
 
 type GameStatus = "playing" | "won" | "lost";
 
+interface SavedGame {
+  attempts: Attempt[];
+  status: GameStatus;
+}
+
 interface GameBoardProps {
   gameNumber: number;
+}
+
+/** localStorage 읽기를 비동기 콜백 뒤로 미뤄, 이펙트 본문에서 곧바로 setState하지 않게 한다. */
+async function loadSavedGame(gameNumber: number): Promise<SavedGame | null> {
+  const raw = localStorage.getItem(`${STORAGE_KEY_PREFIX}${gameNumber}`);
+  if (!raw) return null;
+  try {
+    return JSON.parse(raw) as SavedGame;
+  } catch {
+    return null;
+  }
 }
 
 export default function GameBoard({ gameNumber }: GameBoardProps) {
@@ -25,6 +42,24 @@ export default function GameBoard({ gameNumber }: GameBoardProps) {
   const [revealedPlayer, setRevealedPlayer] = useState<Player | null>(null);
 
   const guessedIds = new Set(attempts.map((a) => a.player.id));
+
+  // 오늘(gameNumber) 게임 진행 상황을 마운트 시 복원한다. 날짜가 바뀌면(gameNumber가
+  // 달라지면) 다른 키를 찾게 되어 자동으로 새 게임으로 시작된다.
+  useEffect(() => {
+    loadSavedGame(gameNumber).then((saved) => {
+      if (!saved) return;
+      setAttempts(saved.attempts);
+      setStatus(saved.status);
+    });
+  }, [gameNumber]);
+
+  // 진행 상황이 바뀔 때마다 저장 (새로고침해도 유지되도록)
+  useEffect(() => {
+    localStorage.setItem(
+      `${STORAGE_KEY_PREFIX}${gameNumber}`,
+      JSON.stringify({ attempts, status })
+    );
+  }, [attempts, status, gameNumber]);
 
   useEffect(() => {
     getHintsAction(attempts.length).then(setHints);

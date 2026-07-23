@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 농퀴즈 🏀
 
-## Getting Started
+매일 새로운 NBA 선수를 맞히는 워들(Wordle) 스타일 웹 게임입니다.
+선수 이름을 검색해서 제출하면 5개 스탯(팀/포지션/키/통산 야투율/통산 득점)을
+정답과 비교해 🟩(정확)/🟨(근접)/🟥(불일치)로 피드백을 줍니다. 총 8번의 기회 안에 맞혀야 합니다.
 
-First, run the development server:
+## 주요 기능
+
+- 매일 KST 기준으로 결정적으로 선택되는 정답 선수 (314명 규모의 실존 NBA 스타/레전드 데이터셋)
+- 이름 자동완성 검색 (목록에 있는 선수만 제출 가능)
+- 5개 스탯 비교 + 색상/화살표 피드백
+- 4/6/7번째 시도 후 단계적으로 해금되는 힌트 (수상 이력, 키 비례 실루엣, 이니셜)
+- 정답 노출 방지: 정답 데이터는 서버 액션에서만 다뤄지고 클라이언트로는 비교 결과만 전달됨
+- 정답 공개 연출(컨페티 + 모노그램 배지) + 통계 카드 + 결과 공유 텍스트(클립보드 복사)
+- 새로고침해도 당일 진행 상황 유지 (localStorage)
+
+## 기술 스택
+
+- Next.js 16 (App Router) + React 19
+- Tailwind CSS v4
+- 정적 JSON 데이터 (`data/players.json`) — 별도 DB/외부 API 없음
+
+## 로컬 실행
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+[http://localhost:3000](http://localhost:3000) 에서 확인할 수 있습니다.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 빌드
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm run lint
+```
 
-## Learn More
+## 배포
 
-To learn more about Next.js, take a look at the following resources:
+Vercel에 배포되어 있습니다: (배포 URL은 여기에 추가 예정)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 프로젝트 구조
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```
+app/            페이지, 레이아웃, 서버 액션(actions.ts)
+components/     UI 컴포넌트
+lib/            비교 로직, 힌트 로직, 검색, 날짜/게임 번호, 공유 텍스트 등 순수 함수
+data/           선수 데이터셋 (players.json)
+.claude/agents/ 이 프로젝트에서 쓰는 커스텀 Claude Code 에이전트
+```
