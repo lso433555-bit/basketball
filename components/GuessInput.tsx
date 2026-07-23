@@ -4,16 +4,30 @@ import { useState } from "react";
 import { searchPlayers, findExactPlayer } from "@/lib/search";
 import type { Player } from "@/lib/types";
 
-export default function GuessInput() {
+interface GuessInputProps {
+  onSubmit: (player: Player) => void;
+  disabled: boolean;
+  guessedIds: Set<string>;
+}
+
+export default function GuessInput({ onSubmit, disabled, guessedIds }: GuessInputProps) {
   const [value, setValue] = useState("");
   const [showSuggestions, setShowSuggestions] = useState(false);
 
   const suggestions = showSuggestions ? searchPlayers(value) : [];
   const selectedPlayer: Player | null = findExactPlayer(value);
+  const alreadyGuessed = selectedPlayer ? guessedIds.has(selectedPlayer.id) : false;
+  const canSubmit = !disabled && selectedPlayer !== null && !alreadyGuessed;
 
   const selectPlayer = (player: Player) => {
     setValue(player.name);
     setShowSuggestions(false);
+  };
+
+  const submitGuess = () => {
+    if (!canSubmit || !selectedPlayer) return;
+    onSubmit(selectedPlayer);
+    setValue("");
   };
 
   return (
@@ -21,8 +35,8 @@ export default function GuessInput() {
       <form
         className="flex w-full gap-2"
         onSubmit={(e) => {
-          // TODO(STEP 2): 정답 제출 및 채점 로직 연결
           e.preventDefault();
+          submitGuess();
         }}
       >
         <input
@@ -39,16 +53,21 @@ export default function GuessInput() {
           }}
           placeholder="선수 이름을 입력하세요 (예: 르브론 제임스)"
           autoComplete="off"
-          className="flex-1 rounded-xl border border-card-border bg-card px-4 py-3 text-base text-foreground placeholder:text-zinc-500 outline-none focus:border-court-orange"
+          disabled={disabled}
+          className="flex-1 rounded-xl border border-card-border bg-card px-4 py-3 text-base text-foreground placeholder:text-zinc-500 outline-none focus:border-court-orange disabled:opacity-50"
         />
         <button
           type="submit"
-          disabled={!selectedPlayer}
+          disabled={!canSubmit}
           className="rounded-xl bg-court-orange px-5 py-3 font-semibold text-white transition-colors hover:bg-orange-600 active:bg-orange-700 disabled:cursor-not-allowed disabled:bg-zinc-700 disabled:text-zinc-500"
         >
           제출
         </button>
       </form>
+
+      {alreadyGuessed && (
+        <p className="mt-1 text-xs text-red-400">이미 제출한 선수예요.</p>
+      )}
 
       {showSuggestions && suggestions.length > 0 && (
         <ul className="absolute z-10 mt-1 w-full overflow-hidden rounded-xl border border-card-border bg-card shadow-lg">

@@ -1,6 +1,5 @@
 import GameHeader from "@/components/GameHeader";
-import GuessInput from "@/components/GuessInput";
-import AttemptSlots from "@/components/AttemptSlots";
+import GameBoard from "@/components/GameBoard";
 import { getTodayPlayer, getTodayDateString } from "@/lib/daily";
 
 export default function Home() {
@@ -14,8 +13,7 @@ export default function Home() {
     <div className="flex flex-1 justify-center bg-background">
       <main className="flex w-full max-w-md flex-col gap-6 px-4 pb-16">
         <GameHeader dateStr={dateStr} />
-        <GuessInput />
-        <AttemptSlots />
+        <GameBoard answer={todayPlayer} />
       </main>
     </div>
   );
