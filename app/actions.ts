@@ -4,6 +4,7 @@ import { getTodayPlayer } from "@/lib/daily";
 import { findPlayerById } from "@/lib/search";
 import { comparePlayer, isWinningGuess, type ComparisonResult } from "@/lib/compare";
 import { getUnlockedHints, getInitials, type HintData } from "@/lib/hints";
+import type { Player } from "@/lib/types";
 
 export interface SubmitGuessResult {
   result: ComparisonResult;
@@ -41,8 +42,7 @@ export async function getHintsAction(attemptCount: number): Promise<HintData> {
   return data;
 }
 
-/** 게임이 lost로 끝났을 때만 호출되어 정답 이름을 공개한다. */
-export async function revealAnswerAction(): Promise<{ name: string }> {
-  const answer = getTodayPlayer();
-  return { name: answer.name };
+/** 게임이 lost로 끝났을 때만 호출되어 정답 선수의 전체 정보를 공개한다 (통계 카드용). */
+export async function revealAnswerAction(): Promise<Player> {
+  return getTodayPlayer();
 }

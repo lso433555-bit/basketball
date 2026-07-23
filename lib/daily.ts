@@ -45,3 +45,13 @@ export function getTodayPlayer(): Player {
 export function getTodayDateString(): string {
   return getKstDateString(new Date());
 }
+
+/** 게임이 시작된 날(2026-07-23)을 1일차로 하는 일수 기반 게임 번호. 정답과 무관한 공개 정보라 클라이언트에 그대로 내려도 안전하다. */
+const EPOCH_DATE_STR = "2026-07-23";
+
+export function getGameNumber(): number {
+  const epoch = new Date(`${EPOCH_DATE_STR}T00:00:00+09:00`);
+  const today = new Date(`${getTodayDateString()}T00:00:00+09:00`);
+  const diffDays = Math.round((today.getTime() - epoch.getTime()) / (1000 * 60 * 60 * 24));
+  return diffDays + 1;
+}

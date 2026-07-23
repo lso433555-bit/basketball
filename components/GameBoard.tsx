@@ -4,26 +4,25 @@ import { useEffect, useState } from "react";
 import GuessInput from "@/components/GuessInput";
 import AttemptSlots from "@/components/AttemptSlots";
 import HintPanel from "@/components/HintPanel";
+import GameResult from "@/components/GameResult";
 import { submitGuessAction, getHintsAction, revealAnswerAction } from "@/app/actions";
-import type { ComparisonResult } from "@/lib/compare";
 import type { HintData } from "@/lib/hints";
-import type { Player } from "@/lib/types";
+import type { Attempt, Player } from "@/lib/types";
 
 const TOTAL_ATTEMPTS = 8;
 
-export interface Attempt {
-  player: Player;
-  result: ComparisonResult;
-}
-
 type GameStatus = "playing" | "won" | "lost";
 
-export default function GameBoard() {
+interface GameBoardProps {
+  gameNumber: number;
+}
+
+export default function GameBoard({ gameNumber }: GameBoardProps) {
   const [attempts, setAttempts] = useState<Attempt[]>([]);
   const [status, setStatus] = useState<GameStatus>("playing");
   const [hints, setHints] = useState<HintData>({});
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const [revealedName, setRevealedName] = useState<string | null>(null);
+  const [revealedPlayer, setRevealedPlayer] = useState<Player | null>(null);
 
   const guessedIds = new Set(attempts.map((a) => a.player.id));
 
@@ -33,7 +32,7 @@ export default function GameBoard() {
 
   useEffect(() => {
     if (status === "lost") {
-      revealAnswerAction().then((data) => setRevealedName(data.name));
+      revealAnswerAction().then(setRevealedPlayer);
     }
   }, [status]);
 
@@ -68,17 +67,26 @@ export default function GameBoard() {
       />
 
       {status === "won" && winningAttempt && (
-        <div className="rounded-xl border border-emerald-500 bg-emerald-600/20 px-4 py-3 text-center text-sm text-emerald-300">
-          🎉 정답입니다! {attempts.length}번 만에 {winningAttempt.player.name}을(를) 맞혔어요.
-        </div>
+        <GameResult
+          status="won"
+          player={winningAttempt.player}
+          attempts={attempts}
+          gameNumber={gameNumber}
+        />
       )}
-      {status === "lost" && (
-        <div className="rounded-xl border border-red-500 bg-red-600/20 px-4 py-3 text-center text-sm text-red-300">
-          {revealedName
-            ? `아쉬워요! 정답은 ${revealedName}였어요.`
-            : "아쉬워요! 정답을 확인하는 중..."}
-        </div>
-      )}
+      {status === "lost" &&
+        (revealedPlayer ? (
+          <GameResult
+            status="lost"
+            player={revealedPlayer}
+            attempts={attempts}
+            gameNumber={gameNumber}
+          />
+        ) : (
+          <div className="rounded-xl border border-card-border bg-card px-4 py-3 text-center text-sm text-zinc-400">
+            아쉬워요! 정답을 확인하는 중...
+          </div>
+        ))}
 
       <HintPanel hints={hints} />
 

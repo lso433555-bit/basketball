@@ -1,3 +1,5 @@
+import type { ComparisonResult } from "@/lib/compare";
+
 export interface Player {
   id: string;
   name: string;
@@ -10,4 +12,9 @@ export interface Player {
   careerPts: number;
   awards: string[];
   draftPick: string;
+}
+
+export interface Attempt {
+  player: Player;
+  result: ComparisonResult;
 }

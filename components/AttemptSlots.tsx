@@ -1,4 +1,4 @@
-import type { Attempt } from "@/components/GameBoard";
+import type { Attempt } from "@/lib/types";
 import type { StatResult, Status, Direction } from "@/lib/compare";
 
 interface AttemptSlotsProps {
