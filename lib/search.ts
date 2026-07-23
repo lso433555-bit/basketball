@@ -32,3 +32,8 @@ export function findExactPlayer(query: string): Player | null {
     ) ?? null
   );
 }
+
+/** id로 선수를 찾는다 (서버 액션에서 제출된 선수를 조회할 때 사용). */
+export function findPlayerById(id: string): Player | null {
+  return players.find((p) => p.id === id) ?? null;
+}
