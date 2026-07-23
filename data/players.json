@@ -1,0 +1,6229 @@
+[
+  {
+    "id": "michael-jordan",
+    "name": "마이클 조던",
+    "nameEn": "Michael Jordan",
+    "team": "CHI",
+    "teamHistory": [
+      "CHI",
+      "WAS"
+    ],
+    "position": "SG",
+    "heightCm": 198,
+    "careerFgPct": 49.7,
+    "careerPts": 32292,
+    "awards": [
+      "6회 우승",
+      "6회 파이널 MVP",
+      "5회 MVP",
+      "14회 올스타"
+    ],
+    "draftPick": "1984 1라운드 3순위"
+  },
+  {
+    "id": "lebron-james",
+    "name": "르브론 제임스",
+    "nameEn": "LeBron James",
+    "team": "LAL",
+    "teamHistory": [
+      "CLE",
+      "MIA",
+      "LAL"
+    ],
+    "position": "SF",
+    "heightCm": 206,
+    "careerFgPct": 50.5,
+    "careerPts": 41500,
+    "awards": [
+      "4회 우승",
+      "4회 파이널 MVP",
+      "4회 MVP",
+      "20회 올스타"
+    ],
+    "draftPick": "2003 1라운드 1순위"
+  },
+  {
+    "id": "kobe-bryant",
+    "name": "코비 브라이언트",
+    "nameEn": "Kobe Bryant",
+    "team": "LAL",
+    "teamHistory": [
+      "LAL"
+    ],
+    "position": "SG",
+    "heightCm": 198,
+    "careerFgPct": 44.7,
+    "careerPts": 33643,
+    "awards": [
+      "5회 우승",
+      "2회 파이널 MVP",
+      "1회 MVP",
+      "18회 올스타"
+    ],
+    "draftPick": "1996 1라운드 13순위"
+  },
+  {
+    "id": "kareem-abdul-jabbar",
+    "name": "카림 압둘자바",
+    "nameEn": "Kareem Abdul-Jabbar",
+    "team": "LAL",
+    "teamHistory": [
+      "MIL",
+      "LAL"
+    ],
+    "position": "C",
+    "heightCm": 218,
+    "careerFgPct": 55.9,
+    "careerPts": 38387,
+    "awards": [
+      "6회 우승",
+      "2회 파이널 MVP",
+      "6회 MVP",
+      "19회 올스타"
+    ],
+    "draftPick": "1969 1라운드 1순위"
+  },
+  {
+    "id": "magic-johnson",
+    "name": "매직 존슨",
+    "nameEn": "Magic Johnson",
+    "team": "LAL",
+    "teamHistory": [
+      "LAL"
+    ],
+    "position": "PG",
+    "heightCm": 206,
+    "careerFgPct": 52,
+    "careerPts": 17707,
+    "awards": [
+      "5회 우승",
+      "3회 파이널 MVP",
+      "3회 MVP",
+      "12회 올스타"
+    ],
+    "draftPick": "1979 1라운드 1순위"
+  },
+  {
+    "id": "larry-bird",
+    "name": "래리 버드",
+    "nameEn": "Larry Bird",
+    "team": "BOS",
+    "teamHistory": [
+      "BOS"
+    ],
+    "position": "SF",
+    "heightCm": 206,
+    "careerFgPct": 49.6,
+    "careerPts": 21791,
+    "awards": [
+      "3회 우승",
+      "2회 파이널 MVP",
+      "3회 MVP",
+      "12회 올스타"
+    ],
+    "draftPick": "1978 1라운드 6순위"
+  },
+  {
+    "id": "shaquille-oneal",
+    "name": "샤킬 오닐",
+    "nameEn": "Shaquille O'Neal",
+    "team": "LAL",
+    "teamHistory": [
+      "ORL",
+      "LAL",
+      "MIA",
+      "PHX",
+      "CLE",
+      "BOS"
+    ],
+    "position": "C",
+    "heightCm": 216,
+    "careerFgPct": 58.2,
+    "careerPts": 28596,
+    "awards": [
+      "4회 우승",
+      "3회 파이널 MVP",
+      "1회 MVP",
+      "15회 올스타"
+    ],
+    "draftPick": "1992 1라운드 1순위"
+  },
+  {
+    "id": "tim-duncan",
+    "name": "팀 던컨",
+    "nameEn": "Tim Duncan",
+    "team": "SAS",
+    "teamHistory": [
+      "SAS"
+    ],
+    "position": "PF",
+    "heightCm": 211,
+    "careerFgPct": 50.6,
+    "careerPts": 26496,
+    "awards": [
+      "5회 우승",
+      "3회 파이널 MVP",
+      "2회 MVP",
+      "15회 올스타"
+    ],
+    "draftPick": "1997 1라운드 1순위"
+  },
+  {
+    "id": "hakeem-olajuwon",
+    "name": "하킴 올라주원",
+    "nameEn": "Hakeem Olajuwon",
+    "team": "HOU",
+    "teamHistory": [
+      "HOU",
+      "TOR"
+    ],
+    "position": "C",
+    "heightCm": 213,
+    "careerFgPct": 51.2,
+    "careerPts": 26946,
+    "awards": [
+      "2회 우승",
+      "2회 파이널 MVP",
+      "2회 MVP",
+      "12회 올스타"
+    ],
+    "draftPick": "1984 1라운드 1순위"
+  },
+  {
+    "id": "wilt-chamberlain",
+    "name": "윌트 체임벌린",
+    "nameEn": "Wilt Chamberlain",
+    "team": "LAL",
+    "teamHistory": [
+      "PHW",
+      "SFW",
+      "PHI",
+      "LAL"
+    ],
+    "position": "C",
+    "heightCm": 216,
+    "careerFgPct": 54,
+    "careerPts": 31419,
+    "awards": [
+      "2회 우승",
+      "1회 파이널 MVP",
+      "4회 MVP",
+      "13회 올스타"
+    ],
+    "draftPick": "1959 지역 우선 지명"
+  },
+  {
+    "id": "bill-russell",
+    "name": "빌 러셀",
+    "nameEn": "Bill Russell",
+    "team": "BOS",
+    "teamHistory": [
+      "BOS"
+    ],
+    "position": "C",
+    "heightCm": 208,
+    "careerFgPct": 44,
+    "careerPts": 14522,
+    "awards": [
+      "11회 우승",
+      "5회 MVP",
+      "12회 올스타"
+    ],
+    "draftPick": "1956 1라운드 2순위"
+  },
+  {
+    "id": "karl-malone",
+    "name": "칼 말론",
+    "nameEn": "Karl Malone",
+    "team": "UTA",
+    "teamHistory": [
+      "UTA",
+      "LAL"
+    ],
+    "position": "PF",
+    "heightCm": 206,
+    "careerFgPct": 51.6,
+    "careerPts": 36928,
+    "awards": [
+      "2회 MVP",
+      "14회 올스타"
+    ],
+    "draftPick": "1985 1라운드 13순위"
+  },
+  {
+    "id": "charles-barkley",
+    "name": "찰스 바클리",
+    "nameEn": "Charles Barkley",
+    "team": "HOU",
+    "teamHistory": [
+      "PHI",
+      "PHX",
+      "HOU"
+    ],
+    "position": "PF",
+    "heightCm": 198,
+    "careerFgPct": 54.1,
+    "careerPts": 23757,
+    "awards": [
+      "1회 MVP",
+      "11회 올스타"
+    ],
+    "draftPick": "1984 1라운드 5순위"
+  },
+  {
+    "id": "kevin-garnett",
+    "name": "케빈 가넷",
+    "nameEn": "Kevin Garnett",
+    "team": "MIN",
+    "teamHistory": [
+      "MIN",
+      "BOS",
+      "BKN"
+    ],
+    "position": "PF",
+    "heightCm": 211,
+    "careerFgPct": 49.7,
+    "careerPts": 26071,
+    "awards": [
+      "1회 우승",
+      "1회 MVP",
+      "15회 올스타"
+    ],
+    "draftPick": "1995 1라운드 5순위"
+  },
+  {
+    "id": "dirk-nowitzki",
+    "name": "더크 노비츠키",
+    "nameEn": "Dirk Nowitzki",
+    "team": "DAL",
+    "teamHistory": [
+      "DAL"
+    ],
+    "position": "PF",
+    "heightCm": 213,
+    "careerFgPct": 47.1,
+    "careerPts": 31560,
+    "awards": [
+      "1회 우승",
+      "1회 파이널 MVP",
+      "1회 MVP",
+      "14회 올스타"
+    ],
+    "draftPick": "1998 1라운드 9순위"
+  },
+  {
+    "id": "allen-iverson",
+    "name": "앨런 아이버슨",
+    "nameEn": "Allen Iverson",
+    "team": "PHI",
+    "teamHistory": [
+      "PHI",
+      "DEN",
+      "DET",
+      "MEM"
+    ],
+    "position": "PG",
+    "heightCm": 183,
+    "careerFgPct": 42.5,
+    "careerPts": 24368,
+    "awards": [
+      "1회 MVP",
+      "11회 올스타"
+    ],
+    "draftPick": "1996 1라운드 1순위"
+  },
+  {
+    "id": "steve-nash",
+    "name": "스티브 내시",
+    "nameEn": "Steve Nash",
+    "team": "PHX",
+    "teamHistory": [
+      "PHX",
+      "DAL",
+      "LAL"
+    ],
+    "position": "PG",
+    "heightCm": 191,
+    "careerFgPct": 49,
+    "careerPts": 17387,
+    "awards": [
+      "2회 MVP",
+      "8회 올스타"
+    ],
+    "draftPick": "1996 1라운드 15순위"
+  },
+  {
+    "id": "jason-kidd",
+    "name": "제이슨 키드",
+    "nameEn": "Jason Kidd",
+    "team": "DAL",
+    "teamHistory": [
+      "DAL",
+      "PHX",
+      "NJN",
+      "NYK"
+    ],
+    "position": "PG",
+    "heightCm": 193,
+    "careerFgPct": 40,
+    "careerPts": 17529,
+    "awards": [
+      "1회 우승",
+      "10회 올스타"
+    ],
+    "draftPick": "1994 1라운드 2순위"
+  },
+  {
+    "id": "reggie-miller",
+    "name": "레지 밀러",
+    "nameEn": "Reggie Miller",
+    "team": "IND",
+    "teamHistory": [
+      "IND"
+    ],
+    "position": "SG",
+    "heightCm": 201,
+    "careerFgPct": 47.1,
+    "careerPts": 25279,
+    "awards": [
+      "5회 올스타"
+    ],
+    "draftPick": "1987 1라운드 11순위"
+  },
+  {
+    "id": "ray-allen",
+    "name": "레이 앨런",
+    "nameEn": "Ray Allen",
+    "team": "MIA",
+    "teamHistory": [
+      "MIL",
+      "SEA",
+      "BOS",
+      "MIA"
+    ],
+    "position": "SG",
+    "heightCm": 196,
+    "careerFgPct": 45.2,
+    "careerPts": 24505,
+    "awards": [
+      "2회 우승",
+      "10회 올스타"
+    ],
+    "draftPick": "1996 1라운드 5순위"
+  },
+  {
+    "id": "scottie-pippen",
+    "name": "스카티 피펜",
+    "nameEn": "Scottie Pippen",
+    "team": "CHI",
+    "teamHistory": [
+      "CHI",
+      "HOU",
+      "POR"
+    ],
+    "position": "SF",
+    "heightCm": 203,
+    "careerFgPct": 47.4,
+    "careerPts": 18940,
+    "awards": [
+      "6회 우승",
+      "7회 올스타"
+    ],
+    "draftPick": "1987 1라운드 5순위"
+  },
+  {
+    "id": "john-stockton",
+    "name": "존 스탁턴",
+    "nameEn": "John Stockton",
+    "team": "UTA",
+    "teamHistory": [
+      "UTA"
+    ],
+    "position": "PG",
+    "heightCm": 185,
+    "careerFgPct": 51.5,
+    "careerPts": 19711,
+    "awards": [
+      "10회 올스타",
+      "역대 어시스트 1위"
+    ],
+    "draftPick": "1984 1라운드 16순위"
+  },
+  {
+    "id": "patrick-ewing",
+    "name": "패트릭 유잉",
+    "nameEn": "Patrick Ewing",
+    "team": "NYK",
+    "teamHistory": [
+      "NYK",
+      "SEA",
+      "ORL"
+    ],
+    "position": "C",
+    "heightCm": 213,
+    "careerFgPct": 50.4,
+    "careerPts": 24815,
+    "awards": [
+      "11회 올스타"
+    ],
+    "draftPick": "1985 1라운드 1순위"
+  },
+  {
+    "id": "david-robinson",
+    "name": "데이비드 로빈슨",
+    "nameEn": "David Robinson",
+    "team": "SAS",
+    "teamHistory": [
+      "SAS"
+    ],
+    "position": "C",
+    "heightCm": 216,
+    "careerFgPct": 51.8,
+    "careerPts": 20790,
+    "awards": [
+      "2회 우승",
+      "1회 MVP",
+      "10회 올스타"
+    ],
+    "draftPick": "1987 1라운드 1순위"
+  },
+  {
+    "id": "isiah-thomas",
+    "name": "아이재아 토마스",
+    "nameEn": "Isiah Thomas",
+    "team": "DET",
+    "teamHistory": [
+      "DET"
+    ],
+    "position": "PG",
+    "heightCm": 185,
+    "careerFgPct": 45.2,
+    "careerPts": 18822,
+    "awards": [
+      "2회 우승",
+      "2회 파이널 MVP",
+      "12회 올스타"
+    ],
+    "draftPick": "1981 1라운드 2순위"
+  },
+  {
+    "id": "clyde-drexler",
+    "name": "클라이드 드렉슬러",
+    "nameEn": "Clyde Drexler",
+    "team": "HOU",
+    "teamHistory": [
+      "POR",
+      "HOU"
+    ],
+    "position": "SG",
+    "heightCm": 198,
+    "careerFgPct": 47.2,
+    "careerPts": 22195,
+    "awards": [
+      "1회 우승",
+      "10회 올스타"
+    ],
+    "draftPick": "1983 1라운드 14순위"
+  },
+  {
+    "id": "gary-payton",
+    "name": "게리 페이튼",
+    "nameEn": "Gary Payton",
+    "team": "SEA",
+    "teamHistory": [
+      "SEA",
+      "MIL",
+      "LAL",
+      "BOS",
+      "MIA"
+    ],
+    "position": "PG",
+    "heightCm": 193,
+    "careerFgPct": 46.5,
+    "careerPts": 21813,
+    "awards": [
+      "1회 우승",
+      "1회 DPOY",
+      "9회 올스타"
+    ],
+    "draftPick": "1990 1라운드 2순위"
+  },
+  {
+    "id": "vince-carter",
+    "name": "빈스 카터",
+    "nameEn": "Vince Carter",
+    "team": "TOR",
+    "teamHistory": [
+      "TOR",
+      "NJN",
+      "ORL",
+      "PHX",
+      "DAL",
+      "MEM",
+      "SAC",
+      "ATL"
+    ],
+    "position": "SG",
+    "heightCm": 198,
+    "careerFgPct": 43.5,
+    "careerPts": 25728,
+    "awards": [
+      "8회 올스타"
+    ],
+    "draftPick": "1998 1라운드 5순위"
+  },
+  {
+    "id": "tracy-mcgrady",
+    "name": "트레이시 맥그레이디",
+    "nameEn": "Tracy McGrady",
+    "team": "HOU",
+    "teamHistory": [
+      "TOR",
+      "ORL",
+      "HOU",
+      "NYK",
+      "DET",
+      "ATL",
+      "SAS"
+    ],
+    "position": "SG",
+    "heightCm": 203,
+    "careerFgPct": 43.6,
+    "careerPts": 18381,
+    "awards": [
+      "7회 올스타"
+    ],
+    "draftPick": "1997 1라운드 9순위"
+  },
+  {
+    "id": "yao-ming",
+    "name": "야오밍",
+    "nameEn": "Yao Ming",
+    "team": "HOU",
+    "teamHistory": [
+      "HOU"
+    ],
+    "position": "C",
+    "heightCm": 229,
+    "careerFgPct": 52.4,
+    "careerPts": 9247,
+    "awards": [
+      "8회 올스타"
+    ],
+    "draftPick": "2002 1라운드 1순위"
+  },
+  {
+    "id": "dwyane-wade",
+    "name": "드웨인 웨이드",
+    "nameEn": "Dwyane Wade",
+    "team": "MIA",
+    "teamHistory": [
+      "MIA",
+      "CHI",
+      "CLE"
+    ],
+    "position": "SG",
+    "heightCm": 193,
+    "careerFgPct": 48.2,
+    "careerPts": 23656,
+    "awards": [
+      "3회 우승",
+      "1회 파이널 MVP",
+      "13회 올스타"
+    ],
+    "draftPick": "2003 1라운드 5순위"
+  },
+  {
+    "id": "paul-pierce",
+    "name": "폴 피어스",
+    "nameEn": "Paul Pierce",
+    "team": "BOS",
+    "teamHistory": [
+      "BOS",
+      "BKN",
+      "WAS",
+      "LAC"
+    ],
+    "position": "SF",
+    "heightCm": 201,
+    "careerFgPct": 44.5,
+    "careerPts": 26397,
+    "awards": [
+      "1회 우승",
+      "1회 파이널 MVP",
+      "10회 올스타"
+    ],
+    "draftPick": "1998 1라운드 10순위"
+  },
+  {
+    "id": "chris-paul",
+    "name": "크리스 폴",
+    "nameEn": "Chris Paul",
+    "team": "SAS",
+    "teamHistory": [
+      "NOH",
+      "LAC",
+      "HOU",
+      "OKC",
+      "PHX",
+      "GSW",
+      "SAS"
+    ],
+    "position": "PG",
+    "heightCm": 183,
+    "careerFgPct": 47.2,
+    "careerPts": 21000,
+    "awards": [
+      "12회 올스타",
+      "역대 어시스트 상위권"
+    ],
+    "draftPick": "2005 1라운드 4순위"
+  },
+  {
+    "id": "dwight-howard",
+    "name": "드와이트 하워드",
+    "nameEn": "Dwight Howard",
+    "team": "ORL",
+    "teamHistory": [
+      "ORL",
+      "LAL",
+      "HOU",
+      "ATL",
+      "CHA",
+      "WAS",
+      "PHI"
+    ],
+    "position": "C",
+    "heightCm": 211,
+    "careerFgPct": 58.7,
+    "careerPts": 17972,
+    "awards": [
+      "1회 우승",
+      "3회 DPOY",
+      "8회 올스타"
+    ],
+    "draftPick": "2004 1라운드 1순위"
+  },
+  {
+    "id": "carmelo-anthony",
+    "name": "카멜로 앤써니",
+    "nameEn": "Carmelo Anthony",
+    "team": "DEN",
+    "teamHistory": [
+      "DEN",
+      "NYK",
+      "OKC",
+      "HOU",
+      "POR"
+    ],
+    "position": "SF",
+    "heightCm": 203,
+    "careerFgPct": 44.6,
+    "careerPts": 28289,
+    "awards": [
+      "10회 올스타"
+    ],
+    "draftPick": "2003 1라운드 3순위"
+  },
+  {
+    "id": "manu-ginobili",
+    "name": "마누 지노빌리",
+    "nameEn": "Manu Ginobili",
+    "team": "SAS",
+    "teamHistory": [
+      "SAS"
+    ],
+    "position": "SG",
+    "heightCm": 198,
+    "careerFgPct": 45,
+    "careerPts": 14043,
+    "awards": [
+      "4회 우승",
+      "2회 올스타"
+    ],
+    "draftPick": "1999 2라운드 57순위"
+  },
+  {
+    "id": "tony-parker",
+    "name": "토니 파커",
+    "nameEn": "Tony Parker",
+    "team": "SAS",
+    "teamHistory": [
+      "SAS",
+      "CHA"
+    ],
+    "position": "PG",
+    "heightCm": 188,
+    "careerFgPct": 48.7,
+    "careerPts": 19473,
+    "awards": [
+      "4회 우승",
+      "1회 파이널 MVP",
+      "6회 올스타"
+    ],
+    "draftPick": "2001 1라운드 28순위"
+  },
+  {
+    "id": "stephen-curry",
+    "name": "스테판 커리",
+    "nameEn": "Stephen Curry",
+    "team": "GSW",
+    "teamHistory": [
+      "GSW"
+    ],
+    "position": "PG",
+    "heightCm": 188,
+    "careerFgPct": 47.3,
+    "careerPts": 24500,
+    "awards": [
+      "4회 우승",
+      "2회 MVP",
+      "10회 올스타"
+    ],
+    "draftPick": "2009 1라운드 7순위"
+  },
+  {
+    "id": "kevin-durant",
+    "name": "케빈 듀란트",
+    "nameEn": "Kevin Durant",
+    "team": "PHX",
+    "teamHistory": [
+      "OKC",
+      "GSW",
+      "BKN",
+      "PHX"
+    ],
+    "position": "SF",
+    "heightCm": 208,
+    "careerFgPct": 50,
+    "careerPts": 31500,
+    "awards": [
+      "2회 우승",
+      "2회 파이널 MVP",
+      "1회 MVP",
+      "14회 올스타"
+    ],
+    "draftPick": "2007 1라운드 2순위"
+  },
+  {
+    "id": "giannis-antetokounmpo",
+    "name": "야니스 아데토쿤보",
+    "nameEn": "Giannis Antetokounmpo",
+    "team": "MIL",
+    "teamHistory": [
+      "MIL"
+    ],
+    "position": "PF",
+    "heightCm": 211,
+    "careerFgPct": 55.3,
+    "careerPts": 23000,
+    "awards": [
+      "1회 우승",
+      "1회 파이널 MVP",
+      "2회 MVP",
+      "9회 올스타"
+    ],
+    "draftPick": "2013 1라운드 15순위"
+  },
+  {
+    "id": "james-harden",
+    "name": "제임스 하든",
+    "nameEn": "James Harden",
+    "team": "LAC",
+    "teamHistory": [
+      "OKC",
+      "HOU",
+      "BKN",
+      "PHI",
+      "LAC"
+    ],
+    "position": "SG",
+    "heightCm": 196,
+    "careerFgPct": 44.2,
+    "careerPts": 26500,
+    "awards": [
+      "1회 MVP",
+      "10회 올스타"
+    ],
+    "draftPick": "2009 1라운드 3순위"
+  },
+  {
+    "id": "russell-westbrook",
+    "name": "러셀 웨스트브룩",
+    "nameEn": "Russell Westbrook",
+    "team": "DEN",
+    "teamHistory": [
+      "OKC",
+      "HOU",
+      "WAS",
+      "LAL",
+      "LAC",
+      "DEN"
+    ],
+    "position": "PG",
+    "heightCm": 191,
+    "careerFgPct": 43.5,
+    "careerPts": 25700,
+    "awards": [
+      "1회 MVP",
+      "9회 올스타"
+    ],
+    "draftPick": "2008 1라운드 4순위"
+  },
+  {
+    "id": "damian-lillard",
+    "name": "데미안 릴라드",
+    "nameEn": "Damian Lillard",
+    "team": "MIL",
+    "teamHistory": [
+      "POR",
+      "MIL"
+    ],
+    "position": "PG",
+    "heightCm": 188,
+    "careerFgPct": 43.8,
+    "careerPts": 20500,
+    "awards": [
+      "7회 올스타"
+    ],
+    "draftPick": "2012 1라운드 6순위"
+  },
+  {
+    "id": "anthony-davis",
+    "name": "앤써니 데이비스",
+    "nameEn": "Anthony Davis",
+    "team": "DAL",
+    "teamHistory": [
+      "NOP",
+      "LAL",
+      "DAL"
+    ],
+    "position": "PF",
+    "heightCm": 208,
+    "careerFgPct": 51.9,
+    "careerPts": 21000,
+    "awards": [
+      "1회 우승",
+      "8회 올스타"
+    ],
+    "draftPick": "2012 1라운드 1순위"
+  },
+  {
+    "id": "kawhi-leonard",
+    "name": "카와이 레너드",
+    "nameEn": "Kawhi Leonard",
+    "team": "LAC",
+    "teamHistory": [
+      "SAS",
+      "TOR",
+      "LAC"
+    ],
+    "position": "SF",
+    "heightCm": 201,
+    "careerFgPct": 49.8,
+    "careerPts": 15800,
+    "awards": [
+      "2회 우승",
+      "2회 파이널 MVP",
+      "6회 올스타"
+    ],
+    "draftPick": "2011 1라운드 15순위"
+  },
+  {
+    "id": "jimmy-butler",
+    "name": "지미 버틀러",
+    "nameEn": "Jimmy Butler",
+    "team": "GSW",
+    "teamHistory": [
+      "CHI",
+      "MIN",
+      "PHI",
+      "MIA",
+      "GSW"
+    ],
+    "position": "SF",
+    "heightCm": 201,
+    "careerFgPct": 47.6,
+    "careerPts": 15700,
+    "awards": [
+      "6회 올스타"
+    ],
+    "draftPick": "2011 1라운드 30순위"
+  },
+  {
+    "id": "nikola-jokic",
+    "name": "니콜라 요키치",
+    "nameEn": "Nikola Jokic",
+    "team": "DEN",
+    "teamHistory": [
+      "DEN"
+    ],
+    "position": "C",
+    "heightCm": 211,
+    "careerFgPct": 54.8,
+    "careerPts": 17000,
+    "awards": [
+      "1회 우승",
+      "1회 파이널 MVP",
+      "3회 MVP",
+      "9회 올스타"
+    ],
+    "draftPick": "2014 2라운드 41순위"
+  },
+  {
+    "id": "joel-embiid",
+    "name": "조엘 엠비드",
+    "nameEn": "Joel Embiid",
+    "team": "PHI",
+    "teamHistory": [
+      "PHI"
+    ],
+    "position": "C",
+    "heightCm": 213,
+    "careerFgPct": 50,
+    "careerPts": 15500,
+    "awards": [
+      "1회 MVP",
+      "7회 올스타"
+    ],
+    "draftPick": "2014 1라운드 3순위"
+  },
+  {
+    "id": "luka-doncic",
+    "name": "루카 돈치치",
+    "nameEn": "Luka Doncic",
+    "team": "LAL",
+    "teamHistory": [
+      "DAL",
+      "LAL"
+    ],
+    "position": "PG",
+    "heightCm": 201,
+    "careerFgPct": 45.8,
+    "careerPts": 15000,
+    "awards": [
+      "5회 올스타"
+    ],
+    "draftPick": "2018 1라운드 3순위"
+  },
+  {
+    "id": "jayson-tatum",
+    "name": "제이슨 테이텀",
+    "nameEn": "Jayson Tatum",
+    "team": "BOS",
+    "teamHistory": [
+      "BOS"
+    ],
+    "position": "SF",
+    "heightCm": 203,
+    "careerFgPct": 45.8,
+    "careerPts": 14500,
+    "awards": [
+      "1회 우승",
+      "6회 올스타"
+    ],
+    "draftPick": "2017 1라운드 3순위"
+  },
+  {
+    "id": "devin-booker",
+    "name": "데빈 부커",
+    "nameEn": "Devin Booker",
+    "team": "PHX",
+    "teamHistory": [
+      "PHX"
+    ],
+    "position": "SG",
+    "heightCm": 196,
+    "careerFgPct": 46.5,
+    "careerPts": 14000,
+    "awards": [
+      "3회 올스타"
+    ],
+    "draftPick": "2015 1라운드 13순위"
+  },
+  {
+    "id": "ja-morant",
+    "name": "자 모란트",
+    "nameEn": "Ja Morant",
+    "team": "MEM",
+    "teamHistory": [
+      "MEM"
+    ],
+    "position": "PG",
+    "heightCm": 191,
+    "careerFgPct": 47,
+    "careerPts": 7500,
+    "awards": [
+      "2회 올스타"
+    ],
+    "draftPick": "2019 1라운드 2순위"
+  },
+  {
+    "id": "trae-young",
+    "name": "트레이 영",
+    "nameEn": "Trae Young",
+    "team": "ATL",
+    "teamHistory": [
+      "ATL"
+    ],
+    "position": "PG",
+    "heightCm": 185,
+    "careerFgPct": 43.5,
+    "careerPts": 11000,
+    "awards": [
+      "1회 올스타"
+    ],
+    "draftPick": "2018 1라운드 5순위"
+  },
+  {
+    "id": "donovan-mitchell",
+    "name": "도노반 미첼",
+    "nameEn": "Donovan Mitchell",
+    "team": "CLE",
+    "teamHistory": [
+      "UTA",
+      "CLE"
+    ],
+    "position": "SG",
+    "heightCm": 191,
+    "careerFgPct": 45,
+    "careerPts": 14500,
+    "awards": [
+      "3회 올스타"
+    ],
+    "draftPick": "2017 1라운드 13순위"
+  },
+  {
+    "id": "zion-williamson",
+    "name": "자이언 윌리엄슨",
+    "nameEn": "Zion Williamson",
+    "team": "NOP",
+    "teamHistory": [
+      "NOP"
+    ],
+    "position": "PF",
+    "heightCm": 198,
+    "careerFgPct": 59,
+    "careerPts": 5500,
+    "awards": [
+      "2회 올스타"
+    ],
+    "draftPick": "2019 1라운드 1순위"
+  },
+  {
+    "id": "victor-wembanyama",
+    "name": "빅터 웸반야마",
+    "nameEn": "Victor Wembanyama",
+    "team": "SAS",
+    "teamHistory": [
+      "SAS"
+    ],
+    "position": "PF-C",
+    "heightCm": 224,
+    "careerFgPct": 46.5,
+    "careerPts": 2000,
+    "awards": [
+      "2024 신인왕",
+      "1회 올스타"
+    ],
+    "draftPick": "2023 1라운드 1순위"
+  },
+  {
+    "id": "shai-gilgeous-alexander",
+    "name": "셰이 길저스알렉산더",
+    "nameEn": "Shai Gilgeous-Alexander",
+    "team": "OKC",
+    "teamHistory": [
+      "LAC",
+      "OKC"
+    ],
+    "position": "PG",
+    "heightCm": 198,
+    "careerFgPct": 51.5,
+    "careerPts": 12500,
+    "awards": [
+      "1회 MVP",
+      "5회 올스타"
+    ],
+    "draftPick": "2018 1라운드 11순위"
+  },
+  {
+    "id": "anthony-edwards",
+    "name": "앤써니 에드워즈",
+    "nameEn": "Anthony Edwards",
+    "team": "MIN",
+    "teamHistory": [
+      "MIN"
+    ],
+    "position": "SG",
+    "heightCm": 193,
+    "careerFgPct": 45.8,
+    "careerPts": 9500,
+    "awards": [
+      "2회 올스타"
+    ],
+    "draftPick": "2020 1라운드 1순위"
+  },
+  {
+    "id": "paul-george",
+    "name": "폴 조지",
+    "nameEn": "Paul George",
+    "team": "PHI",
+    "teamHistory": [
+      "IND",
+      "OKC",
+      "LAC",
+      "PHI"
+    ],
+    "position": "SF",
+    "heightCm": 203,
+    "careerFgPct": 43.5,
+    "careerPts": 18500,
+    "awards": [
+      "9회 올스타"
+    ],
+    "draftPick": "2010 1라운드 10순위"
+  },
+  {
+    "id": "klay-thompson",
+    "name": "클레이 탐슨",
+    "nameEn": "Klay Thompson",
+    "team": "DAL",
+    "teamHistory": [
+      "GSW",
+      "DAL"
+    ],
+    "position": "SG",
+    "heightCm": 198,
+    "careerFgPct": 45.2,
+    "careerPts": 15500,
+    "awards": [
+      "4회 우승",
+      "5회 올스타"
+    ],
+    "draftPick": "2011 1라운드 11순위"
+  },
+  {
+    "id": "draymond-green",
+    "name": "드레이먼드 그린",
+    "nameEn": "Draymond Green",
+    "team": "GSW",
+    "teamHistory": [
+      "GSW"
+    ],
+    "position": "PF",
+    "heightCm": 198,
+    "careerFgPct": 43.5,
+    "careerPts": 8000,
+    "awards": [
+      "4회 우승",
+      "1회 DPOY",
+      "4회 올스타"
+    ],
+    "draftPick": "2012 2라운드 35순위"
+  },
+  {
+    "id": "bam-adebayo",
+    "name": "뱀 아데바요",
+    "nameEn": "Bam Adebayo",
+    "team": "MIA",
+    "teamHistory": [
+      "MIA"
+    ],
+    "position": "C",
+    "heightCm": 206,
+    "careerFgPct": 53.5,
+    "careerPts": 10500,
+    "awards": [
+      "2회 올스타"
+    ],
+    "draftPick": "2017 1라운드 14순위"
+  },
+  {
+    "id": "dominique-wilkins",
+    "name": "도미니크 윌킨스",
+    "nameEn": "Dominique Wilkins",
+    "team": "ATL",
+    "teamHistory": [
+      "ATL",
+      "LAC",
+      "BOS",
+      "SAS",
+      "ORL"
+    ],
+    "position": "SF",
+    "heightCm": 201,
+    "careerFgPct": 46.1,
+    "careerPts": 26668,
+    "awards": [
+      "9회 올스타"
+    ],
+    "draftPick": "1982 1라운드 3순위"
+  },
+  {
+    "id": "dennis-rodman",
+    "name": "데니스 로드먼",
+    "nameEn": "Dennis Rodman",
+    "team": "CHI",
+    "teamHistory": [
+      "DET",
+      "SAS",
+      "CHI",
+      "LAL",
+      "DAL"
+    ],
+    "position": "PF",
+    "heightCm": 198,
+    "careerFgPct": 52.1,
+    "careerPts": 6683,
+    "awards": [
+      "5회 우승",
+      "2회 리바운드왕"
+    ],
+    "draftPick": "1986 2라운드 27순위"
+  },
+  {
+    "id": "alonzo-mourning",
+    "name": "알론조 모닝",
+    "nameEn": "Alonzo Mourning",
+    "team": "MIA",
+    "teamHistory": [
+      "CHH",
+      "MIA",
+      "NJN"
+    ],
+    "position": "C",
+    "heightCm": 208,
+    "careerFgPct": 52.9,
+    "careerPts": 13763,
+    "awards": [
+      "2회 DPOY",
+      "7회 올스타"
+    ],
+    "draftPick": "1992 1라운드 2순위"
+  },
+  {
+    "id": "shawn-kemp",
+    "name": "숀 켐프",
+    "nameEn": "Shawn Kemp",
+    "team": "SEA",
+    "teamHistory": [
+      "SEA",
+      "CLE",
+      "POR",
+      "ORL"
+    ],
+    "position": "PF",
+    "heightCm": 208,
+    "careerFgPct": 48.8,
+    "careerPts": 15347,
+    "awards": [
+      "6회 올스타"
+    ],
+    "draftPick": "1989 1라운드 17순위"
+  },
+  {
+    "id": "glen-rice",
+    "name": "글렌 라이스",
+    "nameEn": "Glen Rice",
+    "team": "MIA",
+    "teamHistory": [
+      "MIA",
+      "CHH",
+      "LAL",
+      "NYK",
+      "HOU",
+      "LAC"
+    ],
+    "position": "SF",
+    "heightCm": 203,
+    "careerFgPct": 45.8,
+    "careerPts": 18336,
+    "awards": [
+      "3회 올스타"
+    ],
+    "draftPick": "1989 1라운드 4순위"
+  },
+  {
+    "id": "mitch-richmond",
+    "name": "미치 리치몬드",
+    "nameEn": "Mitch Richmond",
+    "team": "SAC",
+    "teamHistory": [
+      "GSW",
+      "SAC",
+      "WAS",
+      "LAL"
+    ],
+    "position": "SG",
+    "heightCm": 196,
+    "careerFgPct": 45.3,
+    "careerPts": 20497,
+    "awards": [
+      "6회 올스타"
+    ],
+    "draftPick": "1988 1라운드 5순위"
+  },
+  {
+    "id": "tim-hardaway",
+    "name": "팀 하더웨이",
+    "nameEn": "Tim Hardaway",
+    "team": "MIA",
+    "teamHistory": [
+      "GSW",
+      "MIA",
+      "DAL",
+      "DEN",
+      "IND"
+    ],
+    "position": "PG",
+    "heightCm": 183,
+    "careerFgPct": 43.7,
+    "careerPts": 15373,
+    "awards": [
+      "5회 올스타"
+    ],
+    "draftPick": "1989 1라운드 14순위"
+  },
+  {
+    "id": "chris-webber",
+    "name": "크리스 웨버",
+    "nameEn": "Chris Webber",
+    "team": "SAC",
+    "teamHistory": [
+      "GSW",
+      "WAS",
+      "SAC",
+      "PHI",
+      "DET"
+    ],
+    "position": "PF",
+    "heightCm": 208,
+    "careerFgPct": 47.8,
+    "careerPts": 17182,
+    "awards": [
+      "5회 올스타"
+    ],
+    "draftPick": "1993 1라운드 1순위"
+  },
+  {
+    "id": "jason-williams",
+    "name": "제이슨 윌리엄스",
+    "nameEn": "Jason Williams",
+    "team": "SAC",
+    "teamHistory": [
+      "SAC",
+      "MEM",
+      "MIA",
+      "ORL"
+    ],
+    "position": "PG",
+    "heightCm": 191,
+    "careerFgPct": 39.7,
+    "careerPts": 8770,
+    "awards": [],
+    "draftPick": "1998 1라운드 7순위"
+  },
+  {
+    "id": "steve-smith",
+    "name": "스티브 스미스",
+    "nameEn": "Steve Smith",
+    "team": "ATL",
+    "teamHistory": [
+      "MIA",
+      "ATL",
+      "POR",
+      "SAS"
+    ],
+    "position": "SG",
+    "heightCm": 201,
+    "careerFgPct": 46.5,
+    "careerPts": 14732,
+    "awards": [
+      "1회 올스타"
+    ],
+    "draftPick": "1991 1라운드 5순위"
+  },
+  {
+    "id": "horace-grant",
+    "name": "호레이스 그랜트",
+    "nameEn": "Horace Grant",
+    "team": "ORL",
+    "teamHistory": [
+      "CHI",
+      "ORL",
+      "SEA",
+      "LAL"
+    ],
+    "position": "PF",
+    "heightCm": 208,
+    "careerFgPct": 51.4,
+    "careerPts": 13897,
+    "awards": [
+      "1회 올스타"
+    ],
+    "draftPick": "1987 1라운드 10순위"
+  },
+  {
+    "id": "dennis-scott",
+    "name": "데니스 스콧",
+    "nameEn": "Dennis Scott",
+    "team": "ORL",
+    "teamHistory": [
+      "ORL",
+      "DAL",
+      "NYK"
+    ],
+    "position": "SF",
+    "heightCm": 203,
+    "careerFgPct": 43.7,
+    "careerPts": 8859,
+    "awards": [],
+    "draftPick": "1990 1라운드 4순위"
+  },
+  {
+    "id": "latrell-sprewell",
+    "name": "라트렐 스프리웰",
+    "nameEn": "Latrell Sprewell",
+    "team": "NYK",
+    "teamHistory": [
+      "GSW",
+      "NYK",
+      "MIN"
+    ],
+    "position": "SG",
+    "heightCm": 196,
+    "careerFgPct": 43.9,
+    "careerPts": 16712,
+    "awards": [
+      "4회 올스타"
+    ],
+    "draftPick": "1992 1라운드 24순위"
+  },
+  {
+    "id": "penny-hardaway",
+    "name": "페니 하더웨이",
+    "nameEn": "Anfernee Hardaway",
+    "team": "ORL",
+    "teamHistory": [
+      "ORL",
+      "PHX",
+      "NYK",
+      "MIA"
+    ],
+    "position": "PG",
+    "heightCm": 201,
+    "careerFgPct": 47.2,
+    "careerPts": 15719,
+    "awards": [
+      "4회 올스타"
+    ],
+    "draftPick": "1993 1라운드 3순위"
+  },
+  {
+    "id": "rasheed-wallace",
+    "name": "라시드 월러스",
+    "nameEn": "Rasheed Wallace",
+    "team": "POR",
+    "teamHistory": [
+      "WSB",
+      "POR",
+      "ATL",
+      "DET",
+      "BOS",
+      "NYK"
+    ],
+    "position": "PF",
+    "heightCm": 211,
+    "careerFgPct": 46.1,
+    "careerPts": 16043,
+    "awards": [
+      "1회 우승",
+      "4회 올스타"
+    ],
+    "draftPick": "1995 1라운드 4순위"
+  },
+  {
+    "id": "jamal-mashburn",
+    "name": "자말 매쉬번",
+    "nameEn": "Jamal Mashburn",
+    "team": "DAL",
+    "teamHistory": [
+      "DAL",
+      "MIA",
+      "NOH"
+    ],
+    "position": "SF",
+    "heightCm": 203,
+    "careerFgPct": 44.4,
+    "careerPts": 14941,
+    "awards": [
+      "1회 올스타"
+    ],
+    "draftPick": "1993 1라운드 4순위"
+  },
+  {
+    "id": "juwan-howard",
+    "name": "주완 하워드",
+    "nameEn": "Juwan Howard",
+    "team": "WAS",
+    "teamHistory": [
+      "WAS",
+      "DAL",
+      "DEN",
+      "ORL",
+      "HOU",
+      "MIA"
+    ],
+    "position": "PF",
+    "heightCm": 208,
+    "careerFgPct": 47.6,
+    "careerPts": 16165,
+    "awards": [
+      "1회 올스타"
+    ],
+    "draftPick": "1994 1라운드 5순위"
+  },
+  {
+    "id": "christian-laettner",
+    "name": "크리스천 레트너",
+    "nameEn": "Christian Laettner",
+    "team": "MIN",
+    "teamHistory": [
+      "MIN",
+      "ATL",
+      "DET",
+      "CLE",
+      "WAS",
+      "MIA"
+    ],
+    "position": "PF",
+    "heightCm": 211,
+    "careerFgPct": 50.7,
+    "careerPts": 11274,
+    "awards": [
+      "1회 올스타"
+    ],
+    "draftPick": "1992 1라운드 3순위"
+  },
+  {
+    "id": "vin-baker",
+    "name": "빈 베이커",
+    "nameEn": "Vin Baker",
+    "team": "MIL",
+    "teamHistory": [
+      "MIL",
+      "SEA",
+      "BOS",
+      "NYK",
+      "HOU",
+      "LAC"
+    ],
+    "position": "PF",
+    "heightCm": 211,
+    "careerFgPct": 50.7,
+    "careerPts": 11982,
+    "awards": [
+      "4회 올스타"
+    ],
+    "draftPick": "1993 1라운드 8순위"
+  },
+  {
+    "id": "terrell-brandon",
+    "name": "테럴 브랜던",
+    "nameEn": "Terrell Brandon",
+    "team": "CLE",
+    "teamHistory": [
+      "CLE",
+      "MIL",
+      "MIN"
+    ],
+    "position": "PG",
+    "heightCm": 183,
+    "careerFgPct": 46.3,
+    "careerPts": 10405,
+    "awards": [
+      "3회 올스타"
+    ],
+    "draftPick": "1991 1라운드 11순위"
+  },
+  {
+    "id": "baron-davis",
+    "name": "배런 데이비스",
+    "nameEn": "Baron Davis",
+    "team": "GSW",
+    "teamHistory": [
+      "CHH",
+      "GSW",
+      "LAC",
+      "CLE",
+      "NYK"
+    ],
+    "position": "PG",
+    "heightCm": 190,
+    "careerFgPct": 41.4,
+    "careerPts": 14367,
+    "awards": [
+      "2회 올스타"
+    ],
+    "draftPick": "1999 1라운드 3순위"
+  },
+  {
+    "id": "stephon-marbury",
+    "name": "스테폰 마버리",
+    "nameEn": "Stephon Marbury",
+    "team": "NYK",
+    "teamHistory": [
+      "MIN",
+      "NJN",
+      "PHX",
+      "NYK",
+      "BOS"
+    ],
+    "position": "PG",
+    "heightCm": 188,
+    "careerFgPct": 43.1,
+    "careerPts": 16297,
+    "awards": [
+      "2회 올스타"
+    ],
+    "draftPick": "1996 1라운드 4순위"
+  },
+  {
+    "id": "jermaine-oneal",
+    "name": "저메인 오닐",
+    "nameEn": "Jermaine O'Neal",
+    "team": "IND",
+    "teamHistory": [
+      "POR",
+      "IND",
+      "TOR",
+      "MIA",
+      "BOS",
+      "PHX",
+      "GSW"
+    ],
+    "position": "PF",
+    "heightCm": 211,
+    "careerFgPct": 48.4,
+    "careerPts": 15332,
+    "awards": [
+      "6회 올스타"
+    ],
+    "draftPick": "1996 1라운드 17순위"
+  },
+  {
+    "id": "ron-artest",
+    "name": "론 아테스트",
+    "nameEn": "Ron Artest",
+    "team": "LAL",
+    "teamHistory": [
+      "CHI",
+      "IND",
+      "SAC",
+      "HOU",
+      "LAL",
+      "NYK"
+    ],
+    "position": "SF",
+    "heightCm": 201,
+    "careerFgPct": 41.4,
+    "careerPts": 13738,
+    "awards": [
+      "1회 우승",
+      "1회 DPOY",
+      "1회 올스타"
+    ],
+    "draftPick": "1999 1라운드 16순위"
+  },
+  {
+    "id": "antawn-jamison",
+    "name": "앤트완 제이미슨",
+    "nameEn": "Antawn Jamison",
+    "team": "WAS",
+    "teamHistory": [
+      "TOR",
+      "GSW",
+      "DAL",
+      "WAS",
+      "CLE",
+      "LAL"
+    ],
+    "position": "PF",
+    "heightCm": 203,
+    "careerFgPct": 45.6,
+    "careerPts": 20042,
+    "awards": [
+      "2회 올스타"
+    ],
+    "draftPick": "1998 1라운드 4순위"
+  },
+  {
+    "id": "elton-brand",
+    "name": "엘튼 브랜드",
+    "nameEn": "Elton Brand",
+    "team": "LAC",
+    "teamHistory": [
+      "CHI",
+      "LAC",
+      "PHI",
+      "DAL",
+      "ATL"
+    ],
+    "position": "PF",
+    "heightCm": 206,
+    "careerFgPct": 50.3,
+    "careerPts": 17561,
+    "awards": [
+      "2회 올스타"
+    ],
+    "draftPick": "1999 1라운드 1순위"
+  },
+  {
+    "id": "joe-johnson",
+    "name": "조 존슨",
+    "nameEn": "Joe Johnson",
+    "team": "ATL",
+    "teamHistory": [
+      "BOS",
+      "PHX",
+      "ATL",
+      "BKN",
+      "MIA",
+      "UTA",
+      "HOU"
+    ],
+    "position": "SG",
+    "heightCm": 201,
+    "careerFgPct": 44.8,
+    "careerPts": 20405,
+    "awards": [
+      "7회 올스타"
+    ],
+    "draftPick": "2001 1라운드 10순위"
+  },
+  {
+    "id": "gilbert-arenas",
+    "name": "길버트 아레나스",
+    "nameEn": "Gilbert Arenas",
+    "team": "WAS",
+    "teamHistory": [
+      "GSW",
+      "WAS",
+      "ORL",
+      "MEM"
+    ],
+    "position": "PG",
+    "heightCm": 193,
+    "careerFgPct": 41.4,
+    "careerPts": 13116,
+    "awards": [
+      "3회 올스타"
+    ],
+    "draftPick": "2001 2라운드 31순위"
+  },
+  {
+    "id": "amare-stoudemire",
+    "name": "아마레 스타더마이어",
+    "nameEn": "Amar'e Stoudemire",
+    "team": "PHX",
+    "teamHistory": [
+      "PHX",
+      "NYK",
+      "MIA",
+      "DAL"
+    ],
+    "position": "PF",
+    "heightCm": 208,
+    "careerFgPct": 53.9,
+    "careerPts": 16491,
+    "awards": [
+      "6회 올스타"
+    ],
+    "draftPick": "2002 1라운드 9순위"
+  },
+  {
+    "id": "shawn-marion",
+    "name": "숀 매리언",
+    "nameEn": "Shawn Marion",
+    "team": "PHX",
+    "teamHistory": [
+      "PHX",
+      "MIA",
+      "TOR",
+      "DAL",
+      "CLE"
+    ],
+    "position": "SF",
+    "heightCm": 201,
+    "careerFgPct": 48.2,
+    "careerPts": 17700,
+    "awards": [
+      "1회 우승",
+      "4회 올스타"
+    ],
+    "draftPick": "1999 1라운드 9순위"
+  },
+  {
+    "id": "rashard-lewis",
+    "name": "라샤드 루이스",
+    "nameEn": "Rashard Lewis",
+    "team": "SEA",
+    "teamHistory": [
+      "SEA",
+      "ORL",
+      "WAS",
+      "MIA"
+    ],
+    "position": "SF",
+    "heightCm": 208,
+    "careerFgPct": 44.5,
+    "careerPts": 16878,
+    "awards": [
+      "2회 올스타"
+    ],
+    "draftPick": "1998 2라운드 32순위"
+  },
+  {
+    "id": "andre-miller",
+    "name": "안드레 밀러",
+    "nameEn": "Andre Miller",
+    "team": "CLE",
+    "teamHistory": [
+      "CLE",
+      "LAC",
+      "DEN",
+      "PHI",
+      "POR",
+      "DAL",
+      "SAS",
+      "MIN"
+    ],
+    "position": "PG",
+    "heightCm": 191,
+    "careerFgPct": 46,
+    "careerPts": 16326,
+    "awards": [],
+    "draftPick": "1999 1라운드 8순위"
+  },
+  {
+    "id": "tony-allen",
+    "name": "토니 알렌",
+    "nameEn": "Tony Allen",
+    "team": "MEM",
+    "teamHistory": [
+      "BOS",
+      "MEM",
+      "NOP"
+    ],
+    "position": "SG",
+    "heightCm": 193,
+    "careerFgPct": 44.3,
+    "careerPts": 7378,
+    "awards": [],
+    "draftPick": "2004 2라운드 25순위"
+  },
+  {
+    "id": "richard-hamilton",
+    "name": "리처드 해밀턴",
+    "nameEn": "Richard Hamilton",
+    "team": "DET",
+    "teamHistory": [
+      "WAS",
+      "DET",
+      "CHI"
+    ],
+    "position": "SG",
+    "heightCm": 198,
+    "careerFgPct": 46,
+    "careerPts": 17310,
+    "awards": [
+      "1회 우승",
+      "3회 올스타"
+    ],
+    "draftPick": "1999 1라운드 7순위"
+  },
+  {
+    "id": "chauncey-billups",
+    "name": "천시 빌럽스",
+    "nameEn": "Chauncey Billups",
+    "team": "DET",
+    "teamHistory": [
+      "BOS",
+      "TOR",
+      "DEN",
+      "MIN",
+      "DET",
+      "LAC",
+      "NYK"
+    ],
+    "position": "PG",
+    "heightCm": 191,
+    "careerFgPct": 41.7,
+    "careerPts": 15802,
+    "awards": [
+      "1회 우승",
+      "1회 파이널 MVP",
+      "5회 올스타"
+    ],
+    "draftPick": "1997 1라운드 3순위"
+  },
+  {
+    "id": "ben-wallace",
+    "name": "벤 월러스",
+    "nameEn": "Ben Wallace",
+    "team": "DET",
+    "teamHistory": [
+      "WAS",
+      "ORL",
+      "DET",
+      "CHI"
+    ],
+    "position": "C",
+    "heightCm": 206,
+    "careerFgPct": 47.4,
+    "careerPts": 5601,
+    "awards": [
+      "1회 우승",
+      "4회 DPOY",
+      "4회 올스타"
+    ],
+    "draftPick": "언드래프트"
+  },
+  {
+    "id": "deron-williams",
+    "name": "데론 윌리엄스",
+    "nameEn": "Deron Williams",
+    "team": "UTA",
+    "teamHistory": [
+      "UTA",
+      "NJN",
+      "BKN",
+      "DAL",
+      "CLE"
+    ],
+    "position": "PG",
+    "heightCm": 190,
+    "careerFgPct": 44.6,
+    "careerPts": 14099,
+    "awards": [
+      "3회 올스타"
+    ],
+    "draftPick": "2005 1라운드 3순위"
+  },
+  {
+    "id": "monta-ellis",
+    "name": "몬타 엘리스",
+    "nameEn": "Monta Ellis",
+    "team": "GSW",
+    "teamHistory": [
+      "GSW",
+      "MIL",
+      "DAL",
+      "IND"
+    ],
+    "position": "SG",
+    "heightCm": 190,
+    "careerFgPct": 44.8,
+    "careerPts": 16168,
+    "awards": [
+      "1회 올스타"
+    ],
+    "draftPick": "2005 2라운드 40순위"
+  },
+  {
+    "id": "david-west",
+    "name": "데이비드 웨스트",
+    "nameEn": "David West",
+    "team": "NOH",
+    "teamHistory": [
+      "NOH",
+      "IND",
+      "SAS",
+      "GSW"
+    ],
+    "position": "PF",
+    "heightCm": 203,
+    "careerFgPct": 48.8,
+    "careerPts": 14771,
+    "awards": [
+      "2회 올스타"
+    ],
+    "draftPick": "2003 1라운드 18순위"
+  },
+  {
+    "id": "al-jefferson",
+    "name": "알 제퍼슨",
+    "nameEn": "Al Jefferson",
+    "team": "UTA",
+    "teamHistory": [
+      "BOS",
+      "MIN",
+      "UTA",
+      "CHA",
+      "IND"
+    ],
+    "position": "C",
+    "heightCm": 208,
+    "careerFgPct": 49.9,
+    "careerPts": 15848,
+    "awards": [
+      "1회 올스타"
+    ],
+    "draftPick": "2004 1라운드 15순위"
+  },
+  {
+    "id": "zach-randolph",
+    "name": "잭 랜돌프",
+    "nameEn": "Zach Randolph",
+    "team": "MEM",
+    "teamHistory": [
+      "POR",
+      "NYK",
+      "LAC",
+      "MEM",
+      "SAC"
+    ],
+    "position": "PF",
+    "heightCm": 206,
+    "careerFgPct": 47.5,
+    "careerPts": 19298,
+    "awards": [
+      "2회 올스타"
+    ],
+    "draftPick": "2001 1라운드 19순위"
+  },
+  {
+    "id": "marc-gasol",
+    "name": "마크 가솔",
+    "nameEn": "Marc Gasol",
+    "team": "MEM",
+    "teamHistory": [
+      "MEM",
+      "TOR",
+      "LAL"
+    ],
+    "position": "C",
+    "heightCm": 213,
+    "careerFgPct": 49,
+    "careerPts": 13491,
+    "awards": [
+      "1회 우승",
+      "1회 DPOY",
+      "3회 올스타"
+    ],
+    "draftPick": "2007 2라운드 48순위"
+  },
+  {
+    "id": "pau-gasol",
+    "name": "파우 가솔",
+    "nameEn": "Pau Gasol",
+    "team": "LAL",
+    "teamHistory": [
+      "MEM",
+      "LAL",
+      "CHI",
+      "SAS",
+      "MIL"
+    ],
+    "position": "PF",
+    "heightCm": 213,
+    "careerFgPct": 50.9,
+    "careerPts": 20894,
+    "awards": [
+      "2회 우승",
+      "6회 올스타"
+    ],
+    "draftPick": "2001 1라운드 3순위"
+  },
+  {
+    "id": "luol-deng",
+    "name": "루올 뎅",
+    "nameEn": "Luol Deng",
+    "team": "CHI",
+    "teamHistory": [
+      "CHI",
+      "CLE",
+      "MIA",
+      "LAL",
+      "MIN"
+    ],
+    "position": "SF",
+    "heightCm": 203,
+    "careerFgPct": 45.7,
+    "careerPts": 13106,
+    "awards": [
+      "2회 올스타"
+    ],
+    "draftPick": "2004 1라운드 7순위"
+  },
+  {
+    "id": "andre-iguodala",
+    "name": "안드레 이궈달라",
+    "nameEn": "Andre Iguodala",
+    "team": "GSW",
+    "teamHistory": [
+      "PHI",
+      "DEN",
+      "GSW",
+      "MEM",
+      "MIA"
+    ],
+    "position": "SF",
+    "heightCm": 198,
+    "careerFgPct": 45.7,
+    "careerPts": 12328,
+    "awards": [
+      "4회 우승",
+      "1회 파이널 MVP",
+      "1회 올스타"
+    ],
+    "draftPick": "2004 1라운드 9순위"
+  },
+  {
+    "id": "danny-granger",
+    "name": "대니 그레인저",
+    "nameEn": "Danny Granger",
+    "team": "IND",
+    "teamHistory": [
+      "IND",
+      "PHI",
+      "LAC",
+      "MIA"
+    ],
+    "position": "SF",
+    "heightCm": 206,
+    "careerFgPct": 43,
+    "careerPts": 10077,
+    "awards": [
+      "1회 올스타"
+    ],
+    "draftPick": "2005 1라운드 17순위"
+  },
+  {
+    "id": "mike-conley",
+    "name": "마이크 콘리",
+    "nameEn": "Mike Conley",
+    "team": "MEM",
+    "teamHistory": [
+      "MEM",
+      "UTA",
+      "MIN"
+    ],
+    "position": "PG",
+    "heightCm": 185,
+    "careerFgPct": 44.6,
+    "careerPts": 16336,
+    "awards": [
+      "1회 올스타"
+    ],
+    "draftPick": "2007 1라운드 4순위"
+  },
+  {
+    "id": "rudy-gay",
+    "name": "루디 게이",
+    "nameEn": "Rudy Gay",
+    "team": "MEM",
+    "teamHistory": [
+      "MEM",
+      "TOR",
+      "SAC",
+      "SAS",
+      "UTA"
+    ],
+    "position": "SF",
+    "heightCm": 203,
+    "careerFgPct": 45.2,
+    "careerPts": 19700,
+    "awards": [],
+    "draftPick": "2006 1라운드 8순위"
+  },
+  {
+    "id": "oj-mayo",
+    "name": "O.J. 메이오",
+    "nameEn": "O.J. Mayo",
+    "team": "MEM",
+    "teamHistory": [
+      "MEM",
+      "DAL",
+      "MIL"
+    ],
+    "position": "SG",
+    "heightCm": 196,
+    "careerFgPct": 43.6,
+    "careerPts": 9819,
+    "awards": [],
+    "draftPick": "2008 1라운드 3순위"
+  },
+  {
+    "id": "kevin-love",
+    "name": "케빈 러브",
+    "nameEn": "Kevin Love",
+    "team": "CLE",
+    "teamHistory": [
+      "MIN",
+      "CLE",
+      "MIA"
+    ],
+    "position": "PF",
+    "heightCm": 208,
+    "careerFgPct": 44.9,
+    "careerPts": 19338,
+    "awards": [
+      "1회 우승",
+      "5회 올스타"
+    ],
+    "draftPick": "2008 1라운드 5순위"
+  },
+  {
+    "id": "brook-lopez",
+    "name": "브룩 로페즈",
+    "nameEn": "Brook Lopez",
+    "team": "MIL",
+    "teamHistory": [
+      "NJN",
+      "BKN",
+      "LAL",
+      "MIL",
+      "ORL"
+    ],
+    "position": "C",
+    "heightCm": 213,
+    "careerFgPct": 50.6,
+    "careerPts": 17372,
+    "awards": [
+      "1회 우승",
+      "1회 올스타"
+    ],
+    "draftPick": "2008 1라운드 10순위"
+  },
+  {
+    "id": "blake-griffin",
+    "name": "블레이크 그리핀",
+    "nameEn": "Blake Griffin",
+    "team": "LAC",
+    "teamHistory": [
+      "LAC",
+      "DET",
+      "BKN",
+      "BOS"
+    ],
+    "position": "PF",
+    "heightCm": 208,
+    "careerFgPct": 49.9,
+    "careerPts": 15530,
+    "awards": [
+      "6회 올스타"
+    ],
+    "draftPick": "2009 1라운드 1순위"
+  },
+  {
+    "id": "derrick-rose",
+    "name": "데릭 로즈",
+    "nameEn": "Derrick Rose",
+    "team": "CHI",
+    "teamHistory": [
+      "CHI",
+      "NYK",
+      "CLE",
+      "MIN",
+      "DET",
+      "MEM"
+    ],
+    "position": "PG",
+    "heightCm": 191,
+    "careerFgPct": 44.5,
+    "careerPts": 14098,
+    "awards": [
+      "1회 MVP",
+      "3회 올스타"
+    ],
+    "draftPick": "2008 1라운드 1순위"
+  },
+  {
+    "id": "john-wall",
+    "name": "존 월",
+    "nameEn": "John Wall",
+    "team": "WAS",
+    "teamHistory": [
+      "WAS",
+      "HOU",
+      "LAC"
+    ],
+    "position": "PG",
+    "heightCm": 191,
+    "careerFgPct": 43.6,
+    "careerPts": 12009,
+    "awards": [
+      "5회 올스타"
+    ],
+    "draftPick": "2010 1라운드 1순위"
+  },
+  {
+    "id": "kyrie-irving",
+    "name": "카이리 어빙",
+    "nameEn": "Kyrie Irving",
+    "team": "DAL",
+    "teamHistory": [
+      "CLE",
+      "BOS",
+      "BKN",
+      "DAL"
+    ],
+    "position": "PG",
+    "heightCm": 191,
+    "careerFgPct": 47.3,
+    "careerPts": 21500,
+    "awards": [
+      "1회 우승",
+      "9회 올스타"
+    ],
+    "draftPick": "2011 1라운드 1순위"
+  },
+  {
+    "id": "kemba-walker",
+    "name": "켐바 워커",
+    "nameEn": "Kemba Walker",
+    "team": "CHA",
+    "teamHistory": [
+      "CHA",
+      "BOS",
+      "NYK",
+      "DAL"
+    ],
+    "position": "PG",
+    "heightCm": 183,
+    "careerFgPct": 41.8,
+    "careerPts": 13809,
+    "awards": [
+      "4회 올스타"
+    ],
+    "draftPick": "2011 1라운드 9순위"
+  },
+  {
+    "id": "isaiah-thomas-2011",
+    "name": "아이제이아 토마스",
+    "nameEn": "Isaiah Thomas",
+    "team": "BOS",
+    "teamHistory": [
+      "SAC",
+      "PHX",
+      "BOS",
+      "CLE",
+      "LAL",
+      "DEN",
+      "WAS",
+      "CHA"
+    ],
+    "position": "PG",
+    "heightCm": 175,
+    "careerFgPct": 43,
+    "careerPts": 8887,
+    "awards": [
+      "2회 올스타"
+    ],
+    "draftPick": "2011 2라운드 60순위"
+  },
+  {
+    "id": "andrew-wiggins",
+    "name": "앤드류 위긴스",
+    "nameEn": "Andrew Wiggins",
+    "team": "GSW",
+    "teamHistory": [
+      "CLE",
+      "MIN",
+      "GSW",
+      "MIA"
+    ],
+    "position": "SF",
+    "heightCm": 201,
+    "careerFgPct": 45,
+    "careerPts": 13000,
+    "awards": [
+      "1회 우승",
+      "1회 올스타"
+    ],
+    "draftPick": "2014 1라운드 1순위"
+  },
+  {
+    "id": "karl-anthony-towns",
+    "name": "칼앤서니 타운스",
+    "nameEn": "Karl-Anthony Towns",
+    "team": "NYK",
+    "teamHistory": [
+      "MIN",
+      "NYK"
+    ],
+    "position": "C",
+    "heightCm": 213,
+    "careerFgPct": 51.9,
+    "careerPts": 15500,
+    "awards": [
+      "4회 올스타"
+    ],
+    "draftPick": "2015 1라운드 1순위"
+  },
+  {
+    "id": "dangelo-russell",
+    "name": "디안젤로 러셀",
+    "nameEn": "D'Angelo Russell",
+    "team": "LAL",
+    "teamHistory": [
+      "LAL",
+      "BKN",
+      "MIN",
+      "LAL"
+    ],
+    "position": "PG",
+    "heightCm": 193,
+    "careerFgPct": 43,
+    "careerPts": 11500,
+    "awards": [
+      "1회 올스타"
+    ],
+    "draftPick": "2015 1라운드 2순위"
+  },
+  {
+    "id": "jaylen-brown",
+    "name": "제일런 브라운",
+    "nameEn": "Jaylen Brown",
+    "team": "BOS",
+    "teamHistory": [
+      "BOS"
+    ],
+    "position": "SG",
+    "heightCm": 198,
+    "careerFgPct": 47.6,
+    "careerPts": 12500,
+    "awards": [
+      "1회 우승",
+      "1회 파이널 MVP",
+      "3회 올스타"
+    ],
+    "draftPick": "2016 1라운드 3순위"
+  },
+  {
+    "id": "ben-simmons",
+    "name": "벤 시몬스",
+    "nameEn": "Ben Simmons",
+    "team": "BKN",
+    "teamHistory": [
+      "PHI",
+      "BKN",
+      "LAC"
+    ],
+    "position": "PG",
+    "heightCm": 208,
+    "careerFgPct": 56.5,
+    "careerPts": 6500,
+    "awards": [
+      "3회 올스타"
+    ],
+    "draftPick": "2016 1라운드 1순위"
+  },
+  {
+    "id": "domantas-sabonis",
+    "name": "도만타스 사보니스",
+    "nameEn": "Domantas Sabonis",
+    "team": "SAC",
+    "teamHistory": [
+      "OKC",
+      "IND",
+      "SAC"
+    ],
+    "position": "PF",
+    "heightCm": 211,
+    "careerFgPct": 58,
+    "careerPts": 11000,
+    "awards": [
+      "3회 올스타"
+    ],
+    "draftPick": "2016 1라운드 11순위"
+  },
+  {
+    "id": "pascal-siakam",
+    "name": "파스칼 시아캄",
+    "nameEn": "Pascal Siakam",
+    "team": "IND",
+    "teamHistory": [
+      "TOR",
+      "IND"
+    ],
+    "position": "PF",
+    "heightCm": 203,
+    "careerFgPct": 51.2,
+    "careerPts": 11500,
+    "awards": [
+      "1회 우승",
+      "2회 올스타"
+    ],
+    "draftPick": "2016 1라운드 27순위"
+  },
+  {
+    "id": "jamal-murray",
+    "name": "자말 머레이",
+    "nameEn": "Jamal Murray",
+    "team": "DEN",
+    "teamHistory": [
+      "DEN"
+    ],
+    "position": "PG",
+    "heightCm": 193,
+    "careerFgPct": 45,
+    "careerPts": 9500,
+    "awards": [
+      "1회 우승"
+    ],
+    "draftPick": "2016 1라운드 7순위"
+  },
+  {
+    "id": "deaaron-fox",
+    "name": "디에런 폭스",
+    "nameEn": "De'Aaron Fox",
+    "team": "SAS",
+    "teamHistory": [
+      "SAC",
+      "SAS"
+    ],
+    "position": "PG",
+    "heightCm": 190,
+    "careerFgPct": 46.5,
+    "careerPts": 11500,
+    "awards": [
+      "1회 올스타"
+    ],
+    "draftPick": "2017 1라운드 5순위"
+  },
+  {
+    "id": "lauri-markkanen",
+    "name": "라우리 마카넨",
+    "nameEn": "Lauri Markkanen",
+    "team": "UTA",
+    "teamHistory": [
+      "CHI",
+      "CLE",
+      "UTA"
+    ],
+    "position": "PF",
+    "heightCm": 213,
+    "careerFgPct": 45.5,
+    "careerPts": 8500,
+    "awards": [
+      "1회 올스타"
+    ],
+    "draftPick": "2017 1라운드 7순위"
+  },
+  {
+    "id": "jarrett-allen",
+    "name": "재럿 앨런",
+    "nameEn": "Jarrett Allen",
+    "team": "CLE",
+    "teamHistory": [
+      "BKN",
+      "CLE"
+    ],
+    "position": "C",
+    "heightCm": 211,
+    "careerFgPct": 64,
+    "careerPts": 7500,
+    "awards": [
+      "1회 올스타"
+    ],
+    "draftPick": "2017 2라운드 22순위"
+  },
+  {
+    "id": "deandre-ayton",
+    "name": "디안드레 에이튼",
+    "nameEn": "Deandre Ayton",
+    "team": "POR",
+    "teamHistory": [
+      "PHX",
+      "POR"
+    ],
+    "position": "C",
+    "heightCm": 213,
+    "careerFgPct": 58.5,
+    "careerPts": 9500,
+    "awards": [],
+    "draftPick": "2018 1라운드 1순위"
+  },
+  {
+    "id": "collin-sexton",
+    "name": "콜린 섹스턴",
+    "nameEn": "Collin Sexton",
+    "team": "UTA",
+    "teamHistory": [
+      "CLE",
+      "UTA"
+    ],
+    "position": "PG",
+    "heightCm": 188,
+    "careerFgPct": 46.5,
+    "careerPts": 6500,
+    "awards": [],
+    "draftPick": "2018 1라운드 8순위"
+  },
+  {
+    "id": "tyler-herro",
+    "name": "타일러 헤로",
+    "nameEn": "Tyler Herro",
+    "team": "MIA",
+    "teamHistory": [
+      "MIA"
+    ],
+    "position": "SG",
+    "heightCm": 196,
+    "careerFgPct": 44.5,
+    "careerPts": 7500,
+    "awards": [
+      "1회 올스타"
+    ],
+    "draftPick": "2019 1라운드 13순위"
+  },
+  {
+    "id": "rj-barrett",
+    "name": "RJ 배럿",
+    "nameEn": "RJ Barrett",
+    "team": "TOR",
+    "teamHistory": [
+      "NYK",
+      "TOR"
+    ],
+    "position": "SG",
+    "heightCm": 198,
+    "careerFgPct": 44.5,
+    "careerPts": 7500,
+    "awards": [],
+    "draftPick": "2019 1라운드 3순위"
+  },
+  {
+    "id": "coby-white",
+    "name": "코비 화이트",
+    "nameEn": "Coby White",
+    "team": "CHI",
+    "teamHistory": [
+      "CHI"
+    ],
+    "position": "PG",
+    "heightCm": 196,
+    "careerFgPct": 43,
+    "careerPts": 5500,
+    "awards": [],
+    "draftPick": "2019 1라운드 7순위"
+  },
+  {
+    "id": "darius-garland",
+    "name": "대리어스 갈런드",
+    "nameEn": "Darius Garland",
+    "team": "CLE",
+    "teamHistory": [
+      "CLE"
+    ],
+    "position": "PG",
+    "heightCm": 188,
+    "careerFgPct": 44.5,
+    "careerPts": 7500,
+    "awards": [
+      "2회 올스타"
+    ],
+    "draftPick": "2019 1라운드 5순위"
+  },
+  {
+    "id": "lamelo-ball",
+    "name": "라멜로 볼",
+    "nameEn": "LaMelo Ball",
+    "team": "CHA",
+    "teamHistory": [
+      "CHA"
+    ],
+    "position": "PG",
+    "heightCm": 198,
+    "careerFgPct": 42.5,
+    "careerPts": 6500,
+    "awards": [
+      "2회 올스타"
+    ],
+    "draftPick": "2020 1라운드 3순위"
+  },
+  {
+    "id": "tyrese-haliburton",
+    "name": "타이리스 헐리버튼",
+    "nameEn": "Tyrese Haliburton",
+    "team": "IND",
+    "teamHistory": [
+      "SAC",
+      "IND"
+    ],
+    "position": "PG",
+    "heightCm": 196,
+    "careerFgPct": 47.5,
+    "careerPts": 8000,
+    "awards": [
+      "2회 올스타"
+    ],
+    "draftPick": "2020 1라운드 12순위"
+  },
+  {
+    "id": "evan-mobley",
+    "name": "에반 모블리",
+    "nameEn": "Evan Mobley",
+    "team": "CLE",
+    "teamHistory": [
+      "CLE"
+    ],
+    "position": "PF",
+    "heightCm": 211,
+    "careerFgPct": 57,
+    "careerPts": 6000,
+    "awards": [
+      "1회 올스타"
+    ],
+    "draftPick": "2021 1라운드 3순위"
+  },
+  {
+    "id": "cade-cunningham",
+    "name": "케이드 커닝햄",
+    "nameEn": "Cade Cunningham",
+    "team": "DET",
+    "teamHistory": [
+      "DET"
+    ],
+    "position": "PG",
+    "heightCm": 198,
+    "careerFgPct": 43,
+    "careerPts": 5000,
+    "awards": [
+      "1회 올스타"
+    ],
+    "draftPick": "2021 1라운드 1순위"
+  },
+  {
+    "id": "scottie-barnes",
+    "name": "스카티 반스",
+    "nameEn": "Scottie Barnes",
+    "team": "TOR",
+    "teamHistory": [
+      "TOR"
+    ],
+    "position": "SF",
+    "heightCm": 203,
+    "careerFgPct": 47,
+    "careerPts": 5500,
+    "awards": [
+      "1회 올스타"
+    ],
+    "draftPick": "2021 1라운드 4순위"
+  },
+  {
+    "id": "paolo-banchero",
+    "name": "파올로 반케로",
+    "nameEn": "Paolo Banchero",
+    "team": "ORL",
+    "teamHistory": [
+      "ORL"
+    ],
+    "position": "PF",
+    "heightCm": 208,
+    "careerFgPct": 45.5,
+    "careerPts": 5500,
+    "awards": [
+      "1회 올스타"
+    ],
+    "draftPick": "2022 1라운드 1순위"
+  },
+  {
+    "id": "chet-holmgren",
+    "name": "체트 홈그렌",
+    "nameEn": "Chet Holmgren",
+    "team": "OKC",
+    "teamHistory": [
+      "OKC"
+    ],
+    "position": "C",
+    "heightCm": 213,
+    "careerFgPct": 52,
+    "careerPts": 2500,
+    "awards": [],
+    "draftPick": "2022 1라운드 2순위"
+  },
+  {
+    "id": "jalen-williams",
+    "name": "잘런 윌리엄스",
+    "nameEn": "Jalen Williams",
+    "team": "OKC",
+    "teamHistory": [
+      "OKC"
+    ],
+    "position": "SF",
+    "heightCm": 198,
+    "careerFgPct": 50,
+    "careerPts": 3500,
+    "awards": [
+      "1회 올스타"
+    ],
+    "draftPick": "2022 1라운드 12순위"
+  },
+  {
+    "id": "franz-wagner",
+    "name": "프란츠 바그너",
+    "nameEn": "Franz Wagner",
+    "team": "ORL",
+    "teamHistory": [
+      "ORL"
+    ],
+    "position": "SF",
+    "heightCm": 203,
+    "careerFgPct": 47.5,
+    "careerPts": 4500,
+    "awards": [],
+    "draftPick": "2021 1라운드 8순위"
+  },
+  {
+    "id": "julius-erving",
+    "name": "줄리어스 어빙",
+    "nameEn": "Julius Erving",
+    "team": "PHI",
+    "teamHistory": [
+      "PHI"
+    ],
+    "position": "SF",
+    "heightCm": 198,
+    "careerFgPct": 50.7,
+    "careerPts": 18364,
+    "awards": [
+      "1회 우승",
+      "1회 MVP",
+      "11회 올스타"
+    ],
+    "draftPick": "1971 ABA 지명"
+  },
+  {
+    "id": "moses-malone",
+    "name": "모지스 말론",
+    "nameEn": "Moses Malone",
+    "team": "PHI",
+    "teamHistory": [
+      "HOU",
+      "PHI",
+      "WAS",
+      "ATL",
+      "MIL",
+      "SAS"
+    ],
+    "position": "C",
+    "heightCm": 208,
+    "careerFgPct": 49.1,
+    "careerPts": 27409,
+    "awards": [
+      "1회 우승",
+      "1회 파이널 MVP",
+      "3회 MVP",
+      "13회 올스타"
+    ],
+    "draftPick": "1974 ABA 지명"
+  },
+  {
+    "id": "george-gervin",
+    "name": "조지 저빈",
+    "nameEn": "George Gervin",
+    "team": "SAS",
+    "teamHistory": [
+      "SAS",
+      "CHI"
+    ],
+    "position": "SG",
+    "heightCm": 201,
+    "careerFgPct": 51.1,
+    "careerPts": 26595,
+    "awards": [
+      "12회 올스타"
+    ],
+    "draftPick": "1974 ABA 지명"
+  },
+  {
+    "id": "elgin-baylor",
+    "name": "엘진 베일러",
+    "nameEn": "Elgin Baylor",
+    "team": "LAL",
+    "teamHistory": [
+      "LAL"
+    ],
+    "position": "SF",
+    "heightCm": 198,
+    "careerFgPct": 43.1,
+    "careerPts": 23149,
+    "awards": [
+      "11회 올스타"
+    ],
+    "draftPick": "1958 1라운드 1순위"
+  },
+  {
+    "id": "jerry-west",
+    "name": "제리 웨스트",
+    "nameEn": "Jerry West",
+    "team": "LAL",
+    "teamHistory": [
+      "LAL"
+    ],
+    "position": "SG",
+    "heightCm": 188,
+    "careerFgPct": 47.4,
+    "careerPts": 25192,
+    "awards": [
+      "1회 우승",
+      "14회 올스타"
+    ],
+    "draftPick": "1960 1라운드 2순위"
+  },
+  {
+    "id": "oscar-robertson",
+    "name": "오스카 로버트슨",
+    "nameEn": "Oscar Robertson",
+    "team": "CIN",
+    "teamHistory": [
+      "CIN",
+      "MIL"
+    ],
+    "position": "PG",
+    "heightCm": 196,
+    "careerFgPct": 48.5,
+    "careerPts": 26710,
+    "awards": [
+      "1회 우승",
+      "1회 MVP",
+      "12회 올스타"
+    ],
+    "draftPick": "1960 1라운드 1순위"
+  },
+  {
+    "id": "bob-cousy",
+    "name": "밥 쿠지",
+    "nameEn": "Bob Cousy",
+    "team": "BOS",
+    "teamHistory": [
+      "BOS"
+    ],
+    "position": "PG",
+    "heightCm": 185,
+    "careerFgPct": 37.5,
+    "careerPts": 16960,
+    "awards": [
+      "6회 우승",
+      "1회 MVP",
+      "13회 올스타"
+    ],
+    "draftPick": "1950 1라운드 1순위"
+  },
+  {
+    "id": "bob-pettit",
+    "name": "밥 페팃",
+    "nameEn": "Bob Pettit",
+    "team": "STL",
+    "teamHistory": [
+      "STL"
+    ],
+    "position": "PF",
+    "heightCm": 206,
+    "careerFgPct": 43.6,
+    "careerPts": 20880,
+    "awards": [
+      "1회 우승",
+      "2회 MVP",
+      "11회 올스타"
+    ],
+    "draftPick": "1954 1라운드 2순위"
+  },
+  {
+    "id": "walt-frazier",
+    "name": "월트 프레이저",
+    "nameEn": "Walt Frazier",
+    "team": "NYK",
+    "teamHistory": [
+      "NYK",
+      "CLE"
+    ],
+    "position": "PG",
+    "heightCm": 190,
+    "careerFgPct": 49,
+    "careerPts": 15581,
+    "awards": [
+      "2회 우승",
+      "7회 올스타"
+    ],
+    "draftPick": "1967 1라운드 5순위"
+  },
+  {
+    "id": "willis-reed",
+    "name": "윌리스 리드",
+    "nameEn": "Willis Reed",
+    "team": "NYK",
+    "teamHistory": [
+      "NYK"
+    ],
+    "position": "C",
+    "heightCm": 206,
+    "careerFgPct": 47.6,
+    "careerPts": 12183,
+    "awards": [
+      "2회 우승",
+      "1회 MVP",
+      "7회 올스타"
+    ],
+    "draftPick": "1964 2라운드 8순위"
+  },
+  {
+    "id": "pete-maravich",
+    "name": "피트 마라비치",
+    "nameEn": "Pete Maravich",
+    "team": "NOJ",
+    "teamHistory": [
+      "ATL",
+      "NOJ",
+      "UTA",
+      "BOS"
+    ],
+    "position": "PG",
+    "heightCm": 196,
+    "careerFgPct": 44.1,
+    "careerPts": 15948,
+    "awards": [
+      "5회 올스타"
+    ],
+    "draftPick": "1970 1라운드 3순위"
+  },
+  {
+    "id": "bernard-king",
+    "name": "버나드 킹",
+    "nameEn": "Bernard King",
+    "team": "NYK",
+    "teamHistory": [
+      "NJN",
+      "UTA",
+      "GSW",
+      "NYK",
+      "WAS"
+    ],
+    "position": "SF",
+    "heightCm": 201,
+    "careerFgPct": 51.8,
+    "careerPts": 19655,
+    "awards": [
+      "4회 올스타"
+    ],
+    "draftPick": "1977 1라운드 7순위"
+  },
+  {
+    "id": "adrian-dantley",
+    "name": "에이드리안 댄틀리",
+    "nameEn": "Adrian Dantley",
+    "team": "UTA",
+    "teamHistory": [
+      "BUF",
+      "IND",
+      "LAL",
+      "UTA",
+      "DET",
+      "DAL",
+      "MIL"
+    ],
+    "position": "SF",
+    "heightCm": 198,
+    "careerFgPct": 54,
+    "careerPts": 23177,
+    "awards": [
+      "6회 올스타"
+    ],
+    "draftPick": "1976 1라운드 6순위"
+  },
+  {
+    "id": "alex-english",
+    "name": "알렉스 잉글리시",
+    "nameEn": "Alex English",
+    "team": "DEN",
+    "teamHistory": [
+      "MIL",
+      "IND",
+      "DEN",
+      "DAL"
+    ],
+    "position": "SF",
+    "heightCm": 201,
+    "careerFgPct": 50.7,
+    "careerPts": 25613,
+    "awards": [
+      "8회 올스타"
+    ],
+    "draftPick": "1976 2라운드 23순위"
+  },
+  {
+    "id": "robert-parish",
+    "name": "로버트 패리시",
+    "nameEn": "Robert Parish",
+    "team": "BOS",
+    "teamHistory": [
+      "GSW",
+      "BOS",
+      "CHI"
+    ],
+    "position": "C",
+    "heightCm": 216,
+    "careerFgPct": 53.7,
+    "careerPts": 23334,
+    "awards": [
+      "4회 우승",
+      "9회 올스타"
+    ],
+    "draftPick": "1976 1라운드 8순위"
+  },
+  {
+    "id": "kevin-mchale",
+    "name": "케빈 맥헤일",
+    "nameEn": "Kevin McHale",
+    "team": "BOS",
+    "teamHistory": [
+      "BOS"
+    ],
+    "position": "PF",
+    "heightCm": 208,
+    "careerFgPct": 55.4,
+    "careerPts": 17335,
+    "awards": [
+      "3회 우승",
+      "7회 올스타"
+    ],
+    "draftPick": "1980 1라운드 3순위"
+  },
+  {
+    "id": "dennis-johnson",
+    "name": "데니스 존슨",
+    "nameEn": "Dennis Johnson",
+    "team": "BOS",
+    "teamHistory": [
+      "SEA",
+      "PHX",
+      "BOS"
+    ],
+    "position": "PG",
+    "heightCm": 193,
+    "careerFgPct": 44.1,
+    "careerPts": 15535,
+    "awards": [
+      "3회 우승",
+      "1회 파이널 MVP",
+      "5회 올스타"
+    ],
+    "draftPick": "1976 2라운드 29순위"
+  },
+  {
+    "id": "artis-gilmore",
+    "name": "아티스 길모어",
+    "nameEn": "Artis Gilmore",
+    "team": "CHI",
+    "teamHistory": [
+      "KEN",
+      "CHI",
+      "SAS",
+      "BOS"
+    ],
+    "position": "C",
+    "heightCm": 218,
+    "careerFgPct": 59.9,
+    "careerPts": 24941,
+    "awards": [
+      "6회 올스타"
+    ],
+    "draftPick": "1971 ABA 지명"
+  },
+  {
+    "id": "jack-sikma",
+    "name": "잭 시크마",
+    "nameEn": "Jack Sikma",
+    "team": "SEA",
+    "teamHistory": [
+      "SEA",
+      "MIL"
+    ],
+    "position": "C",
+    "heightCm": 211,
+    "careerFgPct": 46.3,
+    "careerPts": 17287,
+    "awards": [
+      "7회 올스타"
+    ],
+    "draftPick": "1977 1라운드 8순위"
+  },
+  {
+    "id": "bill-walton",
+    "name": "빌 월튼",
+    "nameEn": "Bill Walton",
+    "team": "POR",
+    "teamHistory": [
+      "POR",
+      "SDC",
+      "LAC",
+      "BOS"
+    ],
+    "position": "C",
+    "heightCm": 211,
+    "careerFgPct": 52.1,
+    "careerPts": 6215,
+    "awards": [
+      "1회 우승",
+      "1회 MVP",
+      "2회 올스타"
+    ],
+    "draftPick": "1974 1라운드 1순위"
+  },
+  {
+    "id": "dan-issel",
+    "name": "댄 이슬",
+    "nameEn": "Dan Issel",
+    "team": "DEN",
+    "teamHistory": [
+      "KEN",
+      "DEN"
+    ],
+    "position": "C",
+    "heightCm": 206,
+    "careerFgPct": 50.7,
+    "careerPts": 27482,
+    "awards": [
+      "6회 올스타"
+    ],
+    "draftPick": "1970 1라운드 8순위"
+  },
+  {
+    "id": "nate-archibald",
+    "name": "네이트 아치볼드",
+    "nameEn": "Nate Archibald",
+    "team": "KCK",
+    "teamHistory": [
+      "CIN",
+      "KCK",
+      "BUF",
+      "BOS",
+      "MIL"
+    ],
+    "position": "PG",
+    "heightCm": 185,
+    "careerFgPct": 46.7,
+    "careerPts": 16481,
+    "awards": [
+      "1회 우승",
+      "6회 올스타"
+    ],
+    "draftPick": "1970 2라운드 19순위"
+  },
+  {
+    "id": "connie-hawkins",
+    "name": "코니 호킨스",
+    "nameEn": "Connie Hawkins",
+    "team": "PHX",
+    "teamHistory": [
+      "PIT",
+      "MNM",
+      "PHX",
+      "LAL",
+      "ATL"
+    ],
+    "position": "SF",
+    "heightCm": 206,
+    "careerFgPct": 46.7,
+    "careerPts": 8956,
+    "awards": [
+      "4회 올스타"
+    ],
+    "draftPick": "언드래프트"
+  },
+  {
+    "id": "mark-price",
+    "name": "마크 프라이스",
+    "nameEn": "Mark Price",
+    "team": "CLE",
+    "teamHistory": [
+      "CLE",
+      "WAS",
+      "GSW",
+      "ORL"
+    ],
+    "position": "PG",
+    "heightCm": 183,
+    "careerFgPct": 47.4,
+    "careerPts": 11469,
+    "awards": [
+      "4회 올스타"
+    ],
+    "draftPick": "1986 2라운드 25순위"
+  },
+  {
+    "id": "danny-manning",
+    "name": "대니 매닝",
+    "nameEn": "Danny Manning",
+    "team": "LAC",
+    "teamHistory": [
+      "LAC",
+      "ATL",
+      "PHX",
+      "MIL",
+      "UTA",
+      "DET"
+    ],
+    "position": "PF",
+    "heightCm": 208,
+    "careerFgPct": 48.1,
+    "careerPts": 12367,
+    "awards": [
+      "1회 올스타"
+    ],
+    "draftPick": "1988 1라운드 1순위"
+  },
+  {
+    "id": "larry-johnson",
+    "name": "래리 존슨",
+    "nameEn": "Larry Johnson",
+    "team": "CHH",
+    "teamHistory": [
+      "CHH",
+      "NYK"
+    ],
+    "position": "PF",
+    "heightCm": 201,
+    "careerFgPct": 47.6,
+    "careerPts": 11784,
+    "awards": [
+      "2회 올스타"
+    ],
+    "draftPick": "1991 1라운드 1순위"
+  },
+  {
+    "id": "nick-van-exel",
+    "name": "닉 밴 엑셀",
+    "nameEn": "Nick Van Exel",
+    "team": "LAL",
+    "teamHistory": [
+      "LAL",
+      "DEN",
+      "DAL",
+      "POR",
+      "SAS"
+    ],
+    "position": "PG",
+    "heightCm": 185,
+    "careerFgPct": 40.9,
+    "careerPts": 13279,
+    "awards": [
+      "1회 올스타"
+    ],
+    "draftPick": "1993 2라운드 37순위"
+  },
+  {
+    "id": "sam-cassell",
+    "name": "샘 캐셀",
+    "nameEn": "Sam Cassell",
+    "team": "HOU",
+    "teamHistory": [
+      "HOU",
+      "PHI",
+      "NJN",
+      "MIL",
+      "MIN",
+      "LAC",
+      "BOS"
+    ],
+    "position": "PG",
+    "heightCm": 188,
+    "careerFgPct": 44.8,
+    "careerPts": 16137,
+    "awards": [
+      "3회 우승",
+      "1회 올스타"
+    ],
+    "draftPick": "1993 1라운드 24순위"
+  },
+  {
+    "id": "rik-smits",
+    "name": "릭 스미츠",
+    "nameEn": "Rik Smits",
+    "team": "IND",
+    "teamHistory": [
+      "IND"
+    ],
+    "position": "C",
+    "heightCm": 224,
+    "careerFgPct": 50.7,
+    "careerPts": 12871,
+    "awards": [
+      "1회 올스타"
+    ],
+    "draftPick": "1988 1라운드 2순위"
+  },
+  {
+    "id": "detlef-schrempf",
+    "name": "데틀레프 슈렘프",
+    "nameEn": "Detlef Schrempf",
+    "team": "SEA",
+    "teamHistory": [
+      "DAL",
+      "IND",
+      "SEA",
+      "POR"
+    ],
+    "position": "SF",
+    "heightCm": 208,
+    "careerFgPct": 47.5,
+    "careerPts": 15761,
+    "awards": [
+      "3회 올스타"
+    ],
+    "draftPick": "1985 1라운드 8순위"
+  },
+  {
+    "id": "toni-kukoc",
+    "name": "토니 쿠코치",
+    "nameEn": "Toni Kukoc",
+    "team": "CHI",
+    "teamHistory": [
+      "CHI",
+      "PHI",
+      "ATL",
+      "MIL"
+    ],
+    "position": "SF",
+    "heightCm": 208,
+    "careerFgPct": 47,
+    "careerPts": 11855,
+    "awards": [
+      "3회 우승",
+      "1회 올스타"
+    ],
+    "draftPick": "1990 2라운드 29순위"
+  },
+  {
+    "id": "sam-perkins",
+    "name": "샘 퍼킨스",
+    "nameEn": "Sam Perkins",
+    "team": "DAL",
+    "teamHistory": [
+      "DAL",
+      "LAL",
+      "SEA",
+      "IND"
+    ],
+    "position": "PF",
+    "heightCm": 208,
+    "careerFgPct": 44.9,
+    "careerPts": 14063,
+    "awards": [],
+    "draftPick": "1984 1라운드 4순위"
+  },
+  {
+    "id": "ac-green",
+    "name": "A.C. 그린",
+    "nameEn": "A.C. Green",
+    "team": "LAL",
+    "teamHistory": [
+      "LAL",
+      "PHX",
+      "DAL",
+      "MIA"
+    ],
+    "position": "PF",
+    "heightCm": 206,
+    "careerFgPct": 51.9,
+    "careerPts": 12337,
+    "awards": [],
+    "draftPick": "1985 1라운드 23순위"
+  },
+  {
+    "id": "otis-thorpe",
+    "name": "오티스 소프",
+    "nameEn": "Otis Thorpe",
+    "team": "HOU",
+    "teamHistory": [
+      "SAC",
+      "HOU",
+      "DET",
+      "VAN",
+      "WAS",
+      "MIA"
+    ],
+    "position": "PF",
+    "heightCm": 206,
+    "careerFgPct": 52.4,
+    "careerPts": 15816,
+    "awards": [
+      "1회 우승",
+      "1회 올스타"
+    ],
+    "draftPick": "1984 1라운드 9순위"
+  },
+  {
+    "id": "rony-seikaly",
+    "name": "로니 세이컬리",
+    "nameEn": "Rony Seikaly",
+    "team": "MIA",
+    "teamHistory": [
+      "MIA",
+      "GSW",
+      "ORL",
+      "NJN"
+    ],
+    "position": "C",
+    "heightCm": 211,
+    "careerFgPct": 51.6,
+    "careerPts": 11102,
+    "awards": [],
+    "draftPick": "1988 1라운드 9순위"
+  },
+  {
+    "id": "brad-daugherty",
+    "name": "브래드 도허티",
+    "nameEn": "Brad Daugherty",
+    "team": "CLE",
+    "teamHistory": [
+      "CLE"
+    ],
+    "position": "C",
+    "heightCm": 211,
+    "careerFgPct": 53.2,
+    "careerPts": 10389,
+    "awards": [
+      "5회 올스타"
+    ],
+    "draftPick": "1986 1라운드 1순위"
+  },
+  {
+    "id": "kevin-johnson",
+    "name": "케빈 존슨",
+    "nameEn": "Kevin Johnson",
+    "team": "PHX",
+    "teamHistory": [
+      "CLE",
+      "PHX"
+    ],
+    "position": "PG",
+    "heightCm": 185,
+    "careerFgPct": 49.5,
+    "careerPts": 15665,
+    "awards": [
+      "3회 올스타"
+    ],
+    "draftPick": "1987 1라운드 7순위"
+  },
+  {
+    "id": "dan-majerle",
+    "name": "댄 마얼리",
+    "nameEn": "Dan Majerle",
+    "team": "PHX",
+    "teamHistory": [
+      "PHX",
+      "CLE",
+      "MIA"
+    ],
+    "position": "SF",
+    "heightCm": 198,
+    "careerFgPct": 43.9,
+    "careerPts": 11213,
+    "awards": [
+      "3회 올스타"
+    ],
+    "draftPick": "1988 1라운드 14순위"
+  },
+  {
+    "id": "terry-porter",
+    "name": "테리 포터",
+    "nameEn": "Terry Porter",
+    "team": "POR",
+    "teamHistory": [
+      "POR",
+      "MIN",
+      "MIA",
+      "SAS"
+    ],
+    "position": "PG",
+    "heightCm": 193,
+    "careerFgPct": 44.6,
+    "careerPts": 13290,
+    "awards": [
+      "2회 올스타"
+    ],
+    "draftPick": "1985 1라운드 24순위"
+  },
+  {
+    "id": "mookie-blaylock",
+    "name": "무키 블레이록",
+    "nameEn": "Mookie Blaylock",
+    "team": "ATL",
+    "teamHistory": [
+      "NJN",
+      "ATL",
+      "GSW",
+      "WAS"
+    ],
+    "position": "PG",
+    "heightCm": 185,
+    "careerFgPct": 40,
+    "careerPts": 11637,
+    "awards": [
+      "1회 올스타"
+    ],
+    "draftPick": "1989 1라운드 12순위"
+  },
+  {
+    "id": "michael-adams",
+    "name": "마이클 애덤스",
+    "nameEn": "Michael Adams",
+    "team": "DEN",
+    "teamHistory": [
+      "SAC",
+      "WAS",
+      "DEN",
+      "CHH",
+      "CHI"
+    ],
+    "position": "PG",
+    "heightCm": 178,
+    "careerFgPct": 40.1,
+    "careerPts": 9436,
+    "awards": [
+      "1회 올스타"
+    ],
+    "draftPick": "1985 3라운드 66순위"
+  },
+  {
+    "id": "world-b-free",
+    "name": "월드 B. 프리",
+    "nameEn": "World B. Free",
+    "team": "CLE",
+    "teamHistory": [
+      "PHI",
+      "SD",
+      "GSW",
+      "CLE",
+      "DET",
+      "HOU"
+    ],
+    "position": "SG",
+    "heightCm": 188,
+    "careerFgPct": 46.5,
+    "careerPts": 17955,
+    "awards": [
+      "1회 올스타"
+    ],
+    "draftPick": "1975 2라운드 23순위"
+  },
+  {
+    "id": "steve-francis",
+    "name": "스티브 프랜시스",
+    "nameEn": "Steve Francis",
+    "team": "HOU",
+    "teamHistory": [
+      "HOU",
+      "ORL",
+      "NYK"
+    ],
+    "position": "PG",
+    "heightCm": 188,
+    "careerFgPct": 43.8,
+    "careerPts": 12812,
+    "awards": [
+      "3회 올스타"
+    ],
+    "draftPick": "1999 1라운드 2순위"
+  },
+  {
+    "id": "michael-redd",
+    "name": "마이클 레드",
+    "nameEn": "Michael Redd",
+    "team": "MIL",
+    "teamHistory": [
+      "MIL",
+      "PHX"
+    ],
+    "position": "SG",
+    "heightCm": 198,
+    "careerFgPct": 44.7,
+    "careerPts": 12142,
+    "awards": [
+      "1회 올스타"
+    ],
+    "draftPick": "2000 2라운드 43순위"
+  },
+  {
+    "id": "jason-terry",
+    "name": "제이슨 테리",
+    "nameEn": "Jason Terry",
+    "team": "DAL",
+    "teamHistory": [
+      "ATL",
+      "DAL",
+      "BOS",
+      "MIL",
+      "HOU"
+    ],
+    "position": "SG",
+    "heightCm": 191,
+    "careerFgPct": 43.5,
+    "careerPts": 19163,
+    "awards": [
+      "1회 우승",
+      "1회 올스타"
+    ],
+    "draftPick": "1999 1라운드 10순위"
+  },
+  {
+    "id": "bruce-bowen",
+    "name": "브루스 보웬",
+    "nameEn": "Bruce Bowen",
+    "team": "SAS",
+    "teamHistory": [
+      "MIA",
+      "BOS",
+      "PHI",
+      "SAS"
+    ],
+    "position": "SF",
+    "heightCm": 201,
+    "careerFgPct": 42.6,
+    "careerPts": 5914,
+    "awards": [
+      "3회 우승"
+    ],
+    "draftPick": "언드래프트"
+  },
+  {
+    "id": "caron-butler",
+    "name": "캐런 버틀러",
+    "nameEn": "Caron Butler",
+    "team": "WAS",
+    "teamHistory": [
+      "MIA",
+      "LAL",
+      "WAS",
+      "DAL",
+      "LAC",
+      "MIL",
+      "OKC",
+      "SAS",
+      "DET"
+    ],
+    "position": "SF",
+    "heightCm": 198,
+    "careerFgPct": 44.9,
+    "careerPts": 14415,
+    "awards": [
+      "2회 올스타"
+    ],
+    "draftPick": "2002 1라운드 10순위"
+  },
+  {
+    "id": "josh-smith",
+    "name": "조시 스미스",
+    "nameEn": "Josh Smith",
+    "team": "ATL",
+    "teamHistory": [
+      "ATL",
+      "DET",
+      "HOU",
+      "LAC"
+    ],
+    "position": "PF",
+    "heightCm": 206,
+    "careerFgPct": 45.9,
+    "careerPts": 13077,
+    "awards": [
+      "1회 올스타"
+    ],
+    "draftPick": "2004 1라운드 17순위"
+  },
+  {
+    "id": "al-horford",
+    "name": "알 호포드",
+    "nameEn": "Al Horford",
+    "team": "BOS",
+    "teamHistory": [
+      "ATL",
+      "BOS",
+      "PHI",
+      "OKC",
+      "BOS"
+    ],
+    "position": "C",
+    "heightCm": 206,
+    "careerFgPct": 51.4,
+    "careerPts": 13500,
+    "awards": [
+      "1회 우승",
+      "5회 올스타"
+    ],
+    "draftPick": "2007 1라운드 3순위"
+  },
+  {
+    "id": "marcus-camby",
+    "name": "마커스 캠비",
+    "nameEn": "Marcus Camby",
+    "team": "NYK",
+    "teamHistory": [
+      "TOR",
+      "NYK",
+      "DEN",
+      "LAC",
+      "POR",
+      "HOU"
+    ],
+    "position": "C",
+    "heightCm": 211,
+    "careerFgPct": 48.5,
+    "careerPts": 9348,
+    "awards": [
+      "1회 DPOY",
+      "1회 올스타"
+    ],
+    "draftPick": "1996 1라운드 2순위"
+  },
+  {
+    "id": "tyson-chandler",
+    "name": "타이슨 챈들러",
+    "nameEn": "Tyson Chandler",
+    "team": "DAL",
+    "teamHistory": [
+      "CHI",
+      "NOH",
+      "CHA",
+      "DAL",
+      "NYK",
+      "PHX",
+      "LAL",
+      "HOU"
+    ],
+    "position": "C",
+    "heightCm": 213,
+    "careerFgPct": 59.4,
+    "careerPts": 8330,
+    "awards": [
+      "1회 우승",
+      "1회 DPOY",
+      "1회 올스타"
+    ],
+    "draftPick": "2001 1라운드 2순위"
+  },
+  {
+    "id": "nene-hilario",
+    "name": "네네",
+    "nameEn": "Nene Hilario",
+    "team": "DEN",
+    "teamHistory": [
+      "DEN",
+      "WAS",
+      "HOU",
+      "PHI"
+    ],
+    "position": "C",
+    "heightCm": 208,
+    "careerFgPct": 54.4,
+    "careerPts": 12102,
+    "awards": [],
+    "draftPick": "2002 1라운드 7순위"
+  },
+  {
+    "id": "luis-scola",
+    "name": "루이스 스콜라",
+    "nameEn": "Luis Scola",
+    "team": "HOU",
+    "teamHistory": [
+      "HOU",
+      "PHX",
+      "IND",
+      "TOR",
+      "BKN"
+    ],
+    "position": "PF",
+    "heightCm": 206,
+    "careerFgPct": 49.9,
+    "careerPts": 11003,
+    "awards": [],
+    "draftPick": "2002 2라운드 56순위"
+  },
+  {
+    "id": "andrea-bargnani",
+    "name": "안드레아 바르냐니",
+    "nameEn": "Andrea Bargnani",
+    "team": "TOR",
+    "teamHistory": [
+      "TOR",
+      "NYK",
+      "BKN"
+    ],
+    "position": "PF",
+    "heightCm": 213,
+    "careerFgPct": 42.9,
+    "careerPts": 8730,
+    "awards": [],
+    "draftPick": "2006 1라운드 1순위"
+  },
+  {
+    "id": "danilo-gallinari",
+    "name": "다닐로 갈리나리",
+    "nameEn": "Danilo Gallinari",
+    "team": "DEN",
+    "teamHistory": [
+      "NYK",
+      "DEN",
+      "LAC",
+      "ATL",
+      "OKC",
+      "BOS",
+      "WAS",
+      "SAS"
+    ],
+    "position": "SF",
+    "heightCm": 208,
+    "careerFgPct": 43.5,
+    "careerPts": 12784,
+    "awards": [],
+    "draftPick": "2008 1라운드 6순위"
+  },
+  {
+    "id": "nicolas-batum",
+    "name": "니콜라 바튐",
+    "nameEn": "Nicolas Batum",
+    "team": "LAC",
+    "teamHistory": [
+      "POR",
+      "CHA",
+      "LAC"
+    ],
+    "position": "SF",
+    "heightCm": 203,
+    "careerFgPct": 43.9,
+    "careerPts": 10500,
+    "awards": [
+      "1회 올스타"
+    ],
+    "draftPick": "2008 1라운드 25순위"
+  },
+  {
+    "id": "emeka-okafor",
+    "name": "에메카 오카포",
+    "nameEn": "Emeka Okafor",
+    "team": "CHA",
+    "teamHistory": [
+      "CHA",
+      "NOH",
+      "WAS"
+    ],
+    "position": "C",
+    "heightCm": 208,
+    "careerFgPct": 51.3,
+    "careerPts": 8973,
+    "awards": [],
+    "draftPick": "2004 1라운드 2순위"
+  },
+  {
+    "id": "samuel-dalembert",
+    "name": "새뮤얼 달렘버트",
+    "nameEn": "Samuel Dalembert",
+    "team": "PHI",
+    "teamHistory": [
+      "PHI",
+      "SAC",
+      "HOU",
+      "MIL",
+      "DAL",
+      "NYK"
+    ],
+    "position": "C",
+    "heightCm": 211,
+    "careerFgPct": 51.6,
+    "careerPts": 6979,
+    "awards": [],
+    "draftPick": "2001 1라운드 26순위"
+  },
+  {
+    "id": "paul-millsap",
+    "name": "폴 밀샙",
+    "nameEn": "Paul Millsap",
+    "team": "ATL",
+    "teamHistory": [
+      "UTA",
+      "ATL",
+      "DEN",
+      "PHI"
+    ],
+    "position": "PF",
+    "heightCm": 201,
+    "careerFgPct": 49.6,
+    "careerPts": 15455,
+    "awards": [
+      "4회 올스타"
+    ],
+    "draftPick": "2006 2라운드 47순위"
+  },
+  {
+    "id": "serge-ibaka",
+    "name": "서지 이바카",
+    "nameEn": "Serge Ibaka",
+    "team": "OKC",
+    "teamHistory": [
+      "OKC",
+      "ORL",
+      "TOR",
+      "LAC",
+      "MIL"
+    ],
+    "position": "PF",
+    "heightCm": 208,
+    "careerFgPct": 49.5,
+    "careerPts": 11500,
+    "awards": [
+      "1회 우승",
+      "1회 올스타"
+    ],
+    "draftPick": "2008 1라운드 24순위"
+  },
+  {
+    "id": "nikola-vucevic",
+    "name": "니콜라 부체비치",
+    "nameEn": "Nikola Vucevic",
+    "team": "CHI",
+    "teamHistory": [
+      "PHI",
+      "ORL",
+      "CHI"
+    ],
+    "position": "C",
+    "heightCm": 211,
+    "careerFgPct": 50.6,
+    "careerPts": 16500,
+    "awards": [
+      "2회 올스타"
+    ],
+    "draftPick": "2011 1라운드 16순위"
+  },
+  {
+    "id": "victor-oladipo",
+    "name": "빅터 올라디포",
+    "nameEn": "Victor Oladipo",
+    "team": "MIA",
+    "teamHistory": [
+      "ORL",
+      "OKC",
+      "IND",
+      "HOU",
+      "MIA"
+    ],
+    "position": "SG",
+    "heightCm": 193,
+    "careerFgPct": 44.6,
+    "careerPts": 9500,
+    "awards": [
+      "1회 올스타"
+    ],
+    "draftPick": "2013 1라운드 2순위"
+  },
+  {
+    "id": "bradley-beal",
+    "name": "브래들리 빌",
+    "nameEn": "Bradley Beal",
+    "team": "PHX",
+    "teamHistory": [
+      "WAS",
+      "PHX"
+    ],
+    "position": "SG",
+    "heightCm": 196,
+    "careerFgPct": 45.5,
+    "careerPts": 16500,
+    "awards": [
+      "3회 올스타"
+    ],
+    "draftPick": "2012 1라운드 3순위"
+  },
+  {
+    "id": "cj-mccollum",
+    "name": "CJ 매컬럼",
+    "nameEn": "CJ McCollum",
+    "team": "NOP",
+    "teamHistory": [
+      "POR",
+      "NOP"
+    ],
+    "position": "SG",
+    "heightCm": 191,
+    "careerFgPct": 44.8,
+    "careerPts": 15500,
+    "awards": [
+      "1회 올스타"
+    ],
+    "draftPick": "2013 1라운드 10순위"
+  },
+  {
+    "id": "jrue-holiday",
+    "name": "주 홀리데이",
+    "nameEn": "Jrue Holiday",
+    "team": "POR",
+    "teamHistory": [
+      "PHI",
+      "NOH",
+      "NOP",
+      "MIL",
+      "BOS",
+      "POR"
+    ],
+    "position": "PG",
+    "heightCm": 193,
+    "careerFgPct": 45.6,
+    "careerPts": 15000,
+    "awards": [
+      "1회 우승",
+      "2회 올스타"
+    ],
+    "draftPick": "2009 1라운드 17순위"
+  },
+  {
+    "id": "eric-bledsoe",
+    "name": "에릭 블레드소",
+    "nameEn": "Eric Bledsoe",
+    "team": "MIL",
+    "teamHistory": [
+      "LAC",
+      "PHX",
+      "MIL",
+      "NOP",
+      "LAC",
+      "POR"
+    ],
+    "position": "PG",
+    "heightCm": 185,
+    "careerFgPct": 44.9,
+    "careerPts": 10500,
+    "awards": [
+      "1회 올스타"
+    ],
+    "draftPick": "2010 1라운드 18순위"
+  },
+  {
+    "id": "goran-dragic",
+    "name": "고란 드라기치",
+    "nameEn": "Goran Dragic",
+    "team": "MIA",
+    "teamHistory": [
+      "PHX",
+      "HOU",
+      "MIA",
+      "TOR",
+      "BKN",
+      "CHI"
+    ],
+    "position": "PG",
+    "heightCm": 190,
+    "careerFgPct": 46,
+    "careerPts": 12500,
+    "awards": [
+      "1회 올스타"
+    ],
+    "draftPick": "2008 2라운드 45순위"
+  },
+  {
+    "id": "kyle-lowry",
+    "name": "카일 라우리",
+    "nameEn": "Kyle Lowry",
+    "team": "MIA",
+    "teamHistory": [
+      "MEM",
+      "HOU",
+      "TOR",
+      "MIA",
+      "PHI"
+    ],
+    "position": "PG",
+    "heightCm": 183,
+    "careerFgPct": 41.5,
+    "careerPts": 15500,
+    "awards": [
+      "1회 우승",
+      "6회 올스타"
+    ],
+    "draftPick": "2006 1라운드 24순위"
+  },
+  {
+    "id": "demar-derozan",
+    "name": "드마 드로잔",
+    "nameEn": "DeMar DeRozan",
+    "team": "SAC",
+    "teamHistory": [
+      "TOR",
+      "SAS",
+      "CHI",
+      "SAC"
+    ],
+    "position": "SG",
+    "heightCm": 198,
+    "careerFgPct": 46,
+    "careerPts": 22000,
+    "awards": [
+      "6회 올스타"
+    ],
+    "draftPick": "2009 1라운드 9순위"
+  },
+  {
+    "id": "harrison-barnes",
+    "name": "해리슨 반스",
+    "nameEn": "Harrison Barnes",
+    "team": "SAC",
+    "teamHistory": [
+      "GSW",
+      "DAL",
+      "SAC"
+    ],
+    "position": "SF",
+    "heightCm": 203,
+    "careerFgPct": 45.6,
+    "careerPts": 13500,
+    "awards": [
+      "1회 우승"
+    ],
+    "draftPick": "2012 1라운드 7순위"
+  },
+  {
+    "id": "robert-covington",
+    "name": "로버트 코빙턴",
+    "nameEn": "Robert Covington",
+    "team": "LAC",
+    "teamHistory": [
+      "HOU",
+      "PHI",
+      "MIN",
+      "POR",
+      "PHX",
+      "LAC"
+    ],
+    "position": "PF",
+    "heightCm": 201,
+    "careerFgPct": 41.8,
+    "careerPts": 6500,
+    "awards": [],
+    "draftPick": "언드래프트"
+  },
+  {
+    "id": "pj-tucker",
+    "name": "P.J. 터커",
+    "nameEn": "P.J. Tucker",
+    "team": "LAC",
+    "teamHistory": [
+      "PHX",
+      "TOR",
+      "HOU",
+      "MIL",
+      "PHI",
+      "LAC"
+    ],
+    "position": "PF",
+    "heightCm": 196,
+    "careerFgPct": 44.5,
+    "careerPts": 5500,
+    "awards": [
+      "1회 우승"
+    ],
+    "draftPick": "2006 2라운드 35순위"
+  },
+  {
+    "id": "steven-adams",
+    "name": "스티븐 아담스",
+    "nameEn": "Steven Adams",
+    "team": "HOU",
+    "teamHistory": [
+      "OKC",
+      "NOP",
+      "MEM",
+      "HOU"
+    ],
+    "position": "C",
+    "heightCm": 211,
+    "careerFgPct": 57.5,
+    "careerPts": 6800,
+    "awards": [],
+    "draftPick": "2013 1라운드 12순위"
+  },
+  {
+    "id": "enes-kanter",
+    "name": "에네스 캔터",
+    "nameEn": "Enes Kanter",
+    "team": "POR",
+    "teamHistory": [
+      "UTA",
+      "OKC",
+      "NYK",
+      "POR",
+      "BOS",
+      "HOU"
+    ],
+    "position": "C",
+    "heightCm": 211,
+    "careerFgPct": 54.7,
+    "careerPts": 8140,
+    "awards": [],
+    "draftPick": "2011 1라운드 3순위"
+  },
+  {
+    "id": "andre-drummond",
+    "name": "앙드레 드러먼드",
+    "nameEn": "Andre Drummond",
+    "team": "PHI",
+    "teamHistory": [
+      "DET",
+      "CLE",
+      "LAL",
+      "PHI",
+      "CHI",
+      "MIN"
+    ],
+    "position": "C",
+    "heightCm": 208,
+    "careerFgPct": 53.6,
+    "careerPts": 12500,
+    "awards": [
+      "2회 올스타"
+    ],
+    "draftPick": "2012 1라운드 9순위"
+  },
+  {
+    "id": "demarcus-cousins",
+    "name": "드마커스 커즌스",
+    "nameEn": "DeMarcus Cousins",
+    "team": "LAL",
+    "teamHistory": [
+      "SAC",
+      "NOP",
+      "GSW",
+      "LAL",
+      "MIL",
+      "DEN"
+    ],
+    "position": "C",
+    "heightCm": 208,
+    "careerFgPct": 45.6,
+    "careerPts": 11700,
+    "awards": [
+      "4회 올스타"
+    ],
+    "draftPick": "2010 1라운드 5순위"
+  },
+  {
+    "id": "rudy-gobert",
+    "name": "루디 고베어",
+    "nameEn": "Rudy Gobert",
+    "team": "MIN",
+    "teamHistory": [
+      "UTA",
+      "MIN"
+    ],
+    "position": "C",
+    "heightCm": 216,
+    "careerFgPct": 65.5,
+    "careerPts": 10500,
+    "awards": [
+      "4회 DPOY",
+      "3회 올스타"
+    ],
+    "draftPick": "2013 1라운드 27순위"
+  },
+  {
+    "id": "julius-randle",
+    "name": "줄리어스 랜들",
+    "nameEn": "Julius Randle",
+    "team": "MIN",
+    "teamHistory": [
+      "LAL",
+      "NOP",
+      "NYK",
+      "MIN"
+    ],
+    "position": "PF",
+    "heightCm": 203,
+    "careerFgPct": 46.7,
+    "careerPts": 14500,
+    "awards": [
+      "2회 올스타"
+    ],
+    "draftPick": "2014 1라운드 7순위"
+  },
+  {
+    "id": "jalen-brunson",
+    "name": "제일런 브런슨",
+    "nameEn": "Jalen Brunson",
+    "team": "NYK",
+    "teamHistory": [
+      "DAL",
+      "NYK"
+    ],
+    "position": "PG",
+    "heightCm": 188,
+    "careerFgPct": 47.5,
+    "careerPts": 9500,
+    "awards": [
+      "2회 올스타"
+    ],
+    "draftPick": "2018 2라운드 33순위"
+  },
+  {
+    "id": "mikal-bridges",
+    "name": "마이컬 브리지스",
+    "nameEn": "Mikal Bridges",
+    "team": "NYK",
+    "teamHistory": [
+      "PHX",
+      "BKN",
+      "NYK"
+    ],
+    "position": "SF",
+    "heightCm": 198,
+    "careerFgPct": 45.5,
+    "careerPts": 8500,
+    "awards": [],
+    "draftPick": "2018 1라운드 10순위"
+  },
+  {
+    "id": "og-anunoby",
+    "name": "OG 아누노비",
+    "nameEn": "OG Anunoby",
+    "team": "NYK",
+    "teamHistory": [
+      "TOR",
+      "NYK"
+    ],
+    "position": "SF",
+    "heightCm": 201,
+    "careerFgPct": 47.5,
+    "careerPts": 6800,
+    "awards": [],
+    "draftPick": "2017 1라운드 23순위"
+  },
+  {
+    "id": "fred-vanvleet",
+    "name": "프레드 밴블리트",
+    "nameEn": "Fred VanVleet",
+    "team": "HOU",
+    "teamHistory": [
+      "TOR",
+      "HOU"
+    ],
+    "position": "PG",
+    "heightCm": 183,
+    "careerFgPct": 40.3,
+    "careerPts": 8500,
+    "awards": [
+      "1회 우승"
+    ],
+    "draftPick": "언드래프트"
+  },
+  {
+    "id": "zach-lavine",
+    "name": "잭 라빈",
+    "nameEn": "Zach LaVine",
+    "team": "SAC",
+    "teamHistory": [
+      "MIN",
+      "CHI",
+      "SAC"
+    ],
+    "position": "SG",
+    "heightCm": 196,
+    "careerFgPct": 45.8,
+    "careerPts": 13500,
+    "awards": [
+      "2회 올스타"
+    ],
+    "draftPick": "2014 1라운드 13순위"
+  },
+  {
+    "id": "jerami-grant",
+    "name": "제라미 그랜트",
+    "nameEn": "Jerami Grant",
+    "team": "POR",
+    "teamHistory": [
+      "PHI",
+      "OKC",
+      "DEN",
+      "DET",
+      "POR"
+    ],
+    "position": "PF",
+    "heightCm": 203,
+    "careerFgPct": 45.5,
+    "careerPts": 9500,
+    "awards": [],
+    "draftPick": "2014 2라운드 39순위"
+  },
+  {
+    "id": "tobias-harris",
+    "name": "토바이어스 해리스",
+    "nameEn": "Tobias Harris",
+    "team": "DET",
+    "teamHistory": [
+      "MIL",
+      "ORL",
+      "DET",
+      "LAC",
+      "PHI",
+      "DET"
+    ],
+    "position": "PF",
+    "heightCm": 203,
+    "careerFgPct": 47.5,
+    "careerPts": 14500,
+    "awards": [],
+    "draftPick": "2011 1라운드 19순위"
+  },
+  {
+    "id": "terry-rozier",
+    "name": "테리 로지어",
+    "nameEn": "Terry Rozier",
+    "team": "MIA",
+    "teamHistory": [
+      "BOS",
+      "CHA",
+      "MIA"
+    ],
+    "position": "PG",
+    "heightCm": 185,
+    "careerFgPct": 42.5,
+    "careerPts": 9500,
+    "awards": [],
+    "draftPick": "2015 1라운드 16순위"
+  },
+  {
+    "id": "jordan-poole",
+    "name": "조던 풀",
+    "nameEn": "Jordan Poole",
+    "team": "WAS",
+    "teamHistory": [
+      "GSW",
+      "WAS"
+    ],
+    "position": "SG",
+    "heightCm": 193,
+    "careerFgPct": 43,
+    "careerPts": 5500,
+    "awards": [
+      "1회 우승"
+    ],
+    "draftPick": "2019 1라운드 28순위"
+  },
+  {
+    "id": "alperen-sengun",
+    "name": "알페렌 셍귄",
+    "nameEn": "Alperen Sengun",
+    "team": "HOU",
+    "teamHistory": [
+      "HOU"
+    ],
+    "position": "C",
+    "heightCm": 211,
+    "careerFgPct": 54.5,
+    "careerPts": 5000,
+    "awards": [
+      "1회 올스타"
+    ],
+    "draftPick": "2021 1라운드 16순위"
+  },
+  {
+    "id": "anfernee-simons",
+    "name": "앤퍼니 사이먼스",
+    "nameEn": "Anfernee Simons",
+    "team": "POR",
+    "teamHistory": [
+      "POR"
+    ],
+    "position": "SG",
+    "heightCm": 191,
+    "careerFgPct": 44.5,
+    "careerPts": 6500,
+    "awards": [],
+    "draftPick": "2018 1라운드 24순위"
+  },
+  {
+    "id": "immanuel-quickley",
+    "name": "이매뉴얼 퀴클리",
+    "nameEn": "Immanuel Quickley",
+    "team": "TOR",
+    "teamHistory": [
+      "NYK",
+      "TOR"
+    ],
+    "position": "PG",
+    "heightCm": 188,
+    "careerFgPct": 42.5,
+    "careerPts": 4500,
+    "awards": [],
+    "draftPick": "2020 1라운드 25순위"
+  },
+  {
+    "id": "jalen-green",
+    "name": "잘런 그린",
+    "nameEn": "Jalen Green",
+    "team": "PHX",
+    "teamHistory": [
+      "HOU",
+      "PHX"
+    ],
+    "position": "SG",
+    "heightCm": 196,
+    "careerFgPct": 42.5,
+    "careerPts": 6000,
+    "awards": [],
+    "draftPick": "2021 1라운드 2순위"
+  },
+  {
+    "id": "josh-giddey",
+    "name": "조시 기디",
+    "nameEn": "Josh Giddey",
+    "team": "CHI",
+    "teamHistory": [
+      "OKC",
+      "CHI"
+    ],
+    "position": "PG",
+    "heightCm": 203,
+    "careerFgPct": 45.5,
+    "careerPts": 4500,
+    "awards": [],
+    "draftPick": "2021 1라운드 6순위"
+  },
+  {
+    "id": "brandon-miller",
+    "name": "브랜던 밀러",
+    "nameEn": "Brandon Miller",
+    "team": "CHA",
+    "teamHistory": [
+      "CHA"
+    ],
+    "position": "SF",
+    "heightCm": 201,
+    "careerFgPct": 42.5,
+    "careerPts": 2500,
+    "awards": [],
+    "draftPick": "2023 1라운드 2순위"
+  },
+  {
+    "id": "drazen-petrovic",
+    "name": "드라젠 페트로비치",
+    "nameEn": "Drazen Petrovic",
+    "team": "NJN",
+    "teamHistory": [
+      "POR",
+      "NJN"
+    ],
+    "position": "SG",
+    "heightCm": 196,
+    "careerFgPct": 43.7,
+    "careerPts": 5762,
+    "awards": [],
+    "draftPick": "1986 3라운드 60순위"
+  },
+  {
+    "id": "arvydas-sabonis",
+    "name": "아르비다스 사보니스",
+    "nameEn": "Arvydas Sabonis",
+    "team": "POR",
+    "teamHistory": [
+      "POR"
+    ],
+    "position": "C",
+    "heightCm": 221,
+    "careerFgPct": 46.3,
+    "careerPts": 7192,
+    "awards": [],
+    "draftPick": "1986 1라운드 24순위"
+  },
+  {
+    "id": "vlade-divac",
+    "name": "블라디 디박",
+    "nameEn": "Vlade Divac",
+    "team": "SAC",
+    "teamHistory": [
+      "LAL",
+      "CHH",
+      "SAC",
+      "LAL"
+    ],
+    "position": "C",
+    "heightCm": 213,
+    "careerFgPct": 50.9,
+    "careerPts": 13398,
+    "awards": [
+      "1회 올스타"
+    ],
+    "draftPick": "1989 1라운드 26순위"
+  },
+  {
+    "id": "peja-stojakovic",
+    "name": "페야 스토야코비치",
+    "nameEn": "Peja Stojakovic",
+    "team": "SAC",
+    "teamHistory": [
+      "SAC",
+      "IND",
+      "NOH",
+      "TOR",
+      "DAL"
+    ],
+    "position": "SF",
+    "heightCm": 208,
+    "careerFgPct": 44.6,
+    "careerPts": 15980,
+    "awards": [
+      "3회 올스타"
+    ],
+    "draftPick": "1996 1라운드 14순위"
+  },
+  {
+    "id": "andrei-kirilenko",
+    "name": "안드레이 키릴렌코",
+    "nameEn": "Andrei Kirilenko",
+    "team": "UTA",
+    "teamHistory": [
+      "UTA",
+      "MIN",
+      "BKN"
+    ],
+    "position": "SF",
+    "heightCm": 206,
+    "careerFgPct": 47.3,
+    "careerPts": 10264,
+    "awards": [
+      "1회 올스타"
+    ],
+    "draftPick": "1999 1라운드 24순위"
+  },
+  {
+    "id": "ricky-rubio",
+    "name": "리키 루비오",
+    "nameEn": "Ricky Rubio",
+    "team": "CLE",
+    "teamHistory": [
+      "MIN",
+      "UTA",
+      "PHX",
+      "CLE"
+    ],
+    "position": "PG",
+    "heightCm": 191,
+    "careerFgPct": 38.5,
+    "careerPts": 8815,
+    "awards": [],
+    "draftPick": "2009 1라운드 5순위"
+  },
+  {
+    "id": "corey-maggette",
+    "name": "코리 매짓",
+    "nameEn": "Corey Maggette",
+    "team": "LAC",
+    "teamHistory": [
+      "ORL",
+      "LAC",
+      "GSW",
+      "MIL",
+      "DET",
+      "CHA"
+    ],
+    "position": "SF",
+    "heightCm": 201,
+    "careerFgPct": 47.4,
+    "careerPts": 13100,
+    "awards": [],
+    "draftPick": "1999 1라운드 13순위"
+  },
+  {
+    "id": "josh-howard",
+    "name": "조시 하워드",
+    "nameEn": "Josh Howard",
+    "team": "DAL",
+    "teamHistory": [
+      "DAL",
+      "WAS",
+      "UTA",
+      "MIN"
+    ],
+    "position": "SF",
+    "heightCm": 201,
+    "careerFgPct": 45.6,
+    "careerPts": 8306,
+    "awards": [
+      "1회 올스타"
+    ],
+    "draftPick": "2003 1라운드 29순위"
+  },
+  {
+    "id": "raja-bell",
+    "name": "라자 벨",
+    "nameEn": "Raja Bell",
+    "team": "PHX",
+    "teamHistory": [
+      "PHI",
+      "DAL",
+      "UTA",
+      "PHX",
+      "CHA",
+      "GSW"
+    ],
+    "position": "SG",
+    "heightCm": 196,
+    "careerFgPct": 43.9,
+    "careerPts": 8354,
+    "awards": [],
+    "draftPick": "언드래프트"
+  },
+  {
+    "id": "andrew-bogut",
+    "name": "앤드류 보것",
+    "nameEn": "Andrew Bogut",
+    "team": "GSW",
+    "teamHistory": [
+      "MIL",
+      "GSW",
+      "DAL",
+      "PHI",
+      "LAL",
+      "CLE"
+    ],
+    "position": "C",
+    "heightCm": 213,
+    "careerFgPct": 51.1,
+    "careerPts": 6733,
+    "awards": [
+      "1회 우승"
+    ],
+    "draftPick": "2005 1라운드 1순위"
+  },
+  {
+    "id": "jj-redick",
+    "name": "JJ 레딕",
+    "nameEn": "JJ Redick",
+    "team": "PHI",
+    "teamHistory": [
+      "ORL",
+      "MIL",
+      "LAC",
+      "PHI",
+      "NOP",
+      "DAL"
+    ],
+    "position": "SG",
+    "heightCm": 193,
+    "careerFgPct": 43.7,
+    "careerPts": 12060,
+    "awards": [],
+    "draftPick": "2006 1라운드 11순위"
+  },
+  {
+    "id": "lou-williams",
+    "name": "루 윌리엄스",
+    "nameEn": "Lou Williams",
+    "team": "LAC",
+    "teamHistory": [
+      "PHI",
+      "ATL",
+      "LAL",
+      "HOU",
+      "LAC",
+      "ATL"
+    ],
+    "position": "SG",
+    "heightCm": 185,
+    "careerFgPct": 41.5,
+    "careerPts": 15593,
+    "awards": [],
+    "draftPick": "2005 2라운드 45순위"
+  },
+  {
+    "id": "jamal-crawford",
+    "name": "자말 크로퍼드",
+    "nameEn": "Jamal Crawford",
+    "team": "LAC",
+    "teamHistory": [
+      "CHI",
+      "NYK",
+      "GSW",
+      "ATL",
+      "POR",
+      "LAC",
+      "MIN",
+      "PHX",
+      "BKN"
+    ],
+    "position": "SG",
+    "heightCm": 196,
+    "careerFgPct": 40.7,
+    "careerPts": 19419,
+    "awards": [],
+    "draftPick": "2000 1라운드 8순위"
+  },
+  {
+    "id": "jeff-teague",
+    "name": "제프 티그",
+    "nameEn": "Jeff Teague",
+    "team": "ATL",
+    "teamHistory": [
+      "ATL",
+      "IND",
+      "MIN",
+      "BOS",
+      "MIL",
+      "ORL"
+    ],
+    "position": "PG",
+    "heightCm": 188,
+    "careerFgPct": 43.9,
+    "careerPts": 11939,
+    "awards": [
+      "1회 올스타"
+    ],
+    "draftPick": "2009 1라운드 19순위"
+  },
+  {
+    "id": "kyle-korver",
+    "name": "카일 코버",
+    "nameEn": "Kyle Korver",
+    "team": "ATL",
+    "teamHistory": [
+      "PHI",
+      "UTA",
+      "CHI",
+      "ATL",
+      "CLE",
+      "UTA",
+      "MIL"
+    ],
+    "position": "SG",
+    "heightCm": 201,
+    "careerFgPct": 43.9,
+    "careerPts": 12130,
+    "awards": [
+      "1회 올스타"
+    ],
+    "draftPick": "2003 2라운드 51순위"
+  },
+  {
+    "id": "hedo-turkoglu",
+    "name": "헤도 투르코글루",
+    "nameEn": "Hedo Turkoglu",
+    "team": "ORL",
+    "teamHistory": [
+      "SAC",
+      "SAS",
+      "ORL",
+      "TOR",
+      "PHX",
+      "ORL",
+      "LAC"
+    ],
+    "position": "SF",
+    "heightCm": 208,
+    "careerFgPct": 43.6,
+    "careerPts": 12482,
+    "awards": [],
+    "draftPick": "2000 1라운드 16순위"
+  },
+  {
+    "id": "carlos-boozer",
+    "name": "카를로스 부저",
+    "nameEn": "Carlos Boozer",
+    "team": "UTA",
+    "teamHistory": [
+      "CLE",
+      "UTA",
+      "CHI",
+      "LAL"
+    ],
+    "position": "PF",
+    "heightCm": 206,
+    "careerFgPct": 53.4,
+    "careerPts": 16095,
+    "awards": [
+      "2회 올스타"
+    ],
+    "draftPick": "2002 2라운드 34순위"
+  },
+  {
+    "id": "patrick-beverley",
+    "name": "패트릭 베벌리",
+    "nameEn": "Patrick Beverley",
+    "team": "MIL",
+    "teamHistory": [
+      "HOU",
+      "LAC",
+      "MIN",
+      "CHI",
+      "LAL",
+      "MIL"
+    ],
+    "position": "PG",
+    "heightCm": 188,
+    "careerFgPct": 40.5,
+    "careerPts": 6500,
+    "awards": [],
+    "draftPick": "언드래프트"
+  },
+  {
+    "id": "marcus-smart",
+    "name": "마커스 스마트",
+    "nameEn": "Marcus Smart",
+    "team": "WAS",
+    "teamHistory": [
+      "BOS",
+      "MEM",
+      "WAS"
+    ],
+    "position": "PG",
+    "heightCm": 190,
+    "careerFgPct": 40.6,
+    "careerPts": 8500,
+    "awards": [
+      "1회 DPOY",
+      "1회 올스타"
+    ],
+    "draftPick": "2014 1라운드 6순위"
+  },
+  {
+    "id": "thaddeus-young",
+    "name": "새디어스 영",
+    "nameEn": "Thaddeus Young",
+    "team": "TOR",
+    "teamHistory": [
+      "PHI",
+      "MIN",
+      "IND",
+      "BKN",
+      "CHI",
+      "SAS",
+      "TOR"
+    ],
+    "position": "PF",
+    "heightCm": 201,
+    "careerFgPct": 49.5,
+    "careerPts": 14295,
+    "awards": [],
+    "draftPick": "2007 1라운드 12순위"
+  },
+  {
+    "id": "bojan-bogdanovic",
+    "name": "보얀 보그다노비치",
+    "nameEn": "Bojan Bogdanovic",
+    "team": "NYK",
+    "teamHistory": [
+      "BKN",
+      "IND",
+      "UTA",
+      "DET",
+      "NYK"
+    ],
+    "position": "SF",
+    "heightCm": 203,
+    "careerFgPct": 44.5,
+    "careerPts": 11500,
+    "awards": [],
+    "draftPick": "2011 2라운드 31순위"
+  },
+  {
+    "id": "gary-harris",
+    "name": "게리 해리스",
+    "nameEn": "Gary Harris",
+    "team": "ORL",
+    "teamHistory": [
+      "DEN",
+      "ORL",
+      "PHI",
+      "SAC"
+    ],
+    "position": "SG",
+    "heightCm": 193,
+    "careerFgPct": 44.5,
+    "careerPts": 7500,
+    "awards": [],
+    "draftPick": "2014 1라운드 19순위"
+  },
+  {
+    "id": "malcolm-brogdon",
+    "name": "맬컴 브록던",
+    "nameEn": "Malcolm Brogdon",
+    "team": "WAS",
+    "teamHistory": [
+      "MIL",
+      "IND",
+      "POR",
+      "WAS"
+    ],
+    "position": "PG",
+    "heightCm": 196,
+    "careerFgPct": 46.5,
+    "careerPts": 8500,
+    "awards": [],
+    "draftPick": "2016 2라운드 36순위"
+  },
+  {
+    "id": "spencer-dinwiddie",
+    "name": "스펜서 딘위디",
+    "nameEn": "Spencer Dinwiddie",
+    "team": "DAL",
+    "teamHistory": [
+      "DET",
+      "BKN",
+      "WAS",
+      "DAL",
+      "LAL"
+    ],
+    "position": "PG",
+    "heightCm": 196,
+    "careerFgPct": 43,
+    "careerPts": 8500,
+    "awards": [],
+    "draftPick": "2014 2라운드 38순위"
+  },
+  {
+    "id": "dejounte-murray",
+    "name": "디존테 머리",
+    "nameEn": "Dejounte Murray",
+    "team": "NOP",
+    "teamHistory": [
+      "SAS",
+      "ATL",
+      "NOP"
+    ],
+    "position": "PG",
+    "heightCm": 196,
+    "careerFgPct": 44.5,
+    "careerPts": 9500,
+    "awards": [
+      "1회 올스타"
+    ],
+    "draftPick": "2016 1라운드 29순위"
+  },
+  {
+    "id": "buddy-hield",
+    "name": "버디 하일드",
+    "nameEn": "Buddy Hield",
+    "team": "GSW",
+    "teamHistory": [
+      "NOP",
+      "SAC",
+      "IND",
+      "PHI",
+      "GSW"
+    ],
+    "position": "SG",
+    "heightCm": 193,
+    "careerFgPct": 43.5,
+    "careerPts": 11500,
+    "awards": [],
+    "draftPick": "2016 1라운드 6순위"
+  },
+  {
+    "id": "khris-middleton",
+    "name": "크리스 미들턴",
+    "nameEn": "Khris Middleton",
+    "team": "WAS",
+    "teamHistory": [
+      "DET",
+      "MIL",
+      "WAS"
+    ],
+    "position": "SF",
+    "heightCm": 198,
+    "careerFgPct": 45.6,
+    "careerPts": 12500,
+    "awards": [
+      "1회 우승",
+      "3회 올스타"
+    ],
+    "draftPick": "2012 2라운드 39순위"
+  },
+  {
+    "id": "myles-turner",
+    "name": "마일스 터너",
+    "nameEn": "Myles Turner",
+    "team": "IND",
+    "teamHistory": [
+      "IND",
+      "MIL"
+    ],
+    "position": "C",
+    "heightCm": 211,
+    "careerFgPct": 49.5,
+    "careerPts": 9500,
+    "awards": [
+      "1회 올스타"
+    ],
+    "draftPick": "2015 1라운드 11순위"
+  },
+  {
+    "id": "jonas-valanciunas",
+    "name": "요나스 발란시우나스",
+    "nameEn": "Jonas Valanciunas",
+    "team": "WAS",
+    "teamHistory": [
+      "TOR",
+      "MEM",
+      "NOP",
+      "WAS"
+    ],
+    "position": "C",
+    "heightCm": 211,
+    "careerFgPct": 54.9,
+    "careerPts": 10500,
+    "awards": [],
+    "draftPick": "2011 1라운드 5순위"
+  },
+  {
+    "id": "clint-capela",
+    "name": "클린트 카펠라",
+    "nameEn": "Clint Capela",
+    "team": "ATL",
+    "teamHistory": [
+      "HOU",
+      "ATL"
+    ],
+    "position": "C",
+    "heightCm": 208,
+    "careerFgPct": 60,
+    "careerPts": 8500,
+    "awards": [],
+    "draftPick": "2014 1라운드 25순위"
+  },
+  {
+    "id": "montrezl-harrell",
+    "name": "몬트레즐 하렐",
+    "nameEn": "Montrezl Harrell",
+    "team": "CHI",
+    "teamHistory": [
+      "HOU",
+      "LAC",
+      "LAL",
+      "WAS",
+      "CHA",
+      "PHI"
+    ],
+    "position": "C",
+    "heightCm": 201,
+    "careerFgPct": 62,
+    "careerPts": 6500,
+    "awards": [],
+    "draftPick": "2015 2라운드 32순위"
+  },
+  {
+    "id": "deandre-jordan",
+    "name": "디안드레 조던",
+    "nameEn": "DeAndre Jordan",
+    "team": "DEN",
+    "teamHistory": [
+      "LAC",
+      "DAL",
+      "NYK",
+      "BKN",
+      "LAL",
+      "DEN"
+    ],
+    "position": "C",
+    "heightCm": 211,
+    "careerFgPct": 64.4,
+    "careerPts": 9500,
+    "awards": [],
+    "draftPick": "언드래프트"
+  },
+  {
+    "id": "grant-hill",
+    "name": "그랜트 힐",
+    "nameEn": "Grant Hill",
+    "team": "ORL",
+    "teamHistory": [
+      "DET",
+      "ORL",
+      "PHX",
+      "LAC"
+    ],
+    "position": "SF",
+    "heightCm": 203,
+    "careerFgPct": 48.4,
+    "careerPts": 17055,
+    "awards": [
+      "7회 올스타"
+    ],
+    "draftPick": "1994 1라운드 3순위"
+  },
+  {
+    "id": "glenn-robinson",
+    "name": "글렌 로빈슨",
+    "nameEn": "Glenn Robinson",
+    "team": "MIL",
+    "teamHistory": [
+      "MIL",
+      "ATL",
+      "PHI",
+      "SAS"
+    ],
+    "position": "SF",
+    "heightCm": 201,
+    "careerFgPct": 46.5,
+    "careerPts": 15840,
+    "awards": [
+      "1회 올스타"
+    ],
+    "draftPick": "1994 1라운드 1순위"
+  },
+  {
+    "id": "jason-richardson",
+    "name": "제이슨 리처드슨",
+    "nameEn": "Jason Richardson",
+    "team": "PHX",
+    "teamHistory": [
+      "GSW",
+      "CHA",
+      "PHX",
+      "ORL",
+      "PHI"
+    ],
+    "position": "SG",
+    "heightCm": 198,
+    "careerFgPct": 44.8,
+    "careerPts": 13363,
+    "awards": [],
+    "draftPick": "2001 1라운드 5순위"
+  },
+  {
+    "id": "stephen-jackson",
+    "name": "스티븐 잭슨",
+    "nameEn": "Stephen Jackson",
+    "team": "SAS",
+    "teamHistory": [
+      "NJN",
+      "SAS",
+      "ATL",
+      "GSW",
+      "CHA",
+      "MIL",
+      "SAS"
+    ],
+    "position": "SF",
+    "heightCm": 201,
+    "careerFgPct": 42.5,
+    "careerPts": 13603,
+    "awards": [
+      "1회 우승"
+    ],
+    "draftPick": "1997 2라운드 42순위"
+  },
+  {
+    "id": "al-harrington",
+    "name": "알 해링턴",
+    "nameEn": "Al Harrington",
+    "team": "DEN",
+    "teamHistory": [
+      "IND",
+      "ATL",
+      "GSW",
+      "NYK",
+      "DEN",
+      "ORL",
+      "WAS"
+    ],
+    "position": "PF",
+    "heightCm": 206,
+    "careerFgPct": 43.6,
+    "careerPts": 13061,
+    "awards": [],
+    "draftPick": "1998 1라운드 25순위"
+  },
+  {
+    "id": "eddy-curry",
+    "name": "에디 커리",
+    "nameEn": "Eddy Curry",
+    "team": "NYK",
+    "teamHistory": [
+      "CHI",
+      "NYK",
+      "MIA",
+      "DAL"
+    ],
+    "position": "C",
+    "heightCm": 211,
+    "careerFgPct": 56.1,
+    "careerPts": 6789,
+    "awards": [],
+    "draftPick": "2001 1라운드 4순위"
+  },
+  {
+    "id": "kirk-hinrich",
+    "name": "커크 하인릭",
+    "nameEn": "Kirk Hinrich",
+    "team": "CHI",
+    "teamHistory": [
+      "CHI",
+      "ATL",
+      "WAS"
+    ],
+    "position": "PG",
+    "heightCm": 191,
+    "careerFgPct": 40.9,
+    "careerPts": 9922,
+    "awards": [],
+    "draftPick": "2003 1라운드 7순위"
+  },
+  {
+    "id": "ben-gordon",
+    "name": "벤 고든",
+    "nameEn": "Ben Gordon",
+    "team": "CHI",
+    "teamHistory": [
+      "CHI",
+      "DET",
+      "CHA",
+      "ORL"
+    ],
+    "position": "SG",
+    "heightCm": 191,
+    "careerFgPct": 42.9,
+    "careerPts": 12762,
+    "awards": [],
+    "draftPick": "2004 1라운드 3순위"
+  },
+  {
+    "id": "mo-williams",
+    "name": "모 윌리엄스",
+    "nameEn": "Mo Williams",
+    "team": "CLE",
+    "teamHistory": [
+      "UTA",
+      "MIL",
+      "CLE",
+      "LAC",
+      "POR",
+      "MIN",
+      "CHA"
+    ],
+    "position": "PG",
+    "heightCm": 188,
+    "careerFgPct": 44,
+    "careerPts": 13120,
+    "awards": [
+      "1회 올스타"
+    ],
+    "draftPick": "2003 2라운드 47순위"
+  },
+  {
+    "id": "david-lee",
+    "name": "데이비드 리",
+    "nameEn": "David Lee",
+    "team": "NYK",
+    "teamHistory": [
+      "NYK",
+      "GSW",
+      "BOS",
+      "DAL",
+      "SAS"
+    ],
+    "position": "PF",
+    "heightCm": 206,
+    "careerFgPct": 51.5,
+    "careerPts": 10658,
+    "awards": [
+      "1회 우승",
+      "1회 올스타"
+    ],
+    "draftPick": "2005 1라운드 30순위"
+  },
+  {
+    "id": "wilson-chandler",
+    "name": "윌슨 챈들러",
+    "nameEn": "Wilson Chandler",
+    "team": "DEN",
+    "teamHistory": [
+      "NYK",
+      "DEN",
+      "PHI",
+      "BKN",
+      "LAC"
+    ],
+    "position": "SF",
+    "heightCm": 203,
+    "careerFgPct": 43.9,
+    "careerPts": 10403,
+    "awards": [],
+    "draftPick": "2007 1라운드 23순위"
+  },
+  {
+    "id": "jeff-green",
+    "name": "제프 그린",
+    "nameEn": "Jeff Green",
+    "team": "HOU",
+    "teamHistory": [
+      "SEA",
+      "OKC",
+      "BOS",
+      "MEM",
+      "LAC",
+      "ORL",
+      "UTA",
+      "DEN",
+      "HOU"
+    ],
+    "position": "SF",
+    "heightCm": 206,
+    "careerFgPct": 45.6,
+    "careerPts": 13000,
+    "awards": [
+      "1회 우승"
+    ],
+    "draftPick": "2007 1라운드 5순위"
+  },
+  {
+    "id": "rajon-rondo",
+    "name": "라존 론도",
+    "nameEn": "Rajon Rondo",
+    "team": "BOS",
+    "teamHistory": [
+      "BOS",
+      "DAL",
+      "SAC",
+      "CHI",
+      "NOP",
+      "LAL",
+      "ATL",
+      "LAC",
+      "CLE"
+    ],
+    "position": "PG",
+    "heightCm": 185,
+    "careerFgPct": 47.5,
+    "careerPts": 9679,
+    "awards": [
+      "2회 우승",
+      "4회 올스타"
+    ],
+    "draftPick": "2006 1라운드 21순위"
+  },
+  {
+    "id": "avery-bradley",
+    "name": "에이버리 브래들리",
+    "nameEn": "Avery Bradley",
+    "team": "BOS",
+    "teamHistory": [
+      "BOS",
+      "DET",
+      "LAL",
+      "LAC",
+      "MIN",
+      "MIA",
+      "HOU"
+    ],
+    "position": "SG",
+    "heightCm": 185,
+    "careerFgPct": 42.9,
+    "careerPts": 6866,
+    "awards": [],
+    "draftPick": "2010 1라운드 19순위"
+  },
+  {
+    "id": "tristan-thompson",
+    "name": "트리스탄 톰슨",
+    "nameEn": "Tristan Thompson",
+    "team": "CLE",
+    "teamHistory": [
+      "CLE",
+      "BOS",
+      "SAC",
+      "CHI",
+      "LAL"
+    ],
+    "position": "C",
+    "heightCm": 206,
+    "careerFgPct": 53.5,
+    "careerPts": 8000,
+    "awards": [
+      "1회 우승"
+    ],
+    "draftPick": "2011 1라운드 4순위"
+  },
+  {
+    "id": "hassan-whiteside",
+    "name": "하산 화이트사이드",
+    "nameEn": "Hassan Whiteside",
+    "team": "MIA",
+    "teamHistory": [
+      "MIA",
+      "POR",
+      "SAC",
+      "UTA"
+    ],
+    "position": "C",
+    "heightCm": 211,
+    "careerFgPct": 58.8,
+    "careerPts": 7500,
+    "awards": [],
+    "draftPick": "2010 2라운드 33순위"
+  },
+  {
+    "id": "otto-porter",
+    "name": "오토 포터",
+    "nameEn": "Otto Porter",
+    "team": "WAS",
+    "teamHistory": [
+      "WAS",
+      "CHI",
+      "ORL",
+      "TOR",
+      "GSW"
+    ],
+    "position": "SF",
+    "heightCm": 201,
+    "careerFgPct": 46.3,
+    "careerPts": 6500,
+    "awards": [],
+    "draftPick": "2013 1라운드 3순위"
+  },
+  {
+    "id": "wesley-matthews",
+    "name": "웨슬리 매튜스",
+    "nameEn": "Wesley Matthews",
+    "team": "MIL",
+    "teamHistory": [
+      "UTA",
+      "POR",
+      "DAL",
+      "NYK",
+      "LAC",
+      "IND",
+      "MIL",
+      "ATL"
+    ],
+    "position": "SG",
+    "heightCm": 196,
+    "careerFgPct": 41.9,
+    "careerPts": 12500,
+    "awards": [],
+    "draftPick": "언드래프트"
+  },
+  {
+    "id": "danny-green",
+    "name": "대니 그린",
+    "nameEn": "Danny Green",
+    "team": "SAS",
+    "teamHistory": [
+      "CLE",
+      "SAS",
+      "TOR",
+      "LAL",
+      "PHI",
+      "MEM",
+      "CLE"
+    ],
+    "position": "SG",
+    "heightCm": 198,
+    "careerFgPct": 43.2,
+    "careerPts": 8500,
+    "awards": [
+      "3회 우승"
+    ],
+    "draftPick": "2009 2라운드 46순위"
+  },
+  {
+    "id": "george-hill",
+    "name": "조지 힐",
+    "nameEn": "George Hill",
+    "team": "IND",
+    "teamHistory": [
+      "SAS",
+      "IND",
+      "UTA",
+      "SAC",
+      "CLE",
+      "MIL",
+      "PHX",
+      "MIL"
+    ],
+    "position": "PG",
+    "heightCm": 191,
+    "careerFgPct": 44.8,
+    "careerPts": 10500,
+    "awards": [],
+    "draftPick": "2008 1라운드 26순위"
+  },
+  {
+    "id": "trevor-ariza",
+    "name": "트레버 애리자",
+    "nameEn": "Trevor Ariza",
+    "team": "LAL",
+    "teamHistory": [
+      "NYK",
+      "LAL",
+      "ORL",
+      "HOU",
+      "WAS",
+      "SAS",
+      "PHX",
+      "POR",
+      "SAC",
+      "MIA",
+      "OKC"
+    ],
+    "position": "SF",
+    "heightCm": 201,
+    "careerFgPct": 42.9,
+    "careerPts": 10796,
+    "awards": [
+      "1회 우승"
+    ],
+    "draftPick": "2004 1라운드 43순위"
+  },
+  {
+    "id": "matt-barnes",
+    "name": "맷 반스",
+    "nameEn": "Matt Barnes",
+    "team": "LAC",
+    "teamHistory": [
+      "MEM",
+      "SAC",
+      "LAC",
+      "GSW",
+      "PHX",
+      "LAL",
+      "SAC",
+      "WAS",
+      "MEM",
+      "CHA"
+    ],
+    "position": "SF",
+    "heightCm": 198,
+    "careerFgPct": 43.6,
+    "careerPts": 9448,
+    "awards": [],
+    "draftPick": "언드래프트"
+  },
+  {
+    "id": "malik-monk",
+    "name": "맬릭 몽크",
+    "nameEn": "Malik Monk",
+    "team": "SAC",
+    "teamHistory": [
+      "CHA",
+      "LAL",
+      "SAC"
+    ],
+    "position": "SG",
+    "heightCm": 191,
+    "careerFgPct": 43.5,
+    "careerPts": 7000,
+    "awards": [],
+    "draftPick": "2017 1라운드 11순위"
+  },
+  {
+    "id": "dave-cowens",
+    "name": "데이브 코웬스",
+    "nameEn": "Dave Cowens",
+    "team": "BOS",
+    "teamHistory": [
+      "BOS",
+      "MIL"
+    ],
+    "position": "C",
+    "heightCm": 206,
+    "careerFgPct": 46,
+    "careerPts": 13516,
+    "awards": [
+      "2회 우승",
+      "1회 MVP",
+      "8회 올스타"
+    ],
+    "draftPick": "1970 1라운드 4순위"
+  },
+  {
+    "id": "spencer-haywood",
+    "name": "스펜서 헤이우드",
+    "nameEn": "Spencer Haywood",
+    "team": "SEA",
+    "teamHistory": [
+      "DEN",
+      "SEA",
+      "NYK",
+      "LAL",
+      "WAS",
+      "ATL"
+    ],
+    "position": "PF",
+    "heightCm": 206,
+    "careerFgPct": 45.2,
+    "careerPts": 14592,
+    "awards": [
+      "4회 올스타"
+    ],
+    "draftPick": "1969 ABA 지명"
+  },
+  {
+    "id": "billy-cunningham",
+    "name": "빌리 커닝햄",
+    "nameEn": "Billy Cunningham",
+    "team": "PHI",
+    "teamHistory": [
+      "PHI",
+      "CAR"
+    ],
+    "position": "SF",
+    "heightCm": 198,
+    "careerFgPct": 44.3,
+    "careerPts": 16310,
+    "awards": [
+      "1회 우승",
+      "4회 올스타"
+    ],
+    "draftPick": "1965 1라운드 5순위"
+  },
+  {
+    "id": "earl-monroe",
+    "name": "얼 먼로",
+    "nameEn": "Earl Monroe",
+    "team": "NYK",
+    "teamHistory": [
+      "BAL",
+      "NYK"
+    ],
+    "position": "SG",
+    "heightCm": 191,
+    "careerFgPct": 46.4,
+    "careerPts": 17454,
+    "awards": [
+      "1회 우승",
+      "4회 올스타"
+    ],
+    "draftPick": "1967 1라운드 2순위"
+  },
+  {
+    "id": "dave-bing",
+    "name": "데이브 빙",
+    "nameEn": "Dave Bing",
+    "team": "DET",
+    "teamHistory": [
+      "DET",
+      "WAS",
+      "BOS"
+    ],
+    "position": "PG",
+    "heightCm": 193,
+    "careerFgPct": 44.1,
+    "careerPts": 18327,
+    "awards": [
+      "7회 올스타"
+    ],
+    "draftPick": "1966 1라운드 2순위"
+  },
+  {
+    "id": "calvin-murphy",
+    "name": "캘빈 머피",
+    "nameEn": "Calvin Murphy",
+    "team": "HOU",
+    "teamHistory": [
+      "HOU"
+    ],
+    "position": "PG",
+    "heightCm": 175,
+    "careerFgPct": 48.2,
+    "careerPts": 17949,
+    "awards": [
+      "1회 올스타"
+    ],
+    "draftPick": "1970 2라운드 18순위"
+  },
+  {
+    "id": "randy-smith",
+    "name": "랜디 스미스",
+    "nameEn": "Randy Smith",
+    "team": "BUF",
+    "teamHistory": [
+      "BUF",
+      "SD",
+      "CLE",
+      "NYK",
+      "ATL"
+    ],
+    "position": "SG",
+    "heightCm": 193,
+    "careerFgPct": 48.6,
+    "careerPts": 16262,
+    "awards": [
+      "2회 올스타"
+    ],
+    "draftPick": "1971 7라운드 104순위"
+  },
+  {
+    "id": "paul-westphal",
+    "name": "폴 웨스트팔",
+    "nameEn": "Paul Westphal",
+    "team": "PHX",
+    "teamHistory": [
+      "BOS",
+      "PHX",
+      "SEA",
+      "NYK"
+    ],
+    "position": "SG",
+    "heightCm": 196,
+    "careerFgPct": 47.3,
+    "careerPts": 12809,
+    "awards": [
+      "4회 올스타"
+    ],
+    "draftPick": "1972 1라운드 10순위"
+  },
+  {
+    "id": "maurice-cheeks",
+    "name": "모리스 칙스",
+    "nameEn": "Maurice Cheeks",
+    "team": "PHI",
+    "teamHistory": [
+      "PHI",
+      "SAS",
+      "NYK",
+      "ATL",
+      "NJN"
+    ],
+    "position": "PG",
+    "heightCm": 185,
+    "careerFgPct": 52.3,
+    "careerPts": 12195,
+    "awards": [
+      "1회 우승",
+      "4회 올스타"
+    ],
+    "draftPick": "1978 2라운드 36순위"
+  },
+  {
+    "id": "fat-lever",
+    "name": "팻 레버",
+    "nameEn": "Fat Lever",
+    "team": "DEN",
+    "teamHistory": [
+      "POR",
+      "DEN",
+      "DAL"
+    ],
+    "position": "PG",
+    "heightCm": 196,
+    "careerFgPct": 46.3,
+    "careerPts": 11524,
+    "awards": [
+      "2회 올스타"
+    ],
+    "draftPick": "1982 1라운드 11순위"
+  },
+  {
+    "id": "buck-williams",
+    "name": "벅 윌리엄스",
+    "nameEn": "Buck Williams",
+    "team": "NJN",
+    "teamHistory": [
+      "NJN",
+      "POR",
+      "NYK"
+    ],
+    "position": "PF",
+    "heightCm": 203,
+    "careerFgPct": 55.2,
+    "careerPts": 16784,
+    "awards": [
+      "3회 올스타"
+    ],
+    "draftPick": "1981 1라운드 3순위"
+  },
+  {
+    "id": "sidney-moncrief",
+    "name": "시드니 몬크리프",
+    "nameEn": "Sidney Moncrief",
+    "team": "MIL",
+    "teamHistory": [
+      "MIL",
+      "ATL"
+    ],
+    "position": "SG",
+    "heightCm": 193,
+    "careerFgPct": 50,
+    "careerPts": 13907,
+    "awards": [
+      "2회 DPOY",
+      "5회 올스타"
+    ],
+    "draftPick": "1979 1라운드 5순위"
+  },
+  {
+    "id": "xavier-mcdaniel",
+    "name": "자비에 맥대니얼",
+    "nameEn": "Xavier McDaniel",
+    "team": "SEA",
+    "teamHistory": [
+      "SEA",
+      "NYK",
+      "PHX",
+      "BOS",
+      "NJN"
+    ],
+    "position": "SF",
+    "heightCm": 203,
+    "careerFgPct": 46.9,
+    "careerPts": 14929,
+    "awards": [
+      "1회 올스타"
+    ],
+    "draftPick": "1985 1라운드 4순위"
+  },
+  {
+    "id": "kiki-vandeweghe",
+    "name": "키키 밴더위지",
+    "nameEn": "Kiki Vandeweghe",
+    "team": "DEN",
+    "teamHistory": [
+      "DEN",
+      "POR",
+      "NYK",
+      "LAC"
+    ],
+    "position": "SF",
+    "heightCm": 206,
+    "careerFgPct": 52,
+    "careerPts": 15980,
+    "awards": [
+      "2회 올스타"
+    ],
+    "draftPick": "1980 1라운드 11순위"
+  },
+  {
+    "id": "tom-chambers",
+    "name": "톰 챔버스",
+    "nameEn": "Tom Chambers",
+    "team": "PHX",
+    "teamHistory": [
+      "SD",
+      "SEA",
+      "PHX",
+      "UTA"
+    ],
+    "position": "PF",
+    "heightCm": 208,
+    "careerFgPct": 47.2,
+    "careerPts": 20049,
+    "awards": [
+      "4회 올스타"
+    ],
+    "draftPick": "1981 1라운드 8순위"
+  },
+  {
+    "id": "mark-aguirre",
+    "name": "마크 아기레",
+    "nameEn": "Mark Aguirre",
+    "team": "DAL",
+    "teamHistory": [
+      "DAL",
+      "DET",
+      "LAC"
+    ],
+    "position": "SF",
+    "heightCm": 201,
+    "careerFgPct": 49.6,
+    "careerPts": 18787,
+    "awards": [
+      "2회 우승",
+      "3회 올스타"
+    ],
+    "draftPick": "1981 1라운드 1순위"
+  },
+  {
+    "id": "jeff-malone",
+    "name": "제프 말론",
+    "nameEn": "Jeff Malone",
+    "team": "WAS",
+    "teamHistory": [
+      "WAS",
+      "UTA",
+      "PHI"
+    ],
+    "position": "SG",
+    "heightCm": 196,
+    "careerFgPct": 48.5,
+    "careerPts": 17322,
+    "awards": [
+      "2회 올스타"
+    ],
+    "draftPick": "1983 1라운드 10순위"
+  },
+  {
+    "id": "rolando-blackman",
+    "name": "롤런도 블랙먼",
+    "nameEn": "Rolando Blackman",
+    "team": "DAL",
+    "teamHistory": [
+      "DAL",
+      "NYK"
+    ],
+    "position": "SG",
+    "heightCm": 198,
+    "careerFgPct": 48.8,
+    "careerPts": 17836,
+    "awards": [
+      "4회 올스타"
+    ],
+    "draftPick": "1981 1라운드 9순위"
+  },
+  {
+    "id": "marques-johnson",
+    "name": "마르퀴스 존슨",
+    "nameEn": "Marques Johnson",
+    "team": "MIL",
+    "teamHistory": [
+      "MIL",
+      "LAC",
+      "GSW"
+    ],
+    "position": "SF",
+    "heightCm": 201,
+    "careerFgPct": 53.5,
+    "careerPts": 13773,
+    "awards": [
+      "5회 올스타"
+    ],
+    "draftPick": "1977 1라운드 3순위"
+  },
+  {
+    "id": "norm-nixon",
+    "name": "놈 닉슨",
+    "nameEn": "Norm Nixon",
+    "team": "LAL",
+    "teamHistory": [
+      "LAL",
+      "LAC"
+    ],
+    "position": "PG",
+    "heightCm": 185,
+    "careerFgPct": 48.5,
+    "careerPts": 15012,
+    "awards": [
+      "1회 우승",
+      "1회 올스타"
+    ],
+    "draftPick": "1977 1라운드 22순위"
+  },
+  {
+    "id": "michael-cooper",
+    "name": "마이클 쿠퍼",
+    "nameEn": "Michael Cooper",
+    "team": "LAL",
+    "teamHistory": [
+      "LAL"
+    ],
+    "position": "SG",
+    "heightCm": 198,
+    "careerFgPct": 44.7,
+    "careerPts": 8619,
+    "awards": [
+      "5회 우승",
+      "1회 DPOY",
+      "1회 올스타"
+    ],
+    "draftPick": "1978 3라운드 60순위"
+  }
+]
