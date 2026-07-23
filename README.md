@@ -38,7 +38,7 @@ npm run lint
 
 ## 배포
 
-Vercel에 배포되어 있습니다: (배포 URL은 여기에 추가 예정)
+Vercel에 배포되어 있습니다: https://basketball-sandy.vercel.app
 
 ## 프로젝트 구조
 
