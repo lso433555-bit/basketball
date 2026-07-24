@@ -9,13 +9,17 @@ const STATUS_EMOJI: Record<Status, string> = {
 
 const TOTAL_ATTEMPTS = 8;
 
-/** 워들 스타일 결과 공유 텍스트를 생성한다. 정답/힌트 등 민감 정보는 전혀 포함하지 않는다. */
-export function buildShareText(attempts: Attempt[], status: "won" | "lost"): string {
+/** 워들 스타일 결과 공유 텍스트를 생성한다. 게임이 끝난 뒤에만 호출되므로(정답 이미 화면에 공개) 정답 이름을 포함해도 안전하다. */
+export function buildShareText(
+  attempts: Attempt[],
+  status: "won" | "lost",
+  answerName: string
+): string {
   const usedLabel =
     status === "won" ? `${attempts.length}/${TOTAL_ATTEMPTS}` : `X/${TOTAL_ATTEMPTS}`;
 
-  const lines = attempts.map((attempt) =>
-    [
+  const lines = attempts.map((attempt, i) => {
+    const emojis = [
       attempt.result.team,
       attempt.result.position,
       attempt.result.height,
@@ -23,10 +27,13 @@ export function buildShareText(attempts: Attempt[], status: "won" | "lost"): str
       attempt.result.careerPts,
       attempt.result.careerRebounds,
       attempt.result.careerAssists,
+      attempt.result.draftYear,
     ]
       .map((stat) => STATUS_EMOJI[stat.status])
-      .join("")
-  );
+      .join("");
 
-  return [`농퀴즈 ${usedLabel}`, ...lines].join("\n");
+    return `${i + 1}. ${attempt.player.name} ${emojis}`;
+  });
+
+  return [`농퀴즈 ${usedLabel} (정답: ${answerName})`, ...lines].join("\n");
 }

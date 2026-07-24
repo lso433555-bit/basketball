@@ -7,6 +7,12 @@ export function getChampionshipCount(awards: string[]): number {
   return 0;
 }
 
+/** draftPick 문자열 맨 앞의 연도를 뽑아낸다. "언드래프트"처럼 연도가 없으면 null. */
+export function getDraftYear(draftPick: string): number | null {
+  const match = draftPick.match(/^(\d{4})/);
+  return match ? parseInt(match[1], 10) : null;
+}
+
 /** draftPick의 연도를 기준으로 대략적인 활동 연대를 유추한다 (새 데이터 없이 기존 필드에서 유도). */
 export function getEra(draftPick: string): string {
   const match = draftPick.match(/(\d{4})/);

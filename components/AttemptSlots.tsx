@@ -1,5 +1,6 @@
 import type { Attempt } from "@/lib/types";
 import type { StatResult, Status, Direction } from "@/lib/compare";
+import { getDraftYear } from "@/lib/playerDisplay";
 
 interface AttemptSlotsProps {
   attempts: Attempt[];
@@ -91,8 +92,8 @@ export default function AttemptSlots({ attempts, totalSlots }: AttemptSlotsProps
             />
           </div>
 
-          {/* 2줄: 득점/리바운드/어시스트 (박스스코어 3대 스탯) */}
-          <div className="grid grid-cols-3 gap-1.5">
+          {/* 2줄: 득점/리바운드/어시스트/드래프트연도 */}
+          <div className="grid grid-cols-4 gap-1.5">
             <StatCell
               label="득점"
               value={attempt.player.careerPts.toLocaleString()}
@@ -110,6 +111,16 @@ export default function AttemptSlots({ attempts, totalSlots }: AttemptSlotsProps
               value={attempt.player.careerAssists.toLocaleString()}
               result={attempt.result.careerAssists}
               index={6}
+            />
+            <StatCell
+              label="드래프트"
+              value={
+                getDraftYear(attempt.player.draftPick) !== null
+                  ? `${getDraftYear(attempt.player.draftPick)}`
+                  : "UD"
+              }
+              result={attempt.result.draftYear}
+              index={7}
             />
           </div>
         </li>

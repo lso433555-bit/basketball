@@ -14,7 +14,10 @@ interface GameResultProps {
 }
 
 export default function GameResult({ status, player, attempts, onReset }: GameResultProps) {
-  const shareText = useMemo(() => buildShareText(attempts, status), [attempts, status]);
+  const shareText = useMemo(
+    () => buildShareText(attempts, status, player.name),
+    [attempts, status, player.name]
+  );
 
   return (
     <div className="flex flex-col gap-3">
