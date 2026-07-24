@@ -2284,13 +2284,13 @@
     "id": "brook-lopez",
     "name": "브룩 로페즈",
     "nameEn": "Brook Lopez",
-    "team": "MIL",
+    "team": "LAC",
     "teamHistory": [
       "NJN",
       "BKN",
       "LAL",
       "MIL",
-      "ORL"
+      "LAC"
     ],
     "position": "C",
     "heightCm": 213,
@@ -4091,11 +4091,12 @@
     "id": "nikola-vucevic",
     "name": "니콜라 부체비치",
     "nameEn": "Nikola Vucevic",
-    "team": "CHI",
+    "team": "ORL",
     "teamHistory": [
       "PHI",
       "ORL",
-      "CHI"
+      "CHI",
+      "BOS"
     ],
     "position": "C",
     "heightCm": 211,
