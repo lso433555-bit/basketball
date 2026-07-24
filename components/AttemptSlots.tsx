@@ -34,7 +34,7 @@ function StatCell({
       className={`animate-cell-in flex flex-col items-center justify-center gap-0.5 rounded-xl border px-1 py-2 text-center shadow-sm shadow-black/10 ${statusClasses[result.status]}`}
     >
       <span className="text-[9px] font-medium tracking-wide uppercase opacity-75">{label}</span>
-      <span className="flex items-center gap-0.5 text-xs leading-tight font-bold">
+      <span className="flex items-center gap-0.5 text-xs leading-tight font-bold tabular-nums">
         {value}
         {result.direction && (
           <span className="text-[10px]" aria-hidden="true">
@@ -54,10 +54,10 @@ export default function AttemptSlots({ attempts, totalSlots }: AttemptSlotsProps
       {attempts.map((attempt, i) => (
         <li
           key={attempt.player.id}
-          className="flex flex-col gap-2 rounded-2xl border border-card-border bg-gradient-to-b from-card to-background-elevated/60 px-3 py-2.5 shadow-sm shadow-black/20"
+          className="flex flex-col gap-2 rounded-2xl border border-l-4 border-card-border border-l-court-orange/70 bg-gradient-to-b from-card to-background-elevated/60 px-3 py-2.5 shadow-sm shadow-black/20"
         >
           <div className="flex items-center gap-2 text-sm text-foreground">
-            <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-court-orange-dim font-display text-sm text-court-orange-bright">
+            <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full border border-court-orange-bright/40 bg-court-orange-dim font-display text-sm text-court-orange-bright">
               {i + 1}
             </span>
             <span className="font-semibold">{attempt.player.name}</span>

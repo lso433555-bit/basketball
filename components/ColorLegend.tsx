@@ -8,12 +8,16 @@ const LEGEND_ITEMS = [
 export default function ColorLegend() {
   return (
     <div className="flex flex-col gap-1.5 rounded-2xl border border-card-border/70 bg-card/50 px-3 py-2.5">
-      <div className="flex items-center justify-center gap-4">
+      <div className="flex items-center justify-center gap-3">
+        <span className="font-display text-[11px] tracking-[0.2em] text-zinc-500 uppercase">
+          Key
+        </span>
+        <span className="h-3 w-px bg-card-border-strong" aria-hidden="true" />
         {LEGEND_ITEMS.map((item) => (
           <div key={item.key} className="flex items-center gap-1.5">
             <span
               aria-hidden="true"
-              className={`h-3 w-3 rounded-[4px] border ${item.swatch}`}
+              className={`h-3 w-3 rounded-[3px] border ${item.swatch}`}
             />
             <span className="text-xs font-medium text-zinc-300">{item.label}</span>
           </div>

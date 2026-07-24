@@ -1,12 +1,13 @@
 @import "tailwindcss";
 
 :root {
-  --background: #0b0d12;
-  --background-elevated: #161a21;
-  --foreground: #f5f5f6;
-  --card: #1b1f27;
-  --card-border: #2c313c;
-  --card-border-strong: #3d4351;
+  /* 실제 경기장 하드우드 코트 아래에서 야간 경기를 보는 듯한 따뜻한 톤 팔레트 */
+  --background: #14100b;
+  --background-elevated: #1f1810;
+  --foreground: #f6f1e8;
+  --card: #241b12;
+  --card-border: #40301f;
+  --card-border-strong: #58432a;
 
   --court-orange: #ff6b1a;
   --court-orange-bright: #ff9142;
@@ -46,17 +47,17 @@
 }
 
 body {
-  /* 은은한 코트 조명(오렌지 비네트) + 아주 옅은 대각선 라인 텍스처로 밋밋한 단색 배경에 깊이를 더한다. */
+  /* 야간 경기 조명(위에서 쏟아지는 옅은 오렌지 하이라이트) + 하드우드 코트 널빤지 결을 흉내낸 세로 스트라이프 */
   background:
-    radial-gradient(ellipse 120% 45% at 50% -8%, rgba(255, 107, 26, 0.12), transparent 60%),
+    radial-gradient(ellipse 100% 40% at 50% -10%, rgba(255, 145, 66, 0.14), transparent 62%),
     repeating-linear-gradient(
-      135deg,
-      rgba(255, 255, 255, 0.014) 0px,
-      rgba(255, 255, 255, 0.014) 1px,
-      transparent 1px,
-      transparent 64px
+      90deg,
+      rgba(255, 145, 66, 0.05) 0px,
+      rgba(255, 145, 66, 0.05) 34px,
+      rgba(0, 0, 0, 0.16) 34px,
+      rgba(0, 0, 0, 0.16) 36px
     ),
-    var(--background);
+    linear-gradient(180deg, #17110a 0%, #120d08 55%, #0e0a06 100%);
   color: var(--foreground);
   min-height: 100vh;
 }
@@ -66,6 +67,39 @@ body {
   height: 2px;
   background: linear-gradient(90deg, transparent, var(--court-orange) 50%, transparent);
   opacity: 0.55;
+}
+
+/* 코트 중앙 서클(하프코트 라인)을 흉내낸 아주 옅은 배경 워터마크. DOM상 부모 배경 뒤, 형제 콘텐츠 앞에 오도록 순서로만 쌓는다(음수 z-index 금지 — 부모의 불투명 배경에 가려짐). */
+.court-watermark {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    radial-gradient(circle at 50% 0%, transparent 68px, rgba(255, 145, 66, 0.16) 70px, rgba(255, 145, 66, 0.16) 72px, transparent 74px),
+    linear-gradient(rgba(255, 145, 66, 0.16), rgba(255, 145, 66, 0.16));
+  background-repeat: no-repeat;
+  background-position:
+    50% -20px,
+    50% -20px;
+  background-size:
+    160px 160px,
+    2px 90px;
+}
+
+@keyframes live-pulse {
+  0%,
+  100% {
+    opacity: 1;
+    box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.55);
+  }
+  50% {
+    opacity: 0.55;
+    box-shadow: 0 0 0 4px rgba(239, 68, 68, 0);
+  }
+}
+
+.animate-live-pulse {
+  animation: live-pulse 1.6s ease-in-out infinite;
 }
 
 @keyframes hint-in {
