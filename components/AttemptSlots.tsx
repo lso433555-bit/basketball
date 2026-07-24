@@ -14,8 +14,8 @@ const statusClasses: Record<Status, string> = {
 };
 
 const directionArrow: Record<Direction, string> = {
-  up: "⬆️",
-  down: "⬇️",
+  up: "▲",
+  down: "▼",
 };
 
 function StatCell({
@@ -35,10 +35,10 @@ function StatCell({
       className={`animate-cell-in flex flex-col items-center justify-center gap-0.5 rounded-xl border px-1 py-2 text-center shadow-sm shadow-black/10 ${statusClasses[result.status]}`}
     >
       <span className="text-[9px] font-medium tracking-wide uppercase opacity-75">{label}</span>
-      <span className="flex items-center gap-0.5 text-xs leading-tight font-bold tabular-nums">
+      <span className="flex items-center gap-1 text-xs leading-tight font-bold tabular-nums">
         {value}
         {result.direction && (
-          <span className="text-[10px]" aria-hidden="true">
+          <span className="text-sm leading-none font-black" aria-hidden="true">
             {directionArrow[result.direction]}
           </span>
         )}
@@ -64,62 +64,57 @@ export default function AttemptSlots({ attempts, totalSlots }: AttemptSlotsProps
             <span className="font-semibold">{attempt.player.name}</span>
           </div>
 
-          {/* 1줄: 팀/포지션/키/야투율 (신상 정보) */}
-          <div className="grid grid-cols-4 gap-1.5">
+          {/* 1줄: TM/POS/HT/FG%/DFT (신상 정보 5개) */}
+          <div className="grid grid-cols-5 gap-1.5">
+            <StatCell label="TM" value={attempt.player.team} result={attempt.result.team} index={0} />
             <StatCell
-              label="팀"
-              value={attempt.player.team}
-              result={attempt.result.team}
-              index={0}
-            />
-            <StatCell
-              label="포지션"
+              label="POS"
               value={attempt.player.position}
               result={attempt.result.position}
               index={1}
             />
             <StatCell
-              label="키"
+              label="HT"
               value={`${attempt.player.heightCm}cm`}
               result={attempt.result.height}
               index={2}
             />
             <StatCell
-              label="야투율"
+              label="FG%"
               value={`${attempt.player.careerFgPct}%`}
               result={attempt.result.careerFgPct}
               index={3}
             />
-          </div>
-
-          {/* 2줄: 득점/리바운드/어시스트/드래프트연도 */}
-          <div className="grid grid-cols-4 gap-1.5">
             <StatCell
-              label="득점"
-              value={attempt.player.careerPts.toLocaleString()}
-              result={attempt.result.careerPts}
-              index={4}
-            />
-            <StatCell
-              label="리바운드"
-              value={attempt.player.careerRebounds.toLocaleString()}
-              result={attempt.result.careerRebounds}
-              index={5}
-            />
-            <StatCell
-              label="어시스트"
-              value={attempt.player.careerAssists.toLocaleString()}
-              result={attempt.result.careerAssists}
-              index={6}
-            />
-            <StatCell
-              label="드래프트"
+              label="DFT"
               value={
                 getDraftYear(attempt.player.draftPick) !== null
                   ? `${getDraftYear(attempt.player.draftPick)}`
                   : "UD"
               }
               result={attempt.result.draftYear}
+              index={4}
+            />
+          </div>
+
+          {/* 2줄: PTS/REB/AST (박스스코어 3대 스탯) */}
+          <div className="grid grid-cols-3 gap-1.5">
+            <StatCell
+              label="PTS"
+              value={attempt.player.careerPts.toLocaleString()}
+              result={attempt.result.careerPts}
+              index={5}
+            />
+            <StatCell
+              label="REB"
+              value={attempt.player.careerRebounds.toLocaleString()}
+              result={attempt.result.careerRebounds}
+              index={6}
+            />
+            <StatCell
+              label="AST"
+              value={attempt.player.careerAssists.toLocaleString()}
+              result={attempt.result.careerAssists}
               index={7}
             />
           </div>
