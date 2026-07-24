@@ -91,6 +91,13 @@ export default function GameBoard({ gameNumber }: GameBoardProps) {
     }
   };
 
+  const handleReset = () => {
+    setAttempts([]);
+    setStatus("playing");
+    setRevealedPlayer(null);
+    localStorage.removeItem(`${STORAGE_KEY_PREFIX}${gameNumber}`);
+  };
+
   // 이긴 경우엔 서버에서 정답을 다시 받아올 필요 없음 — 방금 맞힌 선수 자체가 정답이므로
   const winningAttempt = status === "won" ? attempts[attempts.length - 1] : null;
 
@@ -110,6 +117,7 @@ export default function GameBoard({ gameNumber }: GameBoardProps) {
           player={winningAttempt.player}
           attempts={attempts}
           gameNumber={gameNumber}
+          onReset={handleReset}
         />
       )}
       {status === "lost" &&
@@ -119,6 +127,7 @@ export default function GameBoard({ gameNumber }: GameBoardProps) {
             player={revealedPlayer}
             attempts={attempts}
             gameNumber={gameNumber}
+            onReset={handleReset}
           />
         ) : (
           <div className="rounded-2xl border border-card-border bg-card px-4 py-3 text-center text-sm text-zinc-400">
