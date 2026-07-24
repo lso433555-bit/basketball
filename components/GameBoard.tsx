@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import GuessInput from "@/components/GuessInput";
+import ColorLegend from "@/components/ColorLegend";
 import AttemptSlots from "@/components/AttemptSlots";
 import HintPanel from "@/components/HintPanel";
 import GameResult from "@/components/GameResult";
@@ -101,6 +102,8 @@ export default function GameBoard({ gameNumber }: GameBoardProps) {
         guessedIds={guessedIds}
       />
 
+      <ColorLegend />
+
       {status === "won" && winningAttempt && (
         <GameResult
           status="won"
@@ -118,7 +121,7 @@ export default function GameBoard({ gameNumber }: GameBoardProps) {
             gameNumber={gameNumber}
           />
         ) : (
-          <div className="rounded-xl border border-card-border bg-card px-4 py-3 text-center text-sm text-zinc-400">
+          <div className="rounded-2xl border border-card-border bg-card px-4 py-3 text-center text-sm text-zinc-400">
             아쉬워요! 정답을 확인하는 중...
           </div>
         ))}

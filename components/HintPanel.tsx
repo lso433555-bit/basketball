@@ -47,22 +47,22 @@ function PersonSilhouette({ heightCm }: { heightCm: number }) {
 export default function HintPanel({ hints }: HintPanelProps) {
   return (
     <div className="flex flex-col gap-2">
-      <h2 className="font-display text-lg tracking-wide text-zinc-400">힌트</h2>
+      <h2 className="font-display text-lg tracking-[0.15em] text-zinc-400 uppercase">힌트</h2>
       <div className="grid grid-cols-3 gap-2">
         {HINT_ORDER.map((level) => {
           const isUnlocked = hints[level] !== undefined;
           return (
             <div
               key={level}
-              className={`flex min-h-24 flex-col items-center justify-center gap-1 rounded-xl border p-2 text-center transition-colors ${
+              className={`flex min-h-24 flex-col items-center justify-center gap-1 rounded-2xl border p-2 text-center transition-all ${
                 isUnlocked
-                  ? "animate-hint-in border-court-orange bg-card"
-                  : "border-card-border bg-card/50 text-zinc-600"
+                  ? "animate-hint-in border-court-orange/70 bg-gradient-to-b from-card to-court-orange-dim/20 shadow-[0_0_14px_-4px_rgba(255,107,26,0.45)]"
+                  : "border-card-border/60 bg-card/40 text-zinc-600"
               }`}
             >
               {isUnlocked ? (
                 <>
-                  <span className="text-xs font-semibold text-court-orange">
+                  <span className="text-xs font-semibold text-court-orange-bright">
                     {HINT_TITLES[level]}
                   </span>
                   {level === "awards" && hints.awards && (
@@ -70,8 +70,6 @@ export default function HintPanel({ hints }: HintPanelProps) {
                       {hints.awards.awards.length > 0
                         ? hints.awards.awards.join(", ")
                         : "특별한 수상 이력 없음"}
-                      <br />
-                      <span className="text-zinc-500">{hints.awards.draftPick}</span>
                     </p>
                   )}
                   {level === "silhouette" && hints.silhouette && (
@@ -84,7 +82,12 @@ export default function HintPanel({ hints }: HintPanelProps) {
                   )}
                 </>
               ) : (
-                <span className="text-xs">{HINT_TEASERS[level]}</span>
+                <>
+                  <span className="text-lg opacity-50" aria-hidden="true">
+                    🔒
+                  </span>
+                  <span className="text-[10px] leading-snug">{HINT_TEASERS[level]}</span>
+                </>
               )}
             </div>
           );

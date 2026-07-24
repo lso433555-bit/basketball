@@ -30,7 +30,7 @@ export async function getHintsAction(attemptCount: number): Promise<HintData> {
   const data: HintData = {};
 
   if (unlocked.includes("awards")) {
-    data.awards = { awards: answer.awards, draftPick: answer.draftPick };
+    data.awards = { awards: answer.awards };
   }
   if (unlocked.includes("silhouette")) {
     data.silhouette = { heightCm: answer.heightCm };

@@ -33,7 +33,7 @@
     "position": "SF",
     "heightCm": 206,
     "careerFgPct": 50.5,
-    "careerPts": 41500,
+    "careerPts": 43440,
     "awards": [
       "4회 우승",
       "4회 파이널 MVP",
@@ -659,7 +659,7 @@
     "id": "chris-paul",
     "name": "크리스 폴",
     "nameEn": "Chris Paul",
-    "team": "SAS",
+    "team": "LAC",
     "teamHistory": [
       "NOH",
       "LAC",
@@ -667,12 +667,14 @@
       "OKC",
       "PHX",
       "GSW",
-      "SAS"
+      "SAS",
+      "TOR",
+      "LAC"
     ],
     "position": "PG",
     "heightCm": 183,
     "careerFgPct": 47.2,
-    "careerPts": 21000,
+    "careerPts": 23058,
     "awards": [
       "12회 올스타",
       "역대 어시스트 상위권"
@@ -786,12 +788,13 @@
     "id": "kevin-durant",
     "name": "케빈 듀란트",
     "nameEn": "Kevin Durant",
-    "team": "PHX",
+    "team": "HOU",
     "teamHistory": [
       "OKC",
       "GSW",
       "BKN",
-      "PHX"
+      "PHX",
+      "HOU"
     ],
     "position": "SF",
     "heightCm": 208,
@@ -851,14 +854,15 @@
     "id": "russell-westbrook",
     "name": "러셀 웨스트브룩",
     "nameEn": "Russell Westbrook",
-    "team": "DEN",
+    "team": "SAC",
     "teamHistory": [
       "OKC",
       "HOU",
       "WAS",
       "LAL",
       "LAC",
-      "DEN"
+      "DEN",
+      "SAC"
     ],
     "position": "PG",
     "heightCm": 191,
@@ -874,7 +878,7 @@
     "id": "damian-lillard",
     "name": "데미안 릴라드",
     "nameEn": "Damian Lillard",
-    "team": "MIL",
+    "team": "POR",
     "teamHistory": [
       "POR",
       "MIL"
@@ -1130,7 +1134,7 @@
   },
   {
     "id": "shai-gilgeous-alexander",
-    "name": "셰이 길저스알렉산더",
+    "name": "샤이 길저스-알렉산더",
     "nameEn": "Shai Gilgeous-Alexander",
     "team": "OKC",
     "teamHistory": [
@@ -1168,12 +1172,13 @@
     "id": "paul-george",
     "name": "폴 조지",
     "nameEn": "Paul George",
-    "team": "PHI",
+    "team": "BOS",
     "teamHistory": [
       "IND",
       "OKC",
       "LAC",
-      "PHI"
+      "PHI",
+      "BOS"
     ],
     "position": "SF",
     "heightCm": 203,
@@ -2487,9 +2492,10 @@
     "id": "jaylen-brown",
     "name": "제일런 브라운",
     "nameEn": "Jaylen Brown",
-    "team": "BOS",
+    "team": "PHI",
     "teamHistory": [
-      "BOS"
+      "BOS",
+      "PHI"
     ],
     "position": "SG",
     "heightCm": 198,
@@ -4125,10 +4131,11 @@
     "id": "bradley-beal",
     "name": "브래들리 빌",
     "nameEn": "Bradley Beal",
-    "team": "PHX",
+    "team": "LAC",
     "teamHistory": [
       "WAS",
-      "PHX"
+      "PHX",
+      "LAC"
     ],
     "position": "SG",
     "heightCm": 196,
@@ -5258,19 +5265,20 @@
   },
   {
     "id": "jonas-valanciunas",
-    "name": "요나스 발란시우나스",
+    "name": "요나스 발렌슈나스",
     "nameEn": "Jonas Valanciunas",
-    "team": "WAS",
+    "team": "DEN",
     "teamHistory": [
       "TOR",
       "MEM",
       "NOP",
-      "WAS"
+      "WAS",
+      "DEN"
     ],
     "position": "C",
     "heightCm": 211,
     "careerFgPct": 54.9,
-    "careerPts": 10500,
+    "careerPts": 12279,
     "awards": [],
     "draftPick": "2011 1라운드 5순위"
   },

@@ -16,7 +16,6 @@ export function getUnlockedHints(attemptCount: number): HintLevel[] {
 
 export interface AwardsHint {
   awards: string[];
-  draftPick: string;
 }
 
 export interface SilhouetteHint {

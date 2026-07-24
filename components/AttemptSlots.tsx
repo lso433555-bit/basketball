@@ -7,9 +7,9 @@ interface AttemptSlotsProps {
 }
 
 const statusClasses: Record<Status, string> = {
-  correct: "bg-emerald-600 border-emerald-500 text-white",
-  close: "bg-amber-500 border-amber-400 text-black",
-  wrong: "bg-red-600/80 border-red-500 text-white",
+  correct: "bg-status-correct border-status-correct-border/70 text-white",
+  close: "bg-status-close border-status-close-border/70 text-zinc-900",
+  wrong: "bg-status-wrong border-status-wrong-border/50 text-rose-50",
 };
 
 const directionArrow: Record<Direction, string> = {
@@ -21,19 +21,26 @@ function StatCell({
   label,
   value,
   result,
+  index,
 }: {
   label: string;
   value: string;
   result: StatResult;
+  index: number;
 }) {
   return (
     <div
-      className={`flex flex-col items-center justify-center rounded-lg border px-1 py-1.5 text-center ${statusClasses[result.status]}`}
+      style={{ animationDelay: `${index * 60}ms` }}
+      className={`animate-cell-in flex flex-col items-center justify-center gap-0.5 rounded-xl border px-1 py-2 text-center shadow-sm shadow-black/10 ${statusClasses[result.status]}`}
     >
-      <span className="text-[10px] opacity-80">{label}</span>
-      <span className="text-xs font-semibold">
+      <span className="text-[9px] font-medium tracking-wide uppercase opacity-75">{label}</span>
+      <span className="flex items-center gap-0.5 text-xs leading-tight font-bold">
         {value}
-        {result.direction ? ` ${directionArrow[result.direction]}` : ""}
+        {result.direction && (
+          <span className="text-[10px]" aria-hidden="true">
+            {directionArrow[result.direction]}
+          </span>
+        )}
       </span>
     </div>
   );
@@ -47,33 +54,44 @@ export default function AttemptSlots({ attempts, totalSlots }: AttemptSlotsProps
       {attempts.map((attempt, i) => (
         <li
           key={attempt.player.id}
-          className="flex flex-col gap-1.5 rounded-xl border border-card-border bg-card px-3 py-2"
+          className="flex flex-col gap-2 rounded-2xl border border-card-border bg-gradient-to-b from-card to-background-elevated/60 px-3 py-2.5 shadow-sm shadow-black/20"
         >
           <div className="flex items-center gap-2 text-sm text-foreground">
-            <span className="font-display text-lg text-zinc-500">{i + 1}</span>
-            <span className="font-medium">{attempt.player.name}</span>
+            <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-court-orange-dim font-display text-sm text-court-orange-bright">
+              {i + 1}
+            </span>
+            <span className="font-semibold">{attempt.player.name}</span>
           </div>
           <div className="grid grid-cols-5 gap-1.5">
-            <StatCell label="팀" value={attempt.player.team} result={attempt.result.team} />
+            <StatCell
+              label="팀"
+              value={attempt.player.team}
+              result={attempt.result.team}
+              index={0}
+            />
             <StatCell
               label="포지션"
               value={attempt.player.position}
               result={attempt.result.position}
+              index={1}
             />
             <StatCell
               label="키"
               value={`${attempt.player.heightCm}cm`}
               result={attempt.result.height}
+              index={2}
             />
             <StatCell
               label="야투율"
               value={`${attempt.player.careerFgPct}%`}
               result={attempt.result.careerFgPct}
+              index={3}
             />
             <StatCell
               label="득점"
               value={attempt.player.careerPts.toLocaleString()}
               result={attempt.result.careerPts}
+              index={4}
             />
           </div>
         </li>
@@ -82,9 +100,9 @@ export default function AttemptSlots({ attempts, totalSlots }: AttemptSlotsProps
       {Array.from({ length: emptySlots }, (_, i) => (
         <li
           key={`empty-${i}`}
-          className="flex h-12 items-center rounded-xl border border-card-border bg-card px-4 text-sm text-zinc-500"
+          className="flex h-11 items-center gap-2 rounded-2xl border border-dashed border-card-border/60 px-3 text-sm text-zinc-600"
         >
-          <span className="w-6 font-display text-lg text-zinc-600">
+          <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full border border-card-border/60 font-display text-sm text-zinc-600">
             {attempts.length + i + 1}
           </span>
         </li>

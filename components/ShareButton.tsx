@@ -23,7 +23,7 @@ export default function ShareButton({ text }: ShareButtonProps) {
     <button
       type="button"
       onClick={handleCopy}
-      className="w-full rounded-xl bg-court-orange px-4 py-3 font-semibold text-white transition-colors hover:bg-orange-600 active:bg-orange-700"
+      className="w-full rounded-2xl bg-gradient-to-b from-court-orange-bright to-court-orange px-4 py-3 font-semibold text-white shadow-md shadow-court-orange/20 transition-all hover:brightness-110 active:scale-[0.98] active:brightness-95"
     >
       {copied ? "복사됨! ✅" : "결과 복사하기"}
     </button>

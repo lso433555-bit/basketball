@@ -6,9 +6,9 @@ interface StatsCardProps {
 
 export default function StatsCard({ player }: StatsCardProps) {
   return (
-    <div className="rounded-xl border border-card-border bg-card p-4">
-      <div className="mb-3 flex items-baseline justify-between">
-        <span className="font-display text-2xl tracking-wide text-court-orange">
+    <div className="rounded-2xl border border-card-border bg-card/70 p-4">
+      <div className="mb-3 flex items-baseline justify-between border-b border-card-border/70 pb-2">
+        <span className="font-display text-2xl tracking-wide text-court-orange-bright">
           {player.name}
         </span>
         <span className="text-xs text-zinc-500">{player.nameEn}</span>
