@@ -9,7 +9,7 @@ export default function GameHeader() {
             <span className="animate-live-pulse absolute inline-flex h-full w-full rounded-full bg-red-500" />
           </span>
           <span className="text-[10px] font-bold tracking-[0.3em] text-red-400 uppercase">
-            Live · Daily Challenge
+            Live
           </span>
         </div>
 
@@ -17,7 +17,7 @@ export default function GameHeader() {
           농<span className="text-court-orange">퀴즈</span>{" "}
           <span aria-hidden="true">🏀</span>
         </h1>
-        <p className="text-xs text-zinc-400">오늘의 NBA 선수를 맞혀보세요</p>
+        <p className="text-xs text-zinc-400">NBA 선수 맞추기</p>
         <div className="court-divider mt-1 w-32 max-w-[40%]" />
       </div>
     </header>
