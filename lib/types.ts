@@ -10,6 +10,9 @@ export interface Player {
   heightCm: number;
   careerFgPct: number;
   careerPts: number;
+  careerRebounds: number;
+  careerAssists: number;
+  nationality: string;
   awards: string[];
   draftPick: string;
 }

@@ -30,9 +30,6 @@ export default function GameResult({
     <div className="flex flex-col gap-3">
       <StatsCard player={player} status={status} attemptCount={attempts.length} />
 
-      <pre className="rounded-xl border border-card-border/60 bg-background/60 p-3 text-center font-mono text-sm whitespace-pre-wrap">
-        {shareText}
-      </pre>
       <ShareButton text={shareText} />
 
       <button
