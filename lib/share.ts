@@ -10,11 +10,7 @@ const STATUS_EMOJI: Record<Status, string> = {
 const TOTAL_ATTEMPTS = 8;
 
 /** 워들 스타일 결과 공유 텍스트를 생성한다. 정답/힌트 등 민감 정보는 전혀 포함하지 않는다. */
-export function buildShareText(
-  gameNumber: number,
-  attempts: Attempt[],
-  status: "won" | "lost"
-): string {
+export function buildShareText(attempts: Attempt[], status: "won" | "lost"): string {
   const usedLabel =
     status === "won" ? `${attempts.length}/${TOTAL_ATTEMPTS}` : `X/${TOTAL_ATTEMPTS}`;
 
@@ -30,5 +26,5 @@ export function buildShareText(
       .join("")
   );
 
-  return [`농퀴즈 #${gameNumber} ${usedLabel}`, ...lines].join("\n");
+  return [`농퀴즈 ${usedLabel}`, ...lines].join("\n");
 }

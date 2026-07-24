@@ -21,7 +21,7 @@ const bebasNeue = Bebas_Neue({
 
 export const metadata: Metadata = {
   title: "농퀴즈 🏀",
-  description: "매일 새로운 NBA 선수를 맞혀보는 워들 스타일 농구 퀴즈",
+  description: "원할 때 언제든 즐기는 NBA 선수 맞추기 워들 스타일 농구 퀴즈",
 };
 
 export default function RootLayout({

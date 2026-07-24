@@ -10,21 +10,11 @@ interface GameResultProps {
   status: "won" | "lost";
   player: Player;
   attempts: Attempt[];
-  gameNumber: number;
   onReset: () => void;
 }
 
-export default function GameResult({
-  status,
-  player,
-  attempts,
-  gameNumber,
-  onReset,
-}: GameResultProps) {
-  const shareText = useMemo(
-    () => buildShareText(gameNumber, attempts, status),
-    [gameNumber, attempts, status]
-  );
+export default function GameResult({ status, player, attempts, onReset }: GameResultProps) {
+  const shareText = useMemo(() => buildShareText(attempts, status), [attempts, status]);
 
   return (
     <div className="flex flex-col gap-3">

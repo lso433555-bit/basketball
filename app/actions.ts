@@ -1,6 +1,6 @@
 "use server";
 
-import { getTodayPlayer } from "@/lib/daily";
+import { getPlayerForSeed } from "@/lib/game";
 import { findPlayerById } from "@/lib/search";
 import { comparePlayer, isWinningGuess, type ComparisonResult } from "@/lib/compare";
 import { getUnlockedHints, getInitials, stripDraftYear, type HintData } from "@/lib/hints";
@@ -11,21 +11,24 @@ export interface SubmitGuessResult {
   isWin: boolean;
 }
 
-/** 오늘의 정답은 여기서만 조회된다 — 클라이언트로는 비교 결과만 전달된다. */
-export async function submitGuessAction(playerId: string): Promise<SubmitGuessResult> {
+/** 이번 판(seed)의 정답은 여기서만 조회된다 — 클라이언트로는 비교 결과만 전달된다. */
+export async function submitGuessAction(
+  seed: string,
+  playerId: string
+): Promise<SubmitGuessResult> {
   const guess = findPlayerById(playerId);
   if (!guess) {
     throw new Error("알 수 없는 선수입니다.");
   }
 
-  const answer = getTodayPlayer();
+  const answer = getPlayerForSeed(seed);
   const result = comparePlayer(guess, answer);
   return { result, isWin: isWinningGuess(result) };
 }
 
 /** 현재 시도 횟수 기준으로 해금된 힌트의 데이터만 반환한다 (잠긴 힌트는 필드 자체가 없음). */
-export async function getHintsAction(attemptCount: number): Promise<HintData> {
-  const answer = getTodayPlayer();
+export async function getHintsAction(seed: string, attemptCount: number): Promise<HintData> {
+  const answer = getPlayerForSeed(seed);
   const unlocked = getUnlockedHints(attemptCount);
   const data: HintData = {};
 
@@ -43,6 +46,6 @@ export async function getHintsAction(attemptCount: number): Promise<HintData> {
 }
 
 /** 게임이 lost로 끝났을 때만 호출되어 정답 선수의 전체 정보를 공개한다 (통계 카드용). */
-export async function revealAnswerAction(): Promise<Player> {
-  return getTodayPlayer();
+export async function revealAnswerAction(seed: string): Promise<Player> {
+  return getPlayerForSeed(seed);
 }
