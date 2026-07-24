@@ -3,7 +3,7 @@
 import { getTodayPlayer } from "@/lib/daily";
 import { findPlayerById } from "@/lib/search";
 import { comparePlayer, isWinningGuess, type ComparisonResult } from "@/lib/compare";
-import { getUnlockedHints, getInitials, type HintData } from "@/lib/hints";
+import { getUnlockedHints, getInitials, stripDraftYear, type HintData } from "@/lib/hints";
 import type { Player } from "@/lib/types";
 
 export interface SubmitGuessResult {
@@ -32,11 +32,11 @@ export async function getHintsAction(attemptCount: number): Promise<HintData> {
   if (unlocked.includes("awards")) {
     data.awards = { awards: answer.awards };
   }
-  if (unlocked.includes("silhouette")) {
-    data.silhouette = { heightCm: answer.heightCm };
-  }
   if (unlocked.includes("initials")) {
     data.initials = { initials: getInitials(answer.nameEn) };
+  }
+  if (unlocked.includes("draftPick")) {
+    data.draftPick = { draftPick: stripDraftYear(answer.draftPick) };
   }
 
   return data;
