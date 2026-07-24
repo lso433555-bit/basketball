@@ -812,9 +812,10 @@
     "id": "giannis-antetokounmpo",
     "name": "야니스 아데토쿤보",
     "nameEn": "Giannis Antetokounmpo",
-    "team": "MIL",
+    "team": "MIA",
     "teamHistory": [
-      "MIL"
+      "MIL",
+      "MIA"
     ],
     "position": "PF",
     "heightCm": 211,
@@ -832,13 +833,14 @@
     "id": "james-harden",
     "name": "제임스 하든",
     "nameEn": "James Harden",
-    "team": "LAC",
+    "team": "CLE",
     "teamHistory": [
       "OKC",
       "HOU",
       "BKN",
       "PHI",
-      "LAC"
+      "LAC",
+      "CLE"
     ],
     "position": "SG",
     "heightCm": 196,
@@ -896,11 +898,12 @@
     "id": "anthony-davis",
     "name": "앤써니 데이비스",
     "nameEn": "Anthony Davis",
-    "team": "DAL",
+    "team": "WAS",
     "teamHistory": [
       "NOP",
       "LAL",
-      "DAL"
+      "DAL",
+      "WAS"
     ],
     "position": "PF",
     "heightCm": 208,
@@ -916,11 +919,12 @@
     "id": "kawhi-leonard",
     "name": "카와이 레너드",
     "nameEn": "Kawhi Leonard",
-    "team": "LAC",
+    "team": "TOR",
     "teamHistory": [
       "SAS",
       "TOR",
-      "LAC"
+      "LAC",
+      "TOR"
     ],
     "position": "SF",
     "heightCm": 201,
@@ -1049,9 +1053,10 @@
     "id": "ja-morant",
     "name": "자 모란트",
     "nameEn": "Ja Morant",
-    "team": "MEM",
+    "team": "POR",
     "teamHistory": [
-      "MEM"
+      "MEM",
+      "POR"
     ],
     "position": "PG",
     "heightCm": 191,
@@ -1066,9 +1071,10 @@
     "id": "trae-young",
     "name": "트레이 영",
     "nameEn": "Trae Young",
-    "team": "ATL",
+    "team": "WAS",
     "teamHistory": [
-      "ATL"
+      "ATL",
+      "WAS"
     ],
     "position": "PG",
     "heightCm": 185,
@@ -2209,11 +2215,12 @@
     "id": "mike-conley",
     "name": "마이크 콘리",
     "nameEn": "Mike Conley",
-    "team": "MEM",
+    "team": "BOS",
     "teamHistory": [
       "MEM",
       "UTA",
-      "MIN"
+      "MIN",
+      "BOS"
     ],
     "position": "PG",
     "heightCm": 185,
@@ -2264,11 +2271,12 @@
     "id": "kevin-love",
     "name": "케빈 러브",
     "nameEn": "Kevin Love",
-    "team": "CLE",
+    "team": "UTA",
     "teamHistory": [
       "MIN",
       "CLE",
-      "MIA"
+      "MIA",
+      "UTA"
     ],
     "position": "PF",
     "heightCm": 208,
@@ -2306,7 +2314,7 @@
     "id": "blake-griffin",
     "name": "블레이크 그리핀",
     "nameEn": "Blake Griffin",
-    "team": "LAC",
+    "team": "BOS",
     "teamHistory": [
       "LAC",
       "DET",
@@ -2326,7 +2334,7 @@
     "id": "derrick-rose",
     "name": "데릭 로즈",
     "nameEn": "Derrick Rose",
-    "team": "CHI",
+    "team": "MEM",
     "teamHistory": [
       "CHI",
       "NYK",
@@ -2349,7 +2357,7 @@
     "id": "john-wall",
     "name": "존 월",
     "nameEn": "John Wall",
-    "team": "WAS",
+    "team": "LAC",
     "teamHistory": [
       "WAS",
       "HOU",
@@ -2389,7 +2397,7 @@
     "id": "kemba-walker",
     "name": "켐바 워커",
     "nameEn": "Kemba Walker",
-    "team": "CHA",
+    "team": "DAL",
     "teamHistory": [
       "CHA",
       "BOS",
@@ -2433,7 +2441,7 @@
     "id": "andrew-wiggins",
     "name": "앤드류 위긴스",
     "nameEn": "Andrew Wiggins",
-    "team": "GSW",
+    "team": "MIA",
     "teamHistory": [
       "CLE",
       "MIN",
@@ -2472,12 +2480,13 @@
     "id": "dangelo-russell",
     "name": "디안젤로 러셀",
     "nameEn": "D'Angelo Russell",
-    "team": "LAL",
+    "team": "WAS",
     "teamHistory": [
       "LAL",
       "BKN",
       "MIN",
-      "LAL"
+      "LAL",
+      "WAS"
     ],
     "position": "PG",
     "heightCm": 193,
@@ -2512,7 +2521,7 @@
     "id": "ben-simmons",
     "name": "벤 시몬스",
     "nameEn": "Ben Simmons",
-    "team": "BKN",
+    "team": "LAC",
     "teamHistory": [
       "PHI",
       "BKN",
@@ -2641,10 +2650,12 @@
     "id": "deandre-ayton",
     "name": "디안드레 에이튼",
     "nameEn": "Deandre Ayton",
-    "team": "POR",
+    "team": "WAS",
     "teamHistory": [
       "PHX",
-      "POR"
+      "POR",
+      "LAL",
+      "WAS"
     ],
     "position": "C",
     "heightCm": 213,
@@ -2657,10 +2668,13 @@
     "id": "collin-sexton",
     "name": "콜린 섹스턴",
     "nameEn": "Collin Sexton",
-    "team": "UTA",
+    "team": "LAL",
     "teamHistory": [
       "CLE",
-      "UTA"
+      "UTA",
+      "CHA",
+      "CHI",
+      "LAL"
     ],
     "position": "PG",
     "heightCm": 188,
@@ -2673,9 +2687,10 @@
     "id": "tyler-herro",
     "name": "타일러 헤로",
     "nameEn": "Tyler Herro",
-    "team": "MIA",
+    "team": "MIL",
     "teamHistory": [
-      "MIA"
+      "MIA",
+      "MIL"
     ],
     "position": "SG",
     "heightCm": 196,
@@ -2706,9 +2721,10 @@
     "id": "coby-white",
     "name": "코비 화이트",
     "nameEn": "Coby White",
-    "team": "CHI",
+    "team": "CHA",
     "teamHistory": [
-      "CHI"
+      "CHI",
+      "CHA"
     ],
     "position": "PG",
     "heightCm": 196,
@@ -2721,9 +2737,10 @@
     "id": "darius-garland",
     "name": "대리어스 갈런드",
     "nameEn": "Darius Garland",
-    "team": "CLE",
+    "team": "LAC",
     "teamHistory": [
-      "CLE"
+      "CLE",
+      "LAC"
     ],
     "position": "PG",
     "heightCm": 188,
@@ -2738,9 +2755,10 @@
     "id": "lamelo-ball",
     "name": "라멜로 볼",
     "nameEn": "LaMelo Ball",
-    "team": "CHA",
+    "team": "MIN",
     "teamHistory": [
-      "CHA"
+      "CHA",
+      "MIN"
     ],
     "position": "PG",
     "heightCm": 198,
@@ -3846,13 +3864,14 @@
     "id": "al-horford",
     "name": "알 호포드",
     "nameEn": "Al Horford",
-    "team": "BOS",
+    "team": "GSW",
     "teamHistory": [
       "ATL",
       "BOS",
       "PHI",
       "OKC",
-      "BOS"
+      "BOS",
+      "GSW"
     ],
     "position": "C",
     "heightCm": 206,
@@ -4151,10 +4170,12 @@
     "id": "cj-mccollum",
     "name": "CJ 매컬럼",
     "nameEn": "CJ McCollum",
-    "team": "NOP",
+    "team": "ATL",
     "teamHistory": [
       "POR",
-      "NOP"
+      "NOP",
+      "WAS",
+      "ATL"
     ],
     "position": "SG",
     "heightCm": 191,
@@ -4236,7 +4257,7 @@
     "id": "kyle-lowry",
     "name": "카일 라우리",
     "nameEn": "Kyle Lowry",
-    "team": "MIA",
+    "team": "PHI",
     "teamHistory": [
       "MEM",
       "HOU",
@@ -4278,11 +4299,12 @@
     "id": "harrison-barnes",
     "name": "해리슨 반스",
     "nameEn": "Harrison Barnes",
-    "team": "SAC",
+    "team": "SAS",
     "teamHistory": [
       "GSW",
       "DAL",
-      "SAC"
+      "SAC",
+      "SAS"
     ],
     "position": "SF",
     "heightCm": 203,
@@ -4377,14 +4399,15 @@
     "id": "andre-drummond",
     "name": "앙드레 드러먼드",
     "nameEn": "Andre Drummond",
-    "team": "PHI",
+    "team": "NYK",
     "teamHistory": [
       "DET",
       "CLE",
       "LAL",
       "PHI",
       "CHI",
-      "MIN"
+      "MIN",
+      "NYK"
     ],
     "position": "C",
     "heightCm": 208,
@@ -4399,7 +4422,7 @@
     "id": "demarcus-cousins",
     "name": "드마커스 커즌스",
     "nameEn": "DeMarcus Cousins",
-    "team": "LAL",
+    "team": "DEN",
     "teamHistory": [
       "SAC",
       "NOP",
@@ -4440,12 +4463,13 @@
     "id": "julius-randle",
     "name": "줄리어스 랜들",
     "nameEn": "Julius Randle",
-    "team": "MIN",
+    "team": "BKN",
     "teamHistory": [
       "LAL",
       "NOP",
       "NYK",
-      "MIN"
+      "MIN",
+      "BKN"
     ],
     "position": "PF",
     "heightCm": 203,
@@ -4548,13 +4572,14 @@
     "id": "jerami-grant",
     "name": "제라미 그랜트",
     "nameEn": "Jerami Grant",
-    "team": "POR",
+    "team": "MEM",
     "teamHistory": [
       "PHI",
       "OKC",
       "DEN",
       "DET",
-      "POR"
+      "POR",
+      "MEM"
     ],
     "position": "PF",
     "heightCm": 203,
@@ -4567,14 +4592,15 @@
     "id": "tobias-harris",
     "name": "토바이어스 해리스",
     "nameEn": "Tobias Harris",
-    "team": "DET",
+    "team": "SAS",
     "teamHistory": [
       "MIL",
       "ORL",
       "DET",
       "LAC",
       "PHI",
-      "DET"
+      "DET",
+      "SAS"
     ],
     "position": "PF",
     "heightCm": 203,
@@ -4604,10 +4630,11 @@
     "id": "jordan-poole",
     "name": "조던 풀",
     "nameEn": "Jordan Poole",
-    "team": "WAS",
+    "team": "NOP",
     "teamHistory": [
       "GSW",
-      "WAS"
+      "WAS",
+      "NOP"
     ],
     "position": "SG",
     "heightCm": 193,
@@ -4639,9 +4666,12 @@
     "id": "anfernee-simons",
     "name": "앤퍼니 사이먼스",
     "nameEn": "Anfernee Simons",
-    "team": "POR",
+    "team": "PHI",
     "teamHistory": [
-      "POR"
+      "POR",
+      "BOS",
+      "CHI",
+      "PHI"
     ],
     "position": "SG",
     "heightCm": 191,
@@ -5077,11 +5107,13 @@
     "id": "marcus-smart",
     "name": "마커스 스마트",
     "nameEn": "Marcus Smart",
-    "team": "WAS",
+    "team": "HOU",
     "teamHistory": [
       "BOS",
       "MEM",
-      "WAS"
+      "WAS",
+      "LAL",
+      "HOU"
     ],
     "position": "PG",
     "heightCm": 190,
@@ -5155,12 +5187,13 @@
     "id": "malcolm-brogdon",
     "name": "맬컴 브록던",
     "nameEn": "Malcolm Brogdon",
-    "team": "WAS",
+    "team": "NYK",
     "teamHistory": [
       "MIL",
       "IND",
       "POR",
-      "WAS"
+      "WAS",
+      "NYK"
     ],
     "position": "PG",
     "heightCm": 196,
@@ -5173,13 +5206,14 @@
     "id": "spencer-dinwiddie",
     "name": "스펜서 딘위디",
     "nameEn": "Spencer Dinwiddie",
-    "team": "DAL",
+    "team": "CHA",
     "teamHistory": [
       "DET",
       "BKN",
       "WAS",
       "DAL",
-      "LAL"
+      "LAL",
+      "CHA"
     ],
     "position": "PG",
     "heightCm": 196,
@@ -5211,13 +5245,14 @@
     "id": "buddy-hield",
     "name": "버디 하일드",
     "nameEn": "Buddy Hield",
-    "team": "GSW",
+    "team": "ATL",
     "teamHistory": [
       "NOP",
       "SAC",
       "IND",
       "PHI",
-      "GSW"
+      "GSW",
+      "ATL"
     ],
     "position": "SG",
     "heightCm": 193,
@@ -5250,7 +5285,7 @@
     "id": "myles-turner",
     "name": "마일스 터너",
     "nameEn": "Myles Turner",
-    "team": "IND",
+    "team": "MIL",
     "teamHistory": [
       "IND",
       "MIL"
@@ -5287,10 +5322,11 @@
     "id": "clint-capela",
     "name": "클린트 카펠라",
     "nameEn": "Clint Capela",
-    "team": "ATL",
+    "team": "HOU",
     "teamHistory": [
       "HOU",
-      "ATL"
+      "ATL",
+      "HOU"
     ],
     "position": "C",
     "heightCm": 208,
