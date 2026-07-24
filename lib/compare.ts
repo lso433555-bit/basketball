@@ -14,6 +14,8 @@ export interface ComparisonResult {
   height: StatResult;
   careerFgPct: StatResult;
   careerPts: StatResult;
+  careerRebounds: StatResult;
+  careerAssists: StatResult;
 }
 
 function compareTeam(guess: Player, answer: Player): StatResult {
@@ -57,6 +59,8 @@ export function comparePlayer(guess: Player, answer: Player): ComparisonResult {
     height: compareNumeric(guess.heightCm, answer.heightCm, 0, 3),
     careerFgPct: compareNumeric(guess.careerFgPct, answer.careerFgPct, 1, 3),
     careerPts: compareNumeric(guess.careerPts, answer.careerPts, 1000, 3000),
+    careerRebounds: compareNumeric(guess.careerRebounds, answer.careerRebounds, 500, 1500),
+    careerAssists: compareNumeric(guess.careerAssists, answer.careerAssists, 350, 1000),
   };
 }
 
@@ -66,6 +70,8 @@ export function isWinningGuess(result: ComparisonResult): boolean {
     result.position.status === "correct" &&
     result.height.status === "correct" &&
     result.careerFgPct.status === "correct" &&
-    result.careerPts.status === "correct"
+    result.careerPts.status === "correct" &&
+    result.careerRebounds.status === "correct" &&
+    result.careerAssists.status === "correct"
   );
 }

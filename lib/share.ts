@@ -21,6 +21,8 @@ export function buildShareText(attempts: Attempt[], status: "won" | "lost"): str
       attempt.result.height,
       attempt.result.careerFgPct,
       attempt.result.careerPts,
+      attempt.result.careerRebounds,
+      attempt.result.careerAssists,
     ]
       .map((stat) => STATUS_EMOJI[stat.status])
       .join("")

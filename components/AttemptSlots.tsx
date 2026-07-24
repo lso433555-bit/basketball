@@ -54,7 +54,7 @@ export default function AttemptSlots({ attempts, totalSlots }: AttemptSlotsProps
       {attempts.map((attempt, i) => (
         <li
           key={attempt.player.id}
-          className="flex flex-col gap-2 rounded-2xl border border-l-4 border-card-border border-l-court-orange/70 bg-gradient-to-b from-card to-background-elevated/60 px-3 py-2.5 shadow-sm shadow-black/20"
+          className="flex flex-col gap-1.5 rounded-2xl border border-l-4 border-card-border border-l-court-orange/70 bg-gradient-to-b from-card to-background-elevated/60 px-3 py-2.5 shadow-sm shadow-black/20"
         >
           <div className="flex items-center gap-2 text-sm text-foreground">
             <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full border border-court-orange-bright/40 bg-court-orange-dim font-display text-sm text-court-orange-bright">
@@ -62,7 +62,9 @@ export default function AttemptSlots({ attempts, totalSlots }: AttemptSlotsProps
             </span>
             <span className="font-semibold">{attempt.player.name}</span>
           </div>
-          <div className="grid grid-cols-5 gap-1.5">
+
+          {/* 1줄: 팀/포지션/키/야투율 (신상 정보) */}
+          <div className="grid grid-cols-4 gap-1.5">
             <StatCell
               label="팀"
               value={attempt.player.team}
@@ -87,11 +89,27 @@ export default function AttemptSlots({ attempts, totalSlots }: AttemptSlotsProps
               result={attempt.result.careerFgPct}
               index={3}
             />
+          </div>
+
+          {/* 2줄: 득점/리바운드/어시스트 (박스스코어 3대 스탯) */}
+          <div className="grid grid-cols-3 gap-1.5">
             <StatCell
               label="득점"
               value={attempt.player.careerPts.toLocaleString()}
               result={attempt.result.careerPts}
               index={4}
+            />
+            <StatCell
+              label="리바운드"
+              value={attempt.player.careerRebounds.toLocaleString()}
+              result={attempt.result.careerRebounds}
+              index={5}
+            />
+            <StatCell
+              label="어시스트"
+              value={attempt.player.careerAssists.toLocaleString()}
+              result={attempt.result.careerAssists}
+              index={6}
             />
           </div>
         </li>
