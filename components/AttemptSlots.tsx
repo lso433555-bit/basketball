@@ -18,6 +18,12 @@ const directionArrow: Record<Direction, string> = {
   down: "▼",
 };
 
+/** 화살표는 칸 배경색(초록/노랑/빨강)과 무관하게 항상 또렷이 보이도록 자체 배지 색을 갖는다. */
+const directionBadgeClasses: Record<Direction, string> = {
+  up: "bg-sky-500 text-white",
+  down: "bg-orange-500 text-white",
+};
+
 function StatCell({
   label,
   value,
@@ -38,7 +44,10 @@ function StatCell({
       <span className="flex items-center gap-1 text-xs leading-tight font-bold tabular-nums">
         {value}
         {result.direction && (
-          <span className="text-sm leading-none font-black" aria-hidden="true">
+          <span
+            className={`flex h-3.5 w-3.5 items-center justify-center rounded-full text-[9px] leading-none font-black ${directionBadgeClasses[result.direction]}`}
+            aria-hidden="true"
+          >
             {directionArrow[result.direction]}
           </span>
         )}
@@ -66,7 +75,12 @@ export default function AttemptSlots({ attempts, totalSlots }: AttemptSlotsProps
 
           {/* 1줄: TM/POS/HT/FG%/DFT (신상 정보 5개) */}
           <div className="grid grid-cols-5 gap-1.5">
-            <StatCell label="TM" value={attempt.player.team} result={attempt.result.team} index={0} />
+            <StatCell
+              label="TEAM"
+              value={attempt.player.team}
+              result={attempt.result.team}
+              index={0}
+            />
             <StatCell
               label="POS"
               value={attempt.player.position}
@@ -86,7 +100,7 @@ export default function AttemptSlots({ attempts, totalSlots }: AttemptSlotsProps
               index={3}
             />
             <StatCell
-              label="DFT"
+              label="DRAFT"
               value={
                 getDraftYear(attempt.player.draftPick) !== null
                   ? `${getDraftYear(attempt.player.draftPick)}`
